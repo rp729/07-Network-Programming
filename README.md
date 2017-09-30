@@ -1,12 +1,8 @@
-# Python Network Programming
+# 90 COS/DOT - Python Network Programming
 
 ![](/assets/python-logo-master-v3-TM.png)
 
-
-
 ### **Contents:**
-
-
 
 * ### Introduction
 * ### BSD Sockets
