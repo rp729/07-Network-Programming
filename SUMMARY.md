@@ -8,6 +8,7 @@
   * [Endianness](intro-to-sockets/endianness.md)
   * [RFCs, Pydocs, Man Pages](intro-to-sockets/rfcs-pydocs-man-pages.md)
     * [RFC - Request For Comments](intro-to-sockets/rfcs-pydocs-man-pages/rfc-request-for-comments.md)
+    * Pydocs
   * Wireshark
   * Netcat
   * OSI Model
