@@ -1,6 +1,6 @@
 # **Pydocs**
 
-\([https://docs.python.org/2/library/index.html\](https://docs.python.org/2/library/index.html%29\)\)
+#### [https://docs.python.org/2/library/index.html](https://docs.python.org/2/library/index.html%29%29\)
 
 Python documentation can be accessed online.
 
