@@ -26,19 +26,31 @@ Counting: 0,1,2,3,4,5,6,7,10,11,12, 13, 14, 15, 16, 17, 20...
 
 Counting: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20...
 
-
-
 **Place value is the key.**
 
 In decimal our BASE is 10:
 
- BASE ^ 0 = 10^0 = 1,  "ones"
+BASE ^ 0 = 10^0 = 1,  "ones"
 
- BASE ^ 1 = 10^1 = 10,  "tens"
+BASE ^ 1 = 10^1 = 10,  "tens"
 
- BASE ^ 2 = 10^2 = 100,  "hundreds“
+BASE ^ 2 = 10^2 = 100,  "hundreds“
 
 A number like 25 is broken down:
 
- \(2\*10\) + \(5\*1\) = 20+5 = 25
+\(2\*10\) + \(5\*1\) = 20+5 = 25
+
+**In hexadecimal the "tens" place is actually "sixteens", and  the "ones" stays the same but now consists of 15 numbers, 0 to F.**
+
+BASE is 16:
+
+ BASE ^ 0 = 16^0 = 1, "ones"
+
+ BASE ^ 1 = 16^1 = 16, "sixteens"
+
+ BASE ^ 2 = 16^2 = 256,  "256ths“
+
+Convert 2A into decimal
+
+ \(2\*16\) + \(A\*1\) = \(2\*16\) + \(10\*1\) = 32+10 = 42
 
