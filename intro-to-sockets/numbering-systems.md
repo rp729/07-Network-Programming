@@ -56,7 +56,7 @@ Convert 2A into decimal
 
 # Convert Binary to Hexadecimal
 
-\([http://www.wikihow.com/Convert-Binary-to-Hexadecimal\](http://www.wikihow.com/Convert-Binary-to-Hexadecimal\)\)
+\([http://www.wikihow.com/Convert-Binary-to-Hexadecimal\](http://www.wikihow.com/Convert-Binary-to-Hexadecimal%29\)
 
 **Find a line of up to four binary numbers to convert.**
 
@@ -127,6 +127,8 @@ Once you've converted all the 4-digit parts, simply ram them together to get you
 | 8192 | 4096 | 2048 | 1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 1 |
+
+* 11101100101001 = 15,145
 
 
 
