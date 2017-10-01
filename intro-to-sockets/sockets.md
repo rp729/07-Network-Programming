@@ -25,8 +25,8 @@
 #### Port numbers &lt; 1024 are considered "privileged" ports
 
 * #### Processes must have root/admin privileges to bind to these ports
-* #### They are typically reserved for servers. IANA maintains the list of well known ports 
-* #### \(see references, also attached cheat sheet\)
+* #### They are typically reserved for servers. IANA maintains the list of well known ports
+* #### \(see references: [http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml), also attached cheat sheet\)
 
 #### 
 
