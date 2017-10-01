@@ -20,3 +20,19 @@
 
 ![](/assets/ports.PNG)
 
+#### Ports are how processes get access to the network.
+
+#### Port numbers &lt; 1024 are considered "privileged" ports
+
+* #### Processes must have root/admin privileges to bind to these ports
+* #### They are typically reserved for servers. IANA maintains the list of well known ports 
+* #### \(see references, also attached cheat sheet\)
+
+#### 
+
+#### Ports &gt;= 1024 can be used by anyone
+
+#### If you do not bind to a port as a TCP client/UDP sender, you will get a random high number port automatically assigned to your process. This is called an “ephemeral port”
+
+
+
