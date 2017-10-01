@@ -17,11 +17,11 @@ Endianness tells us how to read a grouping of bytes.
 * Little Endian - 0xEF, 0xBE, 0xAD, 0xDE
 * Big Endian - 0xDE, 0xAD, 0xBE, 0xEF
 
+#### Network byte order is Big Endian
+
+#### x86/x86\_64 are Little Endian
+
+#### Know what endian your data is in or you will have problems with binary data
 
 
-Network byte order is Big Endian
-
-x86/x86\_64 are Little Endian
-
-Know what endian your data is in or you will have problems with binary data
 
