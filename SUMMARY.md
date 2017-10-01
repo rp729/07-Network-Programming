@@ -6,7 +6,7 @@
   * [Networks and Ports](intro-to-sockets/sockets.md)
   * [Numbering Systems](intro-to-sockets/numbering-systems.md)
   * [Endianness](intro-to-sockets/endianness.md)
-  * RFCs, Pydocs, Man Pages
+  * [RFCs, Pydocs, Man Pages](intro-to-sockets/rfcs-pydocs-man-pages.md)
   * Wireshark
   * Netcat
   * OSI Model
