@@ -18,31 +18,44 @@ Most Linux distributions have Netcat pre-installed.  So you should be able to us
 
 Some people have compiled thenetcatsource for Windows and posted the binaries online. There is one binary for IPv4 and one for IPv6, however they have the exact same functionality.
 
+**nc.exe is for IPv4**
 
+**nc6.exe is for IPv6**
 
-nc.exe is for IPv4
-
-
-
-nc6.exe is for IPv6
-
-
-
-Useful netcat switches:
+#### Useful netcat switches:
 
 -l: listen
-
-
 
 -L: listen harder \(Windows only, automatically listens again after
 
 connection terminates\)
 
-
-
 -p: Source port to listen on
 
+-u: UDP mode  
+**Netcat listener \("server"\)**
+
+•nc -lp 1337 \(-p is only for listeners\)
 
 
--u: UDP mode
+
+**Netcat connector \("client"\)**
+
+•nc 192.168.1.1 1337
+
+**File redirection**
+
+•netcat supports file redirection.
+
+•Files piped into netcat will send be sent over the wire.
+
+•Output from netcat may be piped to a file
+
+
+
+**Loops can be used as a make-shift server**
+
+•nc -Lp 80 &lt; index.html
+
+•while true; do sudo nc -lp 80 &lt; index.html; done \(Equivalent to -L in Windows\)
 
