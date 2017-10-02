@@ -1,10 +1,10 @@
 # **RFC's, Pydocs, Man Pages**
 
-RFC:
+**RFC:**
 
 [https://tools.ietf.org/html/rfc6458](https://tools.ietf.org/html/rfc6458)
 
-PyDocs:
+**PyDocs:**
 
 [https://docs.python.org/2/library/socket.html](https://docs.python.org/2/library/socket.html)
 
@@ -12,7 +12,7 @@ PyDocs:
 
 [https://docs.python.org/2/library/struct.html](https://docs.python.org/2/library/struct.html)
 
-Man Pages:
+**Man Pages:**
 
 [http://man7.org/linux/man-pages/man7/socket.7.html](http://man7.org/linux/man-pages/man7/socket.7.html)
 
@@ -20,7 +20,7 @@ Man Pages:
 
 [http://man7.org/linux/man-pages/man7/ipv6.7.html](http://man7.org/linux/man-pages/man7/ipv6.7.html)
 
-Download Link:
+**Download Link:**
 
-https://mega.nz/\#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw 
+[https://mega.nz/\#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw](https://mega.nz/#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw)
 
