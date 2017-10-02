@@ -1,2 +1,0 @@
-![](/assets/common-ports.pdf)
-
