@@ -16,7 +16,33 @@ You should see something similar to the output above.  This is the NetCat help m
 
 Most Linux distributions have Netcat pre-installed.  So you should be able to use your VM to communicate with the Windows Netcat.
 
+Some people have compiled thenetcatsource for Windows and posted the binaries online. There is one binary for IPv4 and one for IPv6, however they have the exact same functionality.
 
 
 
+nc.exe is for IPv4
+
+
+
+nc6.exe is for IPv6
+
+
+
+Useful netcat switches:
+
+-l: listen
+
+
+
+-L: listen harder \(Windows only, automatically listens again after
+
+connection terminates\)
+
+
+
+-p: Source port to listen on
+
+
+
+-u: UDP mode
 
