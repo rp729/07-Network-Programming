@@ -12,6 +12,7 @@
     * [Man Pages](intro-to-sockets/rfcs-pydocs-man-pages/man-pages.md)
   * [Wireshark](intro-to-sockets/wireshark.md)
     * [Analyzing Packets](intro-to-sockets/wireshark/analyzing-packets.md)
+    * [Filters](intro-to-sockets/wireshark/filters.md)
   * [Netcat](intro-to-sockets/netcat.md)
   * OSI Model
   * Broadcast vs Collision Domains
