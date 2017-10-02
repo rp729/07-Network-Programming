@@ -13,6 +13,7 @@
   * [Wireshark](intro-to-sockets/wireshark.md)
     * [Analyzing Packets](intro-to-sockets/wireshark/analyzing-packets.md)
     * [Filters](intro-to-sockets/wireshark/filters.md)
+    * [Coloring Rules](intro-to-sockets/wireshark/coloring-rules.md)
   * [Netcat](intro-to-sockets/netcat.md)
   * OSI Model
   * Broadcast vs Collision Domains
