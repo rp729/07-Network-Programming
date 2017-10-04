@@ -1,7 +1,5 @@
 # **VMWare Setup with Fedora 64**
 
-
-
 ![](/assets/vmware.PNG)At the home screen in VMWare Workstation 12 Begin by clicking the first box: "**Create a New Virtual Machine**"
 
 ![](/assets/vmware1.PNG)
@@ -50,7 +48,7 @@ Then click **Generate **to generate a **MAC Address** for the Virtual Machine.
 
 Then click **OK**, **Close** the **Hardware **menu and continue the installation normally.
 
+After installation, create a **Snapshot**, and create **Clones**, as needed.
 
-
-
+Remember to generate a new **MAC Address** for each additional VM.
 
