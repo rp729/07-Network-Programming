@@ -11,11 +11,11 @@
     * [Pydocs](intro-to-sockets/rfcs-pydocs-man-pages/pydocs.md)
     * [Man Pages](intro-to-sockets/rfcs-pydocs-man-pages/man-pages.md)
   * [VM Setup](intro-to-sockets/vm-setup.md)
+    * [Wireshark Installation and Setup.](intro-to-sockets/vm-setup/wireshark-installation-and-setup.md)
   * [Wireshark](intro-to-sockets/wireshark.md)
     * [Analyzing Packets](intro-to-sockets/wireshark/analyzing-packets.md)
     * [Filters](intro-to-sockets/wireshark/filters.md)
     * [Coloring Rules](intro-to-sockets/wireshark/coloring-rules.md)
-    * [Installation and Setup](intro-to-sockets/wireshark/installation-and-setup.md)
   * [Netcat](intro-to-sockets/netcat.md)
     * [Lab 1](intro-to-sockets/netcat/lab-1.md)
   * OSI Model
