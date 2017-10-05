@@ -19,6 +19,7 @@
   * [Netcat](intro-to-sockets/netcat.md)
   * [Lab 1](intro-to-sockets/netcat/lab-1.md)
 * [Intro to Sockets](bsd-sockets.md)
+  * [BSD Sockets](intro-to-sockets/bsd-sockets.md)
   * [OSI Model](intro-to-sockets/osi-model.md)
   * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 
