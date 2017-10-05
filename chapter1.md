@@ -16,7 +16,7 @@
 
 ### _**Environment**_
 
-* The majority of the labs will use IPv6 using BSD Sockets.
+* The majority of the labs will use IPv4 using BSD Sockets.
 * We will be using multiple Virtual Machines of Linux, because Windows does not support BSD Sockets.
 * If you need assistance with Linux, let us know during the lab portions.
 
