@@ -1,8 +1,14 @@
 # I**ntroduction to Sockets**
 
+Internet Protocol Suite
+
+
+
 ![](/assets/IP_stack_connections.svg.png)
 
-Sockets are the abstraction that allow applications to communicate with eachother.  Socket programming allows us to control the functionality of the interface between ports and applications. Another way to think of them, is they're a way to speak to other programs using standard Unix file descriptors. Since everything in Unix/Linux is a file. 
+https://en.wikipedia.org/wiki/Internet\_protocol\_suite
+
+Sockets are the abstraction that allow applications to communicate with eachother.  Socket programming allows us to control the functionality of the interface between ports and applications. Another way to think of them, is they're a way to speak to other programs using standard Unix file descriptors. Since everything in Unix/Linux is a file.
 
 A file descriptor is simply an integer associated with an open file. But, that file can be a network connection, a FIFO, a pipe, a terminal, a real on-the-disk file, or just about anything else. Everything in Unix is a file! So when you want to communicate with another program over the Internet you're gonna do it through a file descriptor.
 
@@ -13,6 +19,8 @@ Just like using **read\(\)** and **write\(\) calls **to communicate with a file.
 A socket is an abstract representation \([handle](https://en.wikipedia.org/wiki/Handle_%28computing%29)\) for the local endpoint of a network communication path. The Berkeley sockets API represents it as a [file descriptor](https://en.wikipedia.org/wiki/File_descriptor) \([file handle](https://en.wikipedia.org/wiki/File_handle)\) in the[ Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) that provides a common interface for input and output to[ streams](https://en.wikipedia.org/wiki/Standard_streams) of data.
 
 Berkeley sockets evolved with little modification from a [de facto standard](https://en.wikipedia.org/wiki/De_facto_standard) into a component of the[ POSIX](https://en.wikipedia.org/wiki/POSIX) specification. Therefore, the term ** POSIX sockets ** is essentially synonymous with Berkeley sockets. They are also known as **BSD sockets**, acknowledging the first implementation in the [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution).
+
+https://en.wikipedia.org/wiki/Berkeley\_sockets 
 
 * We will be using the BSD Socket API for networking
 * Knowing BSD sockets will provide a foundation to do networking in almost any language/environment
