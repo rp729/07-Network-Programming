@@ -20,7 +20,7 @@
   * [Lab 1](intro-to-sockets/netcat/lab-1.md)
 * [Intro to Sockets](bsd-sockets.md)
   * [OSI Model](intro-to-sockets/osi-model.md)
-    * Layer 1 - Physical
+    * [OSI Layers](intro-to-sockets/osi-model/layer-1-physical.md)
   * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
   * [BSD Sockets](intro-to-sockets/bsd-sockets.md)
 
