@@ -24,6 +24,7 @@
   * [BSD Sockets](intro-to-sockets/bsd-sockets.md)
     * [Socket Types](intro-to-sockets/bsd-sockets/socket-types.md)
     * [Connections](intro-to-sockets/bsd-sockets/connections.md)
+    * [Client/Server Model](intro-to-sockets/bsd-sockets/clientserver-model.md)
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * Address Resolution Protocol
 
