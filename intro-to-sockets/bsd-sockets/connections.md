@@ -1,7 +1,7 @@
 ##### In order to connect to another host, you need to make a socket. To do so, you need to know 2 things:
 
-* The type of address you should use.
-* How is the data being transmitted.![](/assets/sock_con.PNG)
+* The type of address.
+* The type of data being transmitted.![](/assets/sock_con.PNG)
 
 # **Connections**
 
