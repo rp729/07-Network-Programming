@@ -21,6 +21,6 @@
 * [Intro to Sockets](bsd-sockets.md)
   * [OSI Model](intro-to-sockets/osi-model.md)
     * [OSI Layers](intro-to-sockets/osi-model/layer-1-physical.md)
-  * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
   * [BSD Sockets](intro-to-sockets/bsd-sockets.md)
+  * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 
