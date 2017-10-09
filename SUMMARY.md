@@ -22,5 +22,7 @@
   * [OSI Model](intro-to-sockets/osi-model.md)
     * [OSI Layers](intro-to-sockets/osi-model/layer-1-physical.md)
   * [BSD Sockets](intro-to-sockets/bsd-sockets.md)
-  * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
+    * [Socket Types](intro-to-sockets/bsd-sockets/socket-types.md)
+* [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
+* Address Resolution Protocol
 
