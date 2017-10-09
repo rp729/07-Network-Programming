@@ -1,9 +1,9 @@
 ##### In order to connect to another host, you need to make a socket. To do so, you need to know 2 things:
 
 * The type of address you should use.
-* How is the data being transmitted.
+* How is the data being transmitted.![](/assets/sock_con.PNG)
 
-# ![](/assets/socket connection.PNG)**Connections**
+# **Connections**
 
 ##### Each endpoint of a network connection is always represented by a host and port \
 
