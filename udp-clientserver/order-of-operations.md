@@ -5,8 +5,6 @@
 * **sendto\(\)/recvfrom\(\)** – _Data transfer\*_
 * **close\(\)** – Close the socket
 
-There is **ONE **socket and **UDP **is connectionless
-
 \(A UDP socket exists independently of any specific remote IP/PORT\)
 
 * Both sending and receiving data occur on the same socket, even to/from different remote hosts.

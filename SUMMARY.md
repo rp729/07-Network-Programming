@@ -30,10 +30,10 @@
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
-  * Lab 3
+  * [Lab 3](tcp-clientserver/lab-3.md)
 * [UDP Client/Server](udp-clientserver.md)
   * [Order of Operations](udp-clientserver/order-of-operations.md)
-  * Lab 4
+  * [Lab 4](udp-clientserver/lab-4.md)
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * Address Resolution Protocol
 
