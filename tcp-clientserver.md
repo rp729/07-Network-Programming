@@ -14,7 +14,5 @@
 
 **Processes identified by port numbers **
 
-**Services live at specific ports**
-
-
+**TCP Services live at specific ports**
 

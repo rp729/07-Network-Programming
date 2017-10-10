@@ -11,11 +11,9 @@
 
 **Processes identified by port number **
 
-**Services live at specific ports **
+**UDP Services live at specific ports **
 
 * Usually below 1024, requiring privilege
 
 ![](/assets/tcpvudp.PNG)
-
-
 

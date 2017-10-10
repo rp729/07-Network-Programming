@@ -29,7 +29,7 @@
     * [Socket Basics](intro-to-sockets/bsd-sockets/socket-basics.md)
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [TCP Client/Server](tcp-clientserver.md)
-  * Order of Operations
+  * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * Lab 3
 * [UDP Client/Server](udp-clientserver.md)
   * Order of Operations

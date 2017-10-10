@@ -27,5 +27,24 @@
 * **Server **- Listen for incoming connections 
 * **Client **- Make an outgoing connection
 
+**TCP Server code will deal with TWO \(or more\) sockets**
+
+
+
+* The first socket is created by socket\(\) and is used to LISTEN
+* The other sockets are returned by accept\(\) after a client connects to the listening socket. This new socket is used for data transfer to that specific client
+* Accept\(\) returns two values, the socket, and the IP of the other side.
+
+
+
+
+
+**Keep in mind**
+
+
+
+* Calls to accept\(\) will NOT alter the LISTENING socket
+* By default, accept\(\) will block until a connection is received
+
 
 
