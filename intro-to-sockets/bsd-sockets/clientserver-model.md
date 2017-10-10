@@ -23,6 +23,7 @@
 ###### _... _
 
 * The exact format depends on the application
+* Close the connection \(of course the server continues to listen for more clients\)
 
 
 

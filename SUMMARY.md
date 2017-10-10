@@ -28,7 +28,7 @@
     * [Socket Basics](intro-to-sockets/bsd-sockets/socket-basics.md)
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [TCP Client/Server](tcp-clientserver.md)
-* UDP Client/Server
+* [UDP Client/Server](udp-clientserver.md)
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * Address Resolution Protocol
 
