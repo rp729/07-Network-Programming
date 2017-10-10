@@ -15,11 +15,19 @@ You must track the source of incoming data and destination of outgoing data
 
 * This info must be passed to **sendto\(\)** and is returned by **recvfrom\(\)**
 
-
-
 It's usually easier to think of them as **"Senders"** and **"Receivers“**.
 
 * If you want to receive traffic, you need bind to a port.
+
+**recvfrom\(\)** returns a tuple of TWO values, the data and a tuple of remote ip/port.
+
+**sendto\(\)** takes a tuple of TWO arguments, data and a tuple of the remote ip/port.
+
+Use the client IP from **recvfrom\(\)** in the call to **sendto\(\)** to return data to that host.
+
+You may use multiple assignments here as well:
+
+###### _data, remote = sock.recvfrom\(\)_
 
 
 
