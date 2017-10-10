@@ -32,7 +32,7 @@
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * Lab 3
 * [UDP Client/Server](udp-clientserver.md)
-  * Order of Operations
+  * [Order of Operations](udp-clientserver/order-of-operations.md)
   * Lab 4
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * Address Resolution Protocol
