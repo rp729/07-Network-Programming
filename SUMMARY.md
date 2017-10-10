@@ -34,6 +34,8 @@
 * [UDP Client/Server](udp-clientserver.md)
   * [Order of Operations](udp-clientserver/order-of-operations.md)
   * [Lab 4](udp-clientserver/lab-4.md)
+* [Network Server](looping.md)
+  * Advanced Cases
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * Address Resolution Protocol
 
