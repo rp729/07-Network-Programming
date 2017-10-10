@@ -25,6 +25,7 @@
     * [Socket Types](intro-to-sockets/bsd-sockets/socket-types.md)
     * [Connections](intro-to-sockets/bsd-sockets/connections.md)
     * [Client/Server Model](intro-to-sockets/bsd-sockets/clientserver-model.md)
+    * [Major System Calls](intro-to-sockets/bsd-sockets/major-system-calls.md)
     * [Socket Basics](intro-to-sockets/bsd-sockets/socket-basics.md)
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [TCP Client/Server](tcp-clientserver.md)
