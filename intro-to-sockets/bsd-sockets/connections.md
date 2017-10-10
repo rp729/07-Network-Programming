@@ -5,7 +5,7 @@
 
 # **Connections**
 
-##### Each endpoint of a network connection is always represented by a host and port \
+##### Each endpoint of a network connection is always represented by a host and port 
 
 * In Python you write it out as a tuple \(host,port\)
 

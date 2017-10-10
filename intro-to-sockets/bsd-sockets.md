@@ -16,7 +16,7 @@ Just like using **read\(\)** and **write\(\) calls **to communicate with a file.
 
 **Berkeley sockets ** are an[ application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) \(API\) for [Internet sockets](https://en.wikipedia.org/wiki/Internet_socket) and[ Unix domain sockets](https://en.wikipedia.org/wiki/Unix_domain_socket), used for [inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication) \(IPC\). It is commonly implemented as a[ library](https://en.wikipedia.org/wiki/Library_%28computing%29) of linkable modules. It originated with the 4.2 BSD [Unix](https://en.wikipedia.org/wiki/Unix) released in 1983.
 
-Berkeley sockets evolved with little modification from a [de facto standard](https://en.wikipedia.org/wiki/De_facto_standard) into a component of the[ POSIX](https://en.wikipedia.org/wiki/POSIX) specification. Therefore, the term ** POSIX sockets ** is essentially synonymous with Berkeley sockets. They are also known as **BSD sockets**, acknowledging the first implementation in the [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution).
+Berkeley sockets evolved with little modification from a [de facto standard](https://en.wikipedia.org/wiki/De_facto_standard) into a component of the[ POSIX](https://en.wikipedia.org/wiki/POSIX) specification. Therefore, the term ** POSIX sockets ** is essentially synonymous with **Berkeley sockets**. They are also known as **BSD sockets**, acknowledging the first implementation in the [Berkeley Software Distribution](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution).
 
 [https://en.wikipedia.org/wiki/Berkeley\_sockets](https://en.wikipedia.org/wiki/Berkeley_sockets)
 

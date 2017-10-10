@@ -29,7 +29,11 @@
     * [Socket Basics](intro-to-sockets/bsd-sockets/socket-basics.md)
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [TCP Client/Server](tcp-clientserver.md)
+  * Order of Operations
+  * Lab 3
 * [UDP Client/Server](udp-clientserver.md)
+  * Order of Operations
+  * Lab 4
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * Address Resolution Protocol
 
