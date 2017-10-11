@@ -37,6 +37,8 @@
   * [Ethernet Header](osi-layer-2/ethernet-header.md)
   * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
   * [ARP](osi-layer-2/arp.md)
+  * [ARP Header](osi-layer-2/arp-header.md)
+  * [RARP](osi-layer-2/rarp.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
