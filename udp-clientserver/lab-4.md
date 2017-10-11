@@ -1,20 +1,14 @@
 **Lab 4A**
 
-Write a UDP sender that takes a dictionary, turns it into a JSON string, and sends it to a listener.
+struct
 
-Write the UDP receiver to receive the JSON string and turns it back into a dictionary.
+pack/unpack IP
 
-Validate by printing the type of your dictionary variable. \(Build in IPv4 and IPv6\)
+modify network byte order
 
-**Lab 4B**
+socket timeout
 
-Write a UDP receiver that receives a string, and orders the words from longest to shortest in a new string.
+error handling
 
-That new string should be sent to the remote port+1.
-
-\(i.e. the source port of message from the SENDER's POV\)
-
-Write a UDP sender that sends the initial string, and receives the response from the receiver above.
-
-Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
+modifying send/rec buffer size
 
