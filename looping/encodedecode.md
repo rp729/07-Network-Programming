@@ -1,6 +1,6 @@
 # encode\(\)/decode\(\)
 
-Converting from bytes to str and back
+Converting from bytes to str and back.
 
 `bstr=b'qwerty'`
 
@@ -8,7 +8,7 @@ Converting from bytes to str and back
 
 `<class 'bytes'>`
 
---------------------------------------------------
+---
 
 `str=bstr.decode('utf-8')`
 
@@ -16,7 +16,7 @@ Converting from bytes to str and back
 
 `<class 'str'>`
 
----------------------------------------------------
+---
 
 `bstr2 =str.encode('utf-8')`
 
