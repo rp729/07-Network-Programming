@@ -51,6 +51,7 @@
   * [JSON Module](looping/json-module.md)
   * [encode\(\)/decode\(\)](looping/encodedecode.md)
 * [OSI Layer 3](osi-layer-3.md)
+  * [References](osi-layer-3/references.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
 * OSI Layer 4
