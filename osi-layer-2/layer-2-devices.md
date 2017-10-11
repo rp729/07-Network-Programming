@@ -6,13 +6,11 @@
 
 #### **Switches: **are multiport bridges and are stillprevalevantin networks today. Switches are typically the lowest level device that makes decisions on where to send traffic. The MAC \(Media Access Control\) address is what switches use to make those decisions.
 
-
-
 * **Multiple Collision Domain**
 
-        Each physical connection to a switch port is a collision domain
-
-
+  ```
+  Each physical connection to a switch port is a collision domain
+  ```
 
 * **Single Broadcast Domain**
 
