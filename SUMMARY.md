@@ -30,7 +30,7 @@
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [OSI Layer 2](osi-layer-2.md)
   * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
-  * Layer 1 Devices
+  * [Layer 1 Devices](osi-layer-2/layer-1-devices.md)
   * Layer 2 Devices
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
