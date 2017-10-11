@@ -47,6 +47,7 @@
 * [Network Server](looping.md)
   * [setsockopt\(\)/getsockopt\(\)](looping/advanced-cases.md)
   * [Struct Module](looping/struct-module.md)
+  * [JSON Module](looping/json-module.md)
 * [OSI Layer 3](osi-layer-3.md)
   * Layer
   * [Lab 4](udp-clientserver/lab-4.md)
