@@ -34,6 +34,7 @@
   * [Layer 2 Devices](osi-layer-2/layer-2-devices.md)
   * [MAC Addresses](osi-layer-2/mac-addresses.md)
   * [Switches](osi-layer-2/switches.md)
+  * [Ethernet Header](osi-layer-2/ethernet-header.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
