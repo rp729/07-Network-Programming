@@ -4,7 +4,7 @@
 
 #### 
 
-#### **Switches: **are multiport bridges and are stillprevalevantin networks today. Switches are typically the lowest level device that makes decisions on where to send traffic. The MAC \(Media Access Control\) address is what switches use to make those decisions.
+#### **Switches: **are multiport bridges and are still prevalent networks today. Switches are typically the lowest level device that makes decisions on where to send traffic. The MAC \(Media Access Control\) address is what switches use to make those decisions.
 
 * **Multiple Collision Domain**
 

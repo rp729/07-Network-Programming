@@ -32,6 +32,8 @@
   * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
   * [Layer 1 Devices](osi-layer-2/layer-1-devices.md)
   * [Layer 2 Devices](osi-layer-2/layer-2-devices.md)
+  * [MAC Addresses](osi-layer-2/mac-addresses.md)
+  * [Switches](osi-layer-2/switches.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
@@ -41,4 +43,5 @@
 * [Network Server](looping.md)
   * [Advanced Cases](looping/advanced-cases.md)
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
+* [Network Byte Order](network-byte-order.md)
 
