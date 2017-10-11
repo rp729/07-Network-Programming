@@ -31,7 +31,7 @@
 * [OSI Layer 2](osi-layer-2.md)
   * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
   * [Layer 1 Devices](osi-layer-2/layer-1-devices.md)
-  * Layer 2 Devices
+  * [Layer 2 Devices](osi-layer-2/layer-2-devices.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
