@@ -6,7 +6,9 @@
 * #### MAC Addresses
 * #### Switches
 * #### Ethernet Header
+* #### Broadcast vs Collision Domains
 * #### ARP and RFC 826
+* #### ARP Header
 * #### RARP
 
 #### 
