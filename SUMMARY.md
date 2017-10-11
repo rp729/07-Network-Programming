@@ -45,7 +45,7 @@
   * [RARP](osi-layer-2/rarp.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
 * [Network Server](looping.md)
-  * [Advanced Cases](looping/advanced-cases.md)
+  * [setsockopt\(\)/getsockopt\(\)](looping/advanced-cases.md)
 * [OSI Layer 3](osi-layer-3.md)
   * Layer
   * [Lab 4](udp-clientserver/lab-4.md)
