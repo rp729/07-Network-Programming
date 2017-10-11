@@ -5,19 +5,21 @@
 * Typically run forever in a server-loop.
 * May have to service multiple clients.
 
-![](/assets/tcp1.PNG)
+![](/assets/11.PNG)
 
-![](/assets/tcp2.PNG)
+![](/assets/12.PNG)
 
-![](/assets/tcp3.PNG)
+![](/assets/13.PNG)
 
-![](/assets/tcp4.PNG)
+![](/assets/14.PNG)
 
-![](/assets/tcp5.PNG)
+![](/assets/15.PNG)
 
-![](/assets/tcp6.PNG)
+![](/assets/16.PNG)
 
-![](/assets/tcp7.PNG)
+![](/assets/17.PNG)
 
-![](/assets/tcp8.PNG)
+![](/assets/18.PNG)
+
+
 
