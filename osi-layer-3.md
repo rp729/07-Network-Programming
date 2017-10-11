@@ -1,6 +1,5 @@
 # OSI Layer 3
 
-* Layer 3 Overview
 * Introduction to IP
 * IPv4 Addresses
 * IPv4 Address Classes
