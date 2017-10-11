@@ -35,6 +35,8 @@
   * [MAC Addresses](osi-layer-2/mac-addresses.md)
   * [Switches](osi-layer-2/switches.md)
   * [Ethernet Header](osi-layer-2/ethernet-header.md)
+  * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
+  * [ARP](osi-layer-2/arp.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
@@ -43,6 +45,5 @@
   * [Lab 4](udp-clientserver/lab-4.md)
 * [Network Server](looping.md)
   * [Advanced Cases](looping/advanced-cases.md)
-* [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
 * [Network Byte Order](network-byte-order.md)
 

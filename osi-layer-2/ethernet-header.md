@@ -4,11 +4,7 @@
 
 **Source MAC Address** - Originator of the traffic.
 
-
-
 **Destination MAC Address** - The Ethernet address of the intended recipient. Must be in the same broadcast domain, and may be a broadcast address.
-
-
 
 **Ethernet Type** \(akaEtherType\) - What is being transmitted in the Ethernet payload?
 
