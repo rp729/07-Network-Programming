@@ -1,16 +1,78 @@
 # Network Byte Order
 
-Network byte order is most-significant byte first  
+Network byte order is most-significant byte first 
 
-Byte ordering at a host may differ  
+Byte ordering at a host may differ 
 
-Utility functions 
 
-htons\(\):  Host-to-network byte order for a short word \(2 bytes\) 
 
-htonl\(\):  Host-to-network byte order for a long word \(4 bytes\) 
 
-ntohs\(\):  Network-to-host byte order for a short word 
 
-ntohl\(\):  Network-to-host byte order for a long word
+_`socket.ntohl(x)`_
+
+Convert 32-bit positive integers from network to host byte order. On machines where the host byte order is the same as network byte order, this is a no-op; otherwise, it performs a 4-byte swap operation.
+
+
+
+_`socket.ntohs(x)`_
+
+Convert 16-bit positive integers from network to host byte order. On machines where the host byte order is the same as network byte order, this is a no-op; otherwise, it performs a 2-byte swap operation.
+
+
+
+_`socket.htonl(x)`_
+
+Convert 32-bit positive integers from host to network byte order. On machines where the host byte order is the same as network byte order, this is a no-op; otherwise, it performs a 4-byte swap operation.
+
+
+
+_`socket.htons(x)`_
+
+Convert 16-bit positive integers from host to network byte order. On machines where the host byte order is the same as network byte order, this is a no-op; otherwise, it performs a 2-byte swap operation.
+
+
+
+_`socket.inet_aton(ip_string)`_
+
+Convert an IPv4 address from dotted-quad string format \(for example, ‘123.45.67.89’\) to 32-bit packed binary format, as a string four characters in length. This is useful when conversing with a program that uses the standard C library and needs objects of type`structin_addr`, which is the C type for the 32-bit packed binary this function returns.
+
+
+
+[`inet_aton()`](https://docs.python.org/2/library/socket.html#socket.inet_aton)also accepts strings with less than three dots; see the Unix manual page_inet\(3\)_for details.
+
+If the IPv4 address string passed to this function is invalid,[`socket.error`](https://docs.python.org/2/library/socket.html#socket.error)will be raised. Note that exactly what is valid depends on the underlying C implementation of`inet_aton()`.
+
+
+
+[`inet_aton()`](https://docs.python.org/2/library/socket.html#socket.inet_aton)does not support IPv6, and[`inet_pton()`](https://docs.python.org/2/library/socket.html#socket.inet_pton)should be used instead for IPv4/v6 dual stack support.
+
+
+
+_`socket.inet_ntoas(packed_ip)`_
+
+Convert a 32-bit packed IPv4 address \(a string four characters in length\) to its standard dotted-quad string representation \(for example, ‘123.45.67.89’\). This is useful when conversing with a program that uses the standard C library and needs objects of type`structin_addr`, which is the C type for the 32-bit packed binary data this function takes as an argument.
+
+If the string passed to this function is not exactly 4 bytes in length,[`socket.error`](https://docs.python.org/2/library/socket.html#socket.error)will be raised.[`inet_ntoa()`](https://docs.python.org/2/library/socket.html#socket.inet_ntoa)does not support IPv6, and[`inet_ntop()`](https://docs.python.org/2/library/socket.html#socket.inet_ntop)should be used instead for IPv4/v6 dual stack support.
+
+
+
+_`socket.inet_pton(address_family, ip_string)`_
+
+Convert an IP address from its family-specific string format to a packed, binary format.[`inet_pton()`](https://docs.python.org/2/library/socket.html#socket.inet_pton)is useful when a library or network protocol calls for an object of type`structin_addr`\(similar to[`inet_aton()`](https://docs.python.org/2/library/socket.html#socket.inet_aton)\) or`structin6_addr`.
+
+Supported values for_address\_family_are currently[`AF_INET`](https://docs.python.org/2/library/socket.html#socket.AF_INET)and[`AF_INET6`](https://docs.python.org/2/library/socket.html#socket.AF_INET6). If the IP address string_ip\_string_is invalid,[`socket.error`](https://docs.python.org/2/library/socket.html#socket.error)will be raised. Note that exactly what is valid depends on both the value of_address\_family_and the underlying implementation of`inet_pton()`.
+
+Availability: Unix \(maybe not all platforms\).
+
+
+
+_`socket.inet_ntop(address_family, packed_ip)`_
+
+Convert a packed IP address \(a string of some number of characters\) to its standard, family-specific string representation \(for example,`'7.10.0.5'`or`'5aef:2b::8'`\)[`inet_ntop()`](https://docs.python.org/2/library/socket.html#socket.inet_ntop)is useful when a library or network protocol returns an object of type`structin_addr`\(similar to[`inet_ntoa()`](https://docs.python.org/2/library/socket.html#socket.inet_ntoa)\) or`structin6_addr`.
+
+Supported values for_address\_family_are currently[`AF_INET`](https://docs.python.org/2/library/socket.html#socket.AF_INET)and[`AF_INET6`](https://docs.python.org/2/library/socket.html#socket.AF_INET6). If the string_packed\_ip_is not the correct length for the specified address family,[`ValueError`](https://docs.python.org/2/library/exceptions.html#exceptions.ValueError)will be raised. A[`socket.error`](https://docs.python.org/2/library/socket.html#socket.error)is raised for errors from the call to[`inet_ntop()`](https://docs.python.org/2/library/socket.html#socket.inet_ntop).
+
+Availability: Unix \(maybe not all platforms\).
+
+
 
