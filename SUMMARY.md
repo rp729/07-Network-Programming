@@ -53,4 +53,7 @@
 * [OSI Layer 3](osi-layer-3.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
+* OSI Layer 4
+* OSI Layer 7
+* [Lab 4](lab-4.md)
 
