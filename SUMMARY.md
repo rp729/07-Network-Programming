@@ -28,6 +28,8 @@
     * [Major System Calls](intro-to-sockets/bsd-sockets/major-system-calls.md)
     * [Socket Basics](intro-to-sockets/bsd-sockets/socket-basics.md)
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
+* [OSI Layer 2](osi-layer-2.md)
+  * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
@@ -35,7 +37,7 @@
   * [Order of Operations](udp-clientserver/order-of-operations.md)
   * [Lab 4](udp-clientserver/lab-4.md)
 * [Network Server](looping.md)
-  * Advanced Cases
+  * [Advanced Cases](looping/advanced-cases.md)
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
-* Address Resolution Protocol
+* OSI Layer 2
 
