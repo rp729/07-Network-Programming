@@ -30,6 +30,8 @@
     * [Lab 2](intro-to-sockets/bsd-sockets/lab-2.md)
 * [OSI Layer 2](osi-layer-2.md)
   * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
+  * Layer 1 Devices
+  * Layer 2 Devices
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [Lab 3](tcp-clientserver/lab-3.md)
@@ -39,5 +41,4 @@
 * [Network Server](looping.md)
   * [Advanced Cases](looping/advanced-cases.md)
 * [Broadcast vs Collision Domains](intro-to-sockets/broadcast-vs-collision-domains.md)
-* OSI Layer 2
 
