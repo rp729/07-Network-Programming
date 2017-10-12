@@ -53,6 +53,7 @@
 * [OSI Layer 3](osi-layer-3.md)
   * [References](osi-layer-3/references.md)
   * [Intro to Internet Protocol](osi-layer-3/intro-to-internet-protocol.md)
+  * [IPv4 Addresses](osi-layer-3/ipv4-addresses.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
