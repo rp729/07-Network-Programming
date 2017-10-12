@@ -16,13 +16,11 @@ Mixing 1's and 0's together is not allowed. This means that the only valid numbe
 
 All bits in the IP address that are masked with 1's determine the NETWORK, and all 0's determine the HOST
 
-
-
 If you bitwise AND an IP and a subnet mask, you will get the network IP.
 
-#### **IP:** 172.16.237.18
+#### **IP: **   172.16.237.18
 
-#### **SM:** 255.255.248.0
+#### **SM: **  255.255.248.0
 
 #### **IP:  **              `10101100.00010000.11101 | 101.00010010`
 
