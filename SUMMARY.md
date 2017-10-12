@@ -55,6 +55,7 @@
   * [Intro to Internet Protocol](osi-layer-3/intro-to-internet-protocol.md)
   * [IPv4 Addresses](osi-layer-3/ipv4-addresses.md)
   * [IPv4 Address Classes](osi-layer-3/ipv4-address-classes.md)
+  * [Subnetting](osi-layer-3/subnet-masks.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
