@@ -59,6 +59,7 @@
   * [CIDR](osi-layer-3/cidr.md)
   * [Routing Protocols](osi-layer-3/routing-protocols.md)
   * [Routing](osi-layer-3/routing-basics.md)
+  * [IPv4](osi-layer-3/ipv4.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
