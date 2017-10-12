@@ -1,4 +1,4 @@
-# Subnetting
+# Subnet Mask
 
 Subnet masks were introduced to identify the **NETWORK **and **HOST **bits of an IP.
 

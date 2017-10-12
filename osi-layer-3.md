@@ -3,7 +3,7 @@
 * Introduction to IP
 * IPv4 Addresses
 * IPv4 Address Classes
-* Subnetting
+* Subnet Mask
 * CIDR
 * Routers
 * Routing Protocols
