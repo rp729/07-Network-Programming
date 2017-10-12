@@ -61,6 +61,7 @@
   * [Routing](osi-layer-3/routing-basics.md)
   * [IPv4](osi-layer-3/ipv4.md)
   * [NAT and PAT](osi-layer-3/nat-and-pat.md)
+  * [IPv6](osi-layer-3/ipv6.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
