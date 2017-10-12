@@ -19,15 +19,22 @@ Hybrid protocols also exist.
 
 Each routing protocol defines the metric\(s\) used to calculate weights.
 
-
-
 Weights are calculated individually on each router for each known network. The weight for the exact same network may be different on different routers.
-
-
 
 Static routes may also be set, with arbitrary weights, by a network administrator.
 
-
-
 The “best” weight is used by a router to decide where to send the packet. Weights are usually represented as an integer, and the lowest number is considered best.
+
+Routers have routing tables that map a NETWORK, WEIGHT, and the NEXT HOP ADDRESS
+
+
+
+Routing tables are populated by the information exchanges dictated by the specific routing protocol being used on that router and it's neighbors
+
+
+
+* Neighbors advertise what NETWORKS they know about, and their WEIGHTS
+* The NEXT HOP will either be the IP of the router that advertised the best path to a destination, OR it will be the locally connected network
+
+
 
