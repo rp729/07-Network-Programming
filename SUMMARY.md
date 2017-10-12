@@ -52,6 +52,7 @@
   * [encode\(\)/decode\(\)](looping/encodedecode.md)
 * [OSI Layer 3](osi-layer-3.md)
   * [References](osi-layer-3/references.md)
+  * [Intro to Internet Protocol](osi-layer-3/intro-to-internet-protocol.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
