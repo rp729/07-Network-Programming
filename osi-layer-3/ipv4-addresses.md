@@ -16,7 +16,9 @@ In the Internet addressing architecture, the Internet Engineering Task Force \(I
 
 \(IANA\) have reserved various Internet Protocol \(IP\) addresses for special purposes.
 
-###### IPv4![](/assets/ipv4.PNG)--------------------------------------------
+###### IPv4![](/assets/ipv4.PNG)
+
+---------------------------------
 
 #### IPv6![](/assets/ipv6.PNG)
 
