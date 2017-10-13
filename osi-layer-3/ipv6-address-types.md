@@ -14,7 +14,7 @@ There are also several scopes:
 
 There is no IPv6 broadcast address. Multicast addresses fulfill that role.
 
------------------------------------
+---
 
 The type of address is specified by the value of the first hextet.
 
@@ -28,5 +28,7 @@ The type of address is specified by the value of the first hextet.
 | 2001::/32 | Teredo, Allows IPv6 over IPv4 | n/a |
 | 2002::/16 | 6 to 4, Allows IPv6 over IPv4 | n/a |
 
+NOTE: This list is not exhaustive.
 
+[http://www.iana.org/assignments/ipv6-multicast-addresses/ipv6-multicast-addresses.xhtml](http://www.iana.org/assignments/ipv6-multicast-addresses/ipv6-multicast-addresses.xhtml)
 
