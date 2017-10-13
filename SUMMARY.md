@@ -63,6 +63,7 @@
   * [NAT and PAT](osi-layer-3/nat-and-pat.md)
   * [IPv6](osi-layer-3/ipv6.md)
   * [IPv6 Addresses](osi-layer-3/ipv6-addresses.md)
+  * [IPv6 Address Types](osi-layer-3/ipv6-address-types.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
