@@ -70,6 +70,7 @@
   * [IPv6 Header](osi-layer-3/ipv6-header.md)
   * [ICMP](osi-layer-3/icmp.md)
   * [Ping](osi-layer-3/ping.md)
+  * [ICMP Errors](osi-layer-3/icmp-errors.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
