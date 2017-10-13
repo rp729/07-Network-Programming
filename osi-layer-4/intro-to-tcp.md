@@ -1,4 +1,4 @@
-# Intro to TCP
+# Intro to Transmission Control Protocol
 
 ![](/assets/tcp.png)
 
@@ -6,11 +6,11 @@
 * The TCP/IP Model is more practical oriented.
 * Both are useful at different times. We are primarily concerned with OSI layers 2,3,4,7 in this class.
 
-----------------------------------
+---
 
 TCP is a connection oriented protocol that provides error checking and reliability of communication.
 
-Most protocols commonly used on the internet use TCP, including HTTP, SMTP, and SSH.
+Most protocols commonly used on the internet use TCP including: HTTP, SMTP, and SSH.
 
 TCP connections open with a handshake, data is transmitted, and then the connection is closed with a teardown.
 
