@@ -2,34 +2,25 @@
 
 Below, I've captured some anecdotal reasons you will see some common ICMP errors. They are NOT absolutes, but just things to think about should you encounter them.
 
-
-
 **Network unavailable typically means there is no route to the network.**
-
-
 
 **Host unreachable is usually one of two reasons:**
 
 * Layer 1 is broken, host physically offline.
 * A security feature is preventing access to the host \(firewall, proxy, etc\).
 
-
-
 **Port Unreachable is usually one of two reasons:**
 
-A security feature is preventing access to that port \(firewall, proxy, etc\).
-
-A service is likely not running on that port\*
-
-
+* A security feature is preventing access to that port \(firewall, proxy, etc\).
+* A service is likely not running on that port\*
 
 **TTL Exceeded**
 
-oSomething is unusual about the route to the host that makes the path quite long.
-
-
+* Something is unusual about the route to the host that makes the path quite long.
 
 **Reassembly Time Exceeded**
 
-I have never encountered this, however a severely degraded connection with multiple varying MTUs could theoretically cause this.
+* I have never encountered this, however a severely degraded connection with multiple varying MTUs could theoretically cause this.
+
+
 
