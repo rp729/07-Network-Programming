@@ -93,4 +93,6 @@
 * [OSI Layer 7](osi-layer-7.md)
   * [Intro to DNS](osi-layer-7/intro-to-dns.md)
   * [FQDN](osi-layer-7/fqdn.md)
+  * [DNS Records Format](osi-layer-7/dns-records-format.md)
+  * [DNS - SOA Records](osi-layer-7/dns-soa-records.md)
 
