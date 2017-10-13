@@ -82,5 +82,8 @@
   * [TCP Header and Flags](osi-layer-4/tcp-flags.md)
   * [SYN and ACK](osi-layer-4/syn-and-ack.md)
   * [SACK](osi-layer-4/sack.md)
+  * [TCP Handshake](osi-layer-4/tcp-handshake.md)
+  * [TCP Teardown](osi-layer-4/tcp-teardown.md)
+  * [TCP State](osi-layer-4/tcp-state.md)
 * [OSI Layer 7](osi-layer-7.md)
 
