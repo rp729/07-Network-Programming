@@ -2,9 +2,11 @@
 
 ![](/assets/MJB-TCP-Header-800x564.png)
 
--------------------------------------------------
+---
 
 # TCP Flags
+
+![](/assets/tcphead.PNG)
 
 ##### TCP uses a bit field to represent flags.
 
@@ -26,17 +28,13 @@
 
 **FIN **- No more data to send.
 
--------------------------------------------------
+---
 
 #### PSH vs URG
 
 **PSH **- Force the receiver to push all data to the process immediately. Used for interactive things where keystrokes should be processed relatively quickly by Layer 7.Netcatdoes this to force writing to the terminal. Telnet is another example
 
-
-
 **URG **- Not well documented or implemented. Urgent pointer indicates how much data is urgent, from the beginning of the segment. Only the urgent data should be provided to the process in an out-of-band manner.
-
-
 
 Neither has an API to actually set the value.
 
