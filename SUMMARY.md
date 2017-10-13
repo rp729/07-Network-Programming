@@ -79,6 +79,6 @@
 * [Lab 6](lab-6.md)
 * [OSI Layer 4](osi-layer-4.md)
   * [Intro to TCP](osi-layer-4/intro-to-tcp.md)
-  * TCP Flags
+  * [TCP Flags](osi-layer-4/tcp-flags.md)
 * [OSI Layer 7](osi-layer-7.md)
 
