@@ -1,9 +1,3 @@
-# TCP Header
-
-![](/assets/MJB-TCP-Header-800x564.png)
-
----
-
 # TCP Flags
 
 ![](/assets/tcphead.PNG)

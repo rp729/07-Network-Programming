@@ -79,6 +79,7 @@
 * [Lab 6](lab-6.md)
 * [OSI Layer 4](osi-layer-4.md)
   * [Intro to TCP](osi-layer-4/intro-to-tcp.md)
+  * [TCP Header](osi-layer-4/tcp-header.md)
   * [TCP Header and Flags](osi-layer-4/tcp-flags.md)
   * [SYN and ACK](osi-layer-4/syn-and-ack.md)
   * [SACK](osi-layer-4/sack.md)
