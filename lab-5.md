@@ -10,5 +10,5 @@ ForkingMixIn
 
 ThreadingMixIn
 
-Chat Client/Server \(select\)
+Chat Client/Server \(select\), direct messaging, multicast, IPv6
 

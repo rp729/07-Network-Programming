@@ -75,7 +75,6 @@
   * [MTU and Fragmentation](osi-layer-3/mtu-and-fragmentation.md)
   * [NDP](osi-layer-3/ndp.md)
   * [Lab 4](lab-4.md)
-* [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
 * [OSI Layer 4](osi-layer-4.md)
   * [Intro to TCP](osi-layer-4/intro-to-tcp.md)
@@ -89,5 +88,9 @@
   * [RST and ICMP](osi-layer-4/rst-and-icmp.md)
   * [Traffic Control](osi-layer-4/traffic-control.md)
   * [UDP](osi-layer-4/udp.md)
+  * [UDP Header](osi-layer-4/udp-header.md)
+  * [Lab 5](lab-5.md)
 * [OSI Layer 7](osi-layer-7.md)
+  * [Intro to DNS](osi-layer-7/intro-to-dns.md)
+  * [FQDN](osi-layer-7/fqdn.md)
 
