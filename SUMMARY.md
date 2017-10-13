@@ -85,5 +85,6 @@
   * [TCP Handshake](osi-layer-4/tcp-handshake.md)
   * [TCP Teardown](osi-layer-4/tcp-teardown.md)
   * [TCP State](osi-layer-4/tcp-state.md)
+  * [RST and ICMP](osi-layer-4/rst-and-icmp.md)
 * [OSI Layer 7](osi-layer-7.md)
 
