@@ -68,6 +68,7 @@
   * [Multicast](osi-layer-3/multicast.md)
   * [Anycast](osi-layer-3/anycast.md)
   * [IPv6 Header](osi-layer-3/ipv6-header.md)
+  * [ICMP](osi-layer-3/icmp.md)
 * [Lab 4](lab-4.md)
 * [Lab 5](lab-5.md)
 * [Lab 6](lab-6.md)
