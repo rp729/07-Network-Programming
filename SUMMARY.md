@@ -96,4 +96,6 @@
   * [DNS Records Format](osi-layer-7/dns-records-format.md)
   * [DNS - SOA Records](osi-layer-7/dns-soa-records.md)
   * [DNS – A and AAAA Records](osi-layer-7/dns-a-and-aaaa-records.md)
+  * [DNS – PTR Records](osi-layer-7/dns-ptr-records.md)
+  * [DNS - CNAME](osi-layer-7/dns-cname.md)
 
