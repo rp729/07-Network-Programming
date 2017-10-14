@@ -99,4 +99,7 @@
   * [DNS – PTR Records](osi-layer-7/dns-ptr-records.md)
   * [DNS - CNAME](osi-layer-7/dns-cname.md)
   * [DNS - MX Recoords](osi-layer-7/dns-mx-recoords.md)
+  * [DNS - SRV Records](osi-layer-7/dns-srv-records.md)
+  * [DNS Resolution](osi-layer-7/dns-resolution.md)
+  * [DNS Request - ASCII View](osi-layer-7/dns-request-ascii-view.md)
 
