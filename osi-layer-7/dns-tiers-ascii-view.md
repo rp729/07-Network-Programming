@@ -1,7 +1,5 @@
 # DNS Tiers - ASCII View
 
-
-
 | **Root Servers \(A - M\)** |
 | :---: |
 | **\|** |
