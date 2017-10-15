@@ -104,4 +104,5 @@
   * [DNS Request - ASCII View](osi-layer-7/dns-request-ascii-view.md)
   * [DNS Tiers - ASCII View](osi-layer-7/dns-tiers-ascii-view.md)
   * [Dig](osi-layer-7/dig.md)
+  * [Dig - Output](osi-layer-7/dig-output.md)
 
