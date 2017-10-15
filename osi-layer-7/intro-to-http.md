@@ -14,7 +14,7 @@
 * Metadata about the transaction \(date, webserver, content length and type\).
 * The data.
 
-------------------------------------------------------
+---
 
 #### HTTP Line Breaks
 
@@ -22,13 +22,6 @@
 * A blank line with a single \r\n signifies the end of a header.
 
 **This ends a request, and separates the data from the header in a response.**
-
---------------------------------------------------------------
-
-#### **HTTP Requests**
-
-* The only MANDATORY parts of an HTTP Request are the METHOD, the URL, HTTP version, and the host \(and any data you need to send if POSTING\).
-* We will only discuss the methods GET and POST because they are almost exclusively what you will encounter, however others do exist.
 
 
 

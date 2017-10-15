@@ -106,4 +106,5 @@
   * [Dig](osi-layer-7/dig.md)
   * [Dig - Output](osi-layer-7/dig-output.md)
   * [Intro to HTTP](osi-layer-7/intro-to-http.md)
+  * [HTTP Requests](osi-layer-7/http-requests.md)
 
