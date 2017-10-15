@@ -75,7 +75,6 @@
   * [MTU and Fragmentation](osi-layer-3/mtu-and-fragmentation.md)
   * [NDP](osi-layer-3/ndp.md)
   * [Lab 4](lab-4.md)
-* [Lab 6](lab-6.md)
 * [OSI Layer 4](osi-layer-4.md)
   * [Intro to TCP](osi-layer-4/intro-to-tcp.md)
   * [TCP Header](osi-layer-4/tcp-header.md)
@@ -109,4 +108,6 @@
   * [HTTP Requests](osi-layer-7/http-requests.md)
   * [HTTP Responses](osi-layer-7/http-responses.md)
   * [HTTP Status Codes](osi-layer-7/http-status-codes.md)
+  * [Lab 6](lab-6.md)
+* [Select\(\)](select.md)
 
