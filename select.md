@@ -4,7 +4,7 @@
 * Select is a Linux function call that operates on file descriptors. In Linux specifically, everything is a file. This means at it's core in Linux, a network socket is a file descriptor.
 * Since it's a syscall, it works in C, Python, and any other language you can make syscalls from \(in Linux anyway\). Under the hood it is a wrapper for poll\(\).
 
-----------------------------------
+---
 
 ### Socket Setup
 
@@ -12,25 +12,25 @@ We need to import select, and set our sockets to be non-blocking.
 
 #### `import select`
 
-#### ` ...`
+#### `...`
 
-#### ` p1 =socket.socket(socket.AF_INET,socket.SOCK_STREAM)`
+#### `p1 =socket.socket(socket.AF_INET,socket.SOCK_STREAM)`
 
-#### ` p1.setblocking(0)`
+#### `p1.setblocking(0)`
 
-#### ` p1.bind( ('', 2000) )`
+#### `p1.bind( ('', 2000) )`
 
-#### ` p1.listen(1)`
+#### `p1.listen(1)`
 
-#### ` p2 =socket.socket(socket.AF_INET,socket.SOCK_STREAM)`
+#### `p2 =socket.socket(socket.AF_INET,socket.SOCK_STREAM)`
 
-#### ` p2.setblocking(0)`
+#### `p2.setblocking(0)`
 
-#### ` p2.bind( ('', p2port) )`
+#### `p2.bind( ('', p2port) )`
 
-#### ` p2.listen(1)`
+#### `p2.listen(1)`
 
-----------------------------------------------------------------
+---
 
 ### Setting Up Call
 
@@ -44,21 +44,17 @@ The third parameter to see if there is anyfdsthat threw an exception.
 
 FDs can be in multiple lists.
 
+#### `# Sockets to which we expect to read`
 
-
-####  `# Sockets to which we expect to read`
-
-#### ` inputs = [ p1, p2 ]`
+#### `inputs = [ p1, p2 ]`
 
 #### 
 
-#### ` # Sockets to which we expect to write`
+#### `# Sockets to which we expect to write`
 
-#### ` outputs = [ ]`
+#### `outputs = [ ]`
 
-#### 
-
-#### ` readable, writable, exceptional =select.select(inputs, outputs, inputs)`
+#### `readable, writable, exceptional =select.select(inputs, outputs, inputs)`
 
 
 
