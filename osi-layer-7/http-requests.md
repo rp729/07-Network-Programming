@@ -21,25 +21,25 @@
 
 #### `Connection: Keep-Alive`
 
--------------------------------------------
+---
 
 #### Example 2
 
 #### `POST /cgi-bin/process.cgiHTTP/1.1`
 
-#### ` User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)`
+#### `User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)`
 
-#### ` Host: www.tutorialspoint.com`
+#### `Host: www.tutorialspoint.com`
 
-#### ` Content-Type: application/x-www-form-urlencoded`
+#### `Content-Type: application/x-www-form-urlencoded`
 
-#### ` Content-Length: length`
+#### `Content-Length: length`
 
-#### ` Accept-Language:en-us`
+#### `Accept-Language:en-us`
 
-#### ` Accept-Encoding:gzip, deflate`
+#### `Accept-Encoding:gzip, deflate`
 
-#### ` Connection: Keep-Alive`
+#### `Connection: Keep-Alive`
 
 
 
