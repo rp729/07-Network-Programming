@@ -32,7 +32,7 @@ We need to import select, and set our sockets to be non-blocking.
 
 ---
 
-### Setting Up Call
+### Setting Up a Call
 
 Select\(\) takes 3 parameters, each is a list of file descriptors.
 
@@ -55,6 +55,46 @@ FDs can be in multiple lists.
 #### `outputs = [ ]`
 
 #### `readable, writable, exceptional =select.select(inputs, outputs, inputs)`
+
+------------------------------------------------------------
+
+### Using It
+
+You do NOT need to use all return values in the for-loops below. If you only care about reading, then omit the remaining two loops.
+
+The returned lists may also be handled in any order. If you prioritize writes, handle that list first.
+
+Remember that the parameters and return values are all Python lists. There is NO guarantee of order of sockets within those lists.
+
+#### `socklist = [mysock1: ‘host1’, mysock2: ‘host1:8080’, mysock3: ‘host2-description’}`
+
+#### 
+
+#### `while True:`
+
+#### `readable, writable, exceptional =select.select(inputs, outputs, inputs)`
+
+#### `for s in readable:`
+
+#### `# compare s to your socket list to find out which one it is`
+
+#### `# read incoming data and handle it`
+
+#### `for s in writeable:`
+
+#### `# compare s to your socket list to find out which one it is`
+
+#### `# identify data that goes to that socket, and write it`
+
+#### `for s in exceptional:`
+
+#### `# compare s to your socket list to find out which one it is`
+
+#### `# handle the exception`
+
+#### `# You may have internal states to keep track of. Update them now`
+
+ \(e.g. is the user logged in? How far along in a buffer are you\)
 
 
 
