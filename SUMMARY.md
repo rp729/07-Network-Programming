@@ -108,4 +108,5 @@
   * [Intro to HTTP](osi-layer-7/intro-to-http.md)
   * [HTTP Requests](osi-layer-7/http-requests.md)
   * [HTTP Responses](osi-layer-7/http-responses.md)
+  * [HTTP Status Codes](osi-layer-7/http-status-codes.md)
 
