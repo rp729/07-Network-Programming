@@ -105,4 +105,5 @@
   * [DNS Tiers - ASCII View](osi-layer-7/dns-tiers-ascii-view.md)
   * [Dig](osi-layer-7/dig.md)
   * [Dig - Output](osi-layer-7/dig-output.md)
+  * [Intro to HTTP](osi-layer-7/intro-to-http.md)
 
