@@ -16,13 +16,21 @@
 
 #### `+nocomments` – Turn off the comment lines.
 
-#### `+noauthority `– Turn off the authority section.
+#### `+noauthority`– Turn off the authority section.
 
-#### `+noadditional `– Turn off the additional section.
+#### `+noadditional`– Turn off the additional section.
 
-#### `+nostats `– Turn off the stats section.
+#### `+nostats`– Turn off the stats section.
 
 #### `+noanswer` – Turn off the answer section \(Of course, you wouldn’t want to turn off the answer section\).
 
+$ dig redhat.com +noall+answer
 
+
+
+; &lt;&lt;&gt;&gt; DiG 9.7.3-RedHat-9.7.3-2.el6 &lt;&lt;&gt;&gt; redhat.com +noall+answer
+
+;; global options: +cmd
+
+redhat.com. 60 IN A 209.132.183.81
 
