@@ -2,7 +2,7 @@
 
 Domain names are for the benefit of humans.
 
-IPs are difficult to remember, and if they change it is almost impossible to fully advertise the new IP to everyone. DNS maps domain names to IPs, and can advertise the services each domain offers \(HTTP, MAIL, etc\). Operates on UDP port 53. It's is the networking system in place that allows us to resolve human-friendly names to unique addresses.
+IPs are difficult to remember, and if they change it is almost impossible to fully advertise the new IP to everyone. DNS maps domain names to IPs, and can advertise the services each domain offers \(HTTP, MAIL, etc\). This is the networking system in place that allows us to resolve human-friendly names to unique addresses.  The network requests supporting DNS lookups run over TCP and UDP, port 53 by default.
 
 ### Fully Qualified Domain Name \(Root-Level Domain\)
 
