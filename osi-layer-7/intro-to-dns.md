@@ -24,7 +24,7 @@ A top-level domain, or TLD, is the most general part of the domain. The top-leve
 
 ### Second-Level Domain
 
-These are names registered to an individual or organization for use on the Internet. These names can be of Variable-length and are always based upon an appropriate top-level domain, depending on the type of organization or geographic location where a name is used. 
+These are names registered to an individual or organization for use on the Internet. These names can be of Variable-length and are always based upon an appropriate top-level domain, depending on the type of organization or geographic location where a name is used.
 
 ### **Subdomain**
 
@@ -32,7 +32,7 @@ Additional names that an organization can create that are derived from the regis
 
 ### **Host or resource name**
 
- Typically, the leftmost label of a DNS domain name identifies a specific resource, such as a computer on the network. The difference between a host name and a subdomain is that a host defines a computer or resource, while a subdomain extends the parent domain. It is a method of subdividing the domain itself.
+Typically, the leftmost label of a DNS domain name identifies a specific resource, such as a computer on the network. The difference between a host name and a subdomain is that a host defines a computer or resource, while a subdomain extends the parent domain. It is a method of subdividing the domain itself.
 
-
+![](/assets/dns_1.png)
 
