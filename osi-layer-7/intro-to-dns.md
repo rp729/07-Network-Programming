@@ -28,7 +28,7 @@ These are names registered to an individual or organization for use on the Inter
 
 ### **Subdomain**
 
-Additional names that an organization can create that are derived from the registered second-level domain name. For example: example.contoso.com.
+Additional names that an organization can create that are derived from the registered second-level domain name. For example: **"example.google.com"**.
 
 ### **Host or resource name**
 
