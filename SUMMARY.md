@@ -111,4 +111,5 @@
   * [JSON Module](looping/json-module.md)
   * [encode\(\)/decode\(\)](looping/encodedecode.md)
   * [select\(\)](select.md)
+  * [Error Handling](error-handling.md)
 

@@ -1,5 +1,7 @@
 # Socket Basics
 
+https://docs.python.org/2/library/socket.html?highlight=pton\#module-socket
+
 * **To create a socket:**
 
 ###### _import socket _
