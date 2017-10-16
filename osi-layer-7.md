@@ -1,10 +1,11 @@
 # OSI Layer 7
 
 * Introduction to DNS
-* FQDNs
+* FQDN
 * DNS Record Format
 * SOA Records
 * A/AAAA Records
+* PTR Records
 * CNAME Records
 * MX Records
 * SRV Records

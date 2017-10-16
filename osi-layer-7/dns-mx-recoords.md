@@ -1,4 +1,4 @@
-# DNS - MX Recoords
+# DNS - MX Records
 
 #### Provides the mailservers for the FQDN. There can be multiple listings:
 

@@ -1,4 +1,4 @@
-# DNS Records Format
+# DNS Record Format
 
 **Owner **- Name of domain
 
