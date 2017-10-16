@@ -16,7 +16,7 @@
 * Dig Output
 * Introduction to HTTP
 * HTTP Requests
-* HTTP Response
+* HTTP Responses
 * HTTP Status Codes
 
 
