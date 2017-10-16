@@ -95,7 +95,7 @@
 * [OSI Layer 7](osi-layer-7.md)
   * [Intro to DNS](osi-layer-7/intro-to-dns.md)
   * [DNS Servers](osi-layer-7/dns-servers.md)
-  * [DNS Record](osi-layer-7/dns-records-format.md)
+  * [DNS Resource Records](osi-layer-7/dns-records-format.md)
   * [SOA Records](osi-layer-7/dns-soa-records.md)
   * [DNS – A and AAAA Records](osi-layer-7/dns-a-and-aaaa-records.md)
   * [DNS – PTR Records](osi-layer-7/dns-ptr-records.md)
