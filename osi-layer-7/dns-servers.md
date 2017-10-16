@@ -32,8 +32,6 @@ The name server checks its zone files and it finds that it has a zone file assoc
 
 When a DNS request is made it is usually sent to a Resolving Name Server.  They are intermediaries for the users with cached queries to resolve addresses quickly.  If the request is not cached, it is then passed to the Root Servers and proceeds to go through the process of "resolving" the request.
 
-Resolving name servers basically compress the requesting process for the end user. The clients simply have to know to ask the resolving name servers where a resource is located and be confident that they will investigate and return the final answer.
-
 ### Zone Files
 
 A zone file is a simple text file that contains the mappings between domain names and IP addresses. This is how the DNS system finally finds out which IP address should be contacted when a user requests a certain domain name.
@@ -41,6 +39,4 @@ A zone file is a simple text file that contains the mappings between domain name
 Zone files reside in name servers and generally define the resources available under a specific domain, or the place that one can go to get that information.
 
 However, don't confuse Zones with Domains, a zone will start as a storage for a single DNS domain name. If you add other domains below the domain where the zone was created, these domains can either be part of the same zone or belong to another zone. If you add a subdomain, the subdomain can either be included and managed as part of the original zone record, or delegated to another zone created for the subdomain.
-
-
 
