@@ -8,5 +8,5 @@ IPs are difficult to remember, and if they change it is almost impossible to ful
 
 ### Top-Level Domain {#top-level-domain}
 
-A top-level domain, or TLD, is the most general part of the domain. The top-level domain is the furthest portion to the right \(as separated by a dot\). Common top-level domains are "com", "net", "org", "gov", "edu", and "io".
+A top-level domain, or TLD, is the most general part of the domain. The top-level domain is the furthest portion to the right \(as separated by a dot\). Common top-level domains are "com", "net", "org", "gov", "edu", and "io". As the name implies, Top-level Domain names are at the top of the heirarchy.
 
