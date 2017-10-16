@@ -9,8 +9,11 @@
 * CNAME Records
 * MX Records
 * SRV Records
-* DNS Tiers
 * DNS Resolution
+* DNS Request
+* DNS Tiers
+* Dig
+* Dig Output
 * Introduction to HTTP
 * HTTP Requests
 * HTTP Response
