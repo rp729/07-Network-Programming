@@ -34,17 +34,13 @@ Write a UDP sender that sends the initial string, and receives the response from
 
 Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
 
-**Lab 3F**
+\***Lab 3F**
 
-https://linux.die.net/man/8/arping
+[https://linux.die.net/man/8/arping](https://linux.die.net/man/8/arping)
 
-Generate a valid ARP Request to your VM. Valid means it conforms the RFC, Wireshark confirms it is not malformed/displays no errors, and your request produces a reply.
-
-
+Generate a valid ARP Request to your VM. Wireshark confirms it is not malformed/displays no errors, and your request produces a reply.
 
 Ensure that you see both your frame and your VM's frame on Wireshark.
 
-
-
-Ensure that you see the ARP Reply triggered by your ARP request in Wireshark. If you do not, your frame is incorrect.
+Ensure that you see the ARP Reply triggered by your ARP request in Wireshark.
 

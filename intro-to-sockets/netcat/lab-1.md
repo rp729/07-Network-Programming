@@ -16,11 +16,11 @@ Practice filtering traffic by:
 * protocol
 * A combination of the above
 
-Familiarize yourself with the available options in Netcat. 
+Familiarize yourself with the available options in Netcat.
 
 Try to use Netcat:
 
-* Instant message appliication
+* Instant message application
 
 * To send a file
 
@@ -29,8 +29,6 @@ Try to use Netcat:
 * Reverse Shell
 
 * Banner Grab
-
-
 
 
 

@@ -1,32 +1,28 @@
 # OSI Layer 3
 
-* Introduction to IP
+* Introduction to Internet Protocol
 * IPv4 Addresses
 * IPv4 Address Classes
 * Subnet Mask
 * CIDR
-* Routers
 * Routing Protocols
-* Routing Basics
-* Routing
+* Routing 
 * IPv4
-* IPv4 Header Fields
 * NAT and PAT
 * IPv6
 * IPv6 Addresses
 * IPv6 Address Types
-* IPv6 Global Unicast
-* IPv6 Multicast
-* IPv6 Anycast
-* IPv6 Header Fields
+* Unicast
+* Multicast
+* Anycast
+* IPv6 Header 
 * ICMP
-* ICMP Types and Codes
 * Ping
-* Reasons for ICMP Error Messages
-* MTU and Fragmentation
+* ICMP Errors
 * ICMP Header
+* MTU and Fragmentation
 * NDP
-* IPV6 Labs
+* Labs
 
 
 

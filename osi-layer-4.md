@@ -2,9 +2,13 @@
 
 * Introduction to TCP
 
-* TCP Flags
+* TCP Header
+
+* TCP Header and Flags
 
 * Sequence and Acknowledgements
+
+* SACK
 
 * TCP Handshake
 
@@ -12,19 +16,13 @@
 
 * TCP State
 
+* Reset and ICMP
+
 * Traffic Control
 
-* TCP Header
-
-* TCP Fields
-
-* Introduction to UDP
-
-* Protocols using UDP
+* UDP
 
 * UDP Header
-
-* UDP Fields
 
 
 

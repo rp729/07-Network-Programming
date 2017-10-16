@@ -1,10 +1,12 @@
-Now that you've recorded some network data it's time to take a look at the captured packets. As shown in the screenshot above, the captured data interface contains three main sections: The packet list pane, the packet details pane, and the packet bytes pane.
+# Analyzing Packets
 
-##### **There are threewindows in Wireshark:**
+Now that you've recorded some network data it's time to take a look at the captured packets. As shown in the screenshot below, the captured data interface contains three main sections: The packet list pane, the packet details pane, and the packet bytes pane.
 
-1. The traffic window which shows the packets in order of receipt.
-2. The packet window which shows the packet \(and frame\) breakdowns of the selected packet from the traffic window.
-3. The _hexdump_ window which shows the raw bytes of the highlighted section highlighted in the packet window.
+##### **There are three windows in Wireshark:**
+
+1. The **traffic **window which shows the packets in order of receipt.
+2. The **packet **window which shows the packet \(and frame\) breakdowns of the selected packet from the traffic window.
+3. The _**hexdump**_** **window which shows the raw bytes of the highlighted section highlighted in the packet window.
 
 ![](/assets/wireshark-captured-data-panes-59512e265f9b58f0fc7b1f17.png)
 
