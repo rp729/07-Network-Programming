@@ -1,6 +1,25 @@
 # HTTP Responses
 
-HTTP Responses conclude that particular transaction. Other transactions may be required to get other resources found on the page. Remember that \r\n separates the header from the actual data.
+HTTP Responses conclude the transaction. Other transactions may be required to get other resources found on the page. Remember that \r\n separates the header from the actual data.
+
+### Initial Response Line \(Status Line\)
+
+The initial response line, called the status line, also has three parts separated by spaces: the HTTP version, a response status code that gives the result of the request, and an English reason phrase describing the status code. Typical status lines are:
+
+> ```
+> HTTP/1.0 200 OK
+> ```
+
+or
+
+> ```
+> HTTP/1.0 404 Not Found
+> ```
+
+Notes:
+
+* The HTTP version is in the same format as in the request line, "**HTTP/x.x**".
+* The status code is meant to be computer-readable; the reason phrase is meant to be human-readable, and may vary.
 
 ---
 
