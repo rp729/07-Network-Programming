@@ -21,11 +21,25 @@
 
 #### `Connection: Keep-Alive`
 
+### Initial Request Line
+
+The initial line is different for the request than for the response. A request line has three parts, separated by spaces: a method name, the local path of the requested resource, and the version of HTTP being used. A typical request line is:
+
+> ```
+> GET /path/to/file/index.html HTTP/1.0
+> ```
+
+Notes:
+
+* **GET** is the most common HTTP method; it says "give me this resource". Other methods include **POST** and **HEAD**-- more on those [later](file:///C:/Users/DOT/Desktop/HTTP%20Made%20Really%20Easy.htm#othermethods). Method names are always uppercase.
+* The path is the part of the URL after the host name, also called the request URI \(a URI is like a URL, but more general\).
+* The HTTP version always takes the form "**HTTP/x.x**", uppercase.
+
 ---
 
 #### Example 2
 
-#### `POST /cgi-bin/process.cgiHTTP/1.1`
+#### `POST /cgi-bin/process.cgi HTTP/1.1`
 
 #### `User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)`
 
