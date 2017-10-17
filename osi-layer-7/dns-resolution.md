@@ -7,5 +7,7 @@
 
 * If at any point there is a known resolution, it is passed back down immediately. No need to bother anyone else in the chain. This answer will be cached as it goes back down.
 
+![](/assets/dns_2.png)
 
+![](/assets/dns_3.png)
 
