@@ -27,3 +27,16 @@ A browser is an HTTP client because it sends requests to an HTTP server \(Web se
 
 **CR** and **LF** are control characters, respectively coded 0x0D \(13 decimal\) and 0x0A \(10 decimal\). They are used to mark a line break in a text file. As you indicated, Windows uses two characters the **CR LF** sequence; Unix only uses **LF** and the old MacOS \( pre-OSX MacIntosh\) used **CR.**
 
+----------------------------------
+
+### HTTP 1.1
+
+Like many protocols, HTTP is constantly evolving. HTTP 1.1 has recently been defined, to address new needs and overcome shortcomings of HTTP 1.0. Generally speaking, it is a superset of HTTP 1.0. Improvements include:
+
+* Faster response, by allowing multiple transactions to take place over a single persistent connection.
+* Faster response and great bandwidth savings, by adding cache support.
+* Faster response for dynamically-generated pages, by supporting chunked encoding, which allows a response to be sent before its total length is known.
+* Efficient use of IP addresses, by allowing multiple domains to be served from a single IP address.
+
+
+

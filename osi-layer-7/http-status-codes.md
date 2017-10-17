@@ -30,8 +30,6 @@ Below are some common ones:
 * 500 Internal Server Error - Something probably errored/crashed while processing your request.
 * 503 Server Unavailable - No server can handle the request at this time. May include a "Retry-After" key-value pair.
 
-
-
 **A complete list of status codes is in the HTTP specification \(section 9 for HTTP 1.0, and section 10 for HTTP 1.1\).**
 
 * **HTTP 1.0 \(RFC 1945\)--**[HTML](http://www.ics.uci.edu/pub/ietf/http/rfc1945.html), [text](http://www.ics.uci.edu/pub/ietf/http/rfc1945.txt), and [gzip'd PostScript](http://www.ics.uci.edu/pub/ietf/http/rfc1945.ps.gz)
