@@ -1,8 +1,13 @@
 # DNS - CNAME
 
-Canonical Name - an alias for a specific FQDN.
+CNAME records define an alias for canonical name for your server \(one defined by an A or AAAA record\).
 
-##### _ftp.noam.reskit.com. IN CNAME ftp1.noam.reskit.com._
+For instance, we could have an A name record defining the "server1" host and then use the "www" as an alias for this host:
+
+```
+server1     IN  A       111.111.111.111
+www         IN  CNAME   server1
+```
 
 According to RFC 2181, there must be only one canonical name per alias.
 

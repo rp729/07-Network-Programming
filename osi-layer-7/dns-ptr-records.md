@@ -1,19 +1,25 @@
 # DNS – PTR Records
 
-#### Pointer Records \(PTR\) maps an IP to FQDN
+The PTR records are used define a name associated with an IP address. PTR records are the inverse of an A or AAAA record. PTR records are unique in that they begin at the `.arpa` root and are delegated to the owners of the IP addresses. The Regional Internet Registries \(RIRs\) manage the IP address delegation to organization and service providers. The Regional Internet Registries include APNIC, ARIN, RIPE NCC, LACNIC, and AFRINIC.
 
-#### Also known as:  .in-addr.arpa \(inverse address\)
+Here is an example of a PTR record for 111.222.333.444 would look like:
 
-`1.48.16.172.in-addr.arpa. IN PTR noamdc1.noam.reskit.com.`
+```
+444.333.222.111.in-addr.arpa.   33692   IN  PTR host.example.com.
+```
 
-`9.2.3.8.2.4.0.0.0.0.f.f.0.0.0.0.0.0.0.0.0.0.0.0.8.b.d.0.1.0.0.2.ip6.arpa. 1h IN PTR noamdc1.noam.reskit.com.`
+ This example of a PTR record for an IPv6 address shows the _nibble_ format of the reverse of Google's IPv6 DNS Server `2001:4860:4860::8888`
+
+```
+8.8.8.8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.6.8.4.0.6.8.4.1.0.0.2.ip6.arpa. 86400IN PTR google-public-dns-a.google.com.
+```
 
 #### There are several things of note:
 
 * #### The IP is backwards.
 * #### The string 'in-addr.arpa.' is appended to the reversed IP.
-* #### 'in-addr.arpa.' ends with a .
-* #### The IPv6 address is not in a traditional format \([http://rdns6.com/hostRecord\](http://rdns6.com/hostRecord\)\).
+* #### 'in-addr.arpa.' ends with a . \(meaning it's the fully qualified domain name
+* #### The IPv6 address is not in a traditional format \([http://rdns6.com/hostRecord\](http://rdns6.com/hostRecord%29\)\)
 
 
 
