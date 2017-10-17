@@ -103,8 +103,6 @@
   * [DNS - MX Records](osi-layer-7/dns-mx-recoords.md)
   * [DNS - SRV Records](osi-layer-7/dns-srv-records.md)
   * [DNS Resolution](osi-layer-7/dns-resolution.md)
-  * [DNS Request ASCII View](osi-layer-7/dns-request-ascii-view.md)
-  * [DNS Tiers - ASCII View](osi-layer-7/dns-tiers-ascii-view.md)
   * [Dig](osi-layer-7/dig.md)
   * [Dig - Output](osi-layer-7/dig-output.md)
   * [Intro to HTTP](osi-layer-7/intro-to-http.md)
