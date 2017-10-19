@@ -56,7 +56,7 @@ FDs can be in multiple lists.
 
 #### `readable, writable, exceptional =select.select(inputs, outputs, inputs)`
 
-------------------------------------------------------------
+---
 
 ### Using It
 
@@ -68,7 +68,7 @@ Remember that the parameters and return values are all Python lists. There is NO
 
 #### `socklist = [mysock1: ‘host1’, mysock2: ‘host1:8080’, mysock3: ‘host2-description’}`
 
-#### 
+
 
 #### `while True:`
 
@@ -76,25 +76,19 @@ Remember that the parameters and return values are all Python lists. There is NO
 
 #### `for s in readable:`
 
-#### `# compare s to your socket list to find out which one it is`
-
-#### `# read incoming data and handle it`
+* #### `# compare s to your socket list to find out which one it is`
+* #### `# read incoming data and handle it`
 
 #### `for s in writeable:`
 
-#### `# compare s to your socket list to find out which one it is`
-
-#### `# identify data that goes to that socket, and write it`
+* #### `# compare s to your socket list to find out which one it is`
+* #### `# identify data that goes to that socket, and write it`
 
 #### `for s in exceptional:`
 
-#### `# compare s to your socket list to find out which one it is`
+* #### `# compare s to your socket list to find out which one it is`
+* #### `# handle the exception`
+* #### `# You may have internal states to keep track of. Update them now`
 
-#### `# handle the exception`
-
-#### `# You may have internal states to keep track of. Update them now`
-
- \(e.g. is the user logged in? How far along in a buffer are you\)
-
-
+\(e.g. is the user logged in? How far along in a buffer are you\)
 
