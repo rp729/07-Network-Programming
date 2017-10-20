@@ -183,15 +183,15 @@ Unpacked: (1, 'ab', 2.700000047683716)
 
 #### See also:
 
-**struct:** The standard library documentation for this module. \(https://docs.python.org/2.7/library/struct.html\)
+**struct:** The standard library documentation for this module. \([https://docs.python.org/2.7/library/struct.html\](https://docs.python.org/2.7/library/struct.html\)\)
 
-**array:** The array module, for working with sequences of fixed-type values. \(https://docs.python.org/2/library/array.html\)
+**array:** The array module, for working with sequences of fixed-type values. \([https://docs.python.org/2/library/array.html\](https://docs.python.org/2/library/array.html\)\)
 
-**binascii: ** The binascii module, for producing ASCII representations of binary data. 
+**binascii: ** The binascii module, for producing ASCII representations of binary data.
 
-\(https://docs.python.org/2/library/binascii.html\)
+\([https://docs.python.org/2/library/binascii.html\](https://docs.python.org/2/library/binascii.html\)\)
 
-**WikiPedia: Endianness** - Explanation of byte order and endianness in encoding. \(https://en.wikipedia.org/wiki/Endianness\)
+**WikiPedia: Endianness** - Explanation of byte order and endianness in encoding. \([https://en.wikipedia.org/wiki/Endianness\](https://en.wikipedia.org/wiki/Endianness\)\)
 
-_**In-Memory Data Structures: **_ More tools for working with data structures. 
+_**In-Memory Data Structures: **_ More tools for working with data structures. \(https://www.gitbook.com/book/rsjakob/iqt-network-programming/edit\#/edit/master/in-memory-data-structures.md?\_k=fwbowi\) 
 
