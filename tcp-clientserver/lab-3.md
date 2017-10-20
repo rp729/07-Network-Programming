@@ -22,7 +22,7 @@ Write the UDP receiver to receive the JSON string and turns it back into a dicti
 
 Validate by printing the type of your dictionary variable. \(Build in IPv4 and IPv6\)
 
-**Lab 3E**
+**Lab 3E \(Bonus\)**
 
 Write a UDP receiver that receives a string, and orders the words from longest to shortest in a new string.
 
