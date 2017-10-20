@@ -16,20 +16,17 @@ echo server
 
 file transfer
 
-
-
 ## Functions vs. Struct Class
 
 There are a set of module-level functions for working with structured values, and there is also theStructclass \(new in Python 2.5\). Format specifiers are converted from their string format to a compiled representation, similar to the way regular expressions are. The conversion takes some resources, so it is typically more efficient to do it once when creating aStructinstance and call methods on the instance instead of using the module-level functions. All of the examples below use theStructclass.
 
-## Packing and Unpacking[¶](https://pymotw.com/2/struct/index.html#packing-and-unpacking)
+## Packing and Unpacking
 
-Structs support_packing_data into strings, and_unpacking_data from strings using format specifiers made up of characters representing the type of the data and optional count and endian-ness indicators. For complete details, refer to[the standard library documentation](http://docs.python.org/2.7/library/struct.html).
+Structs support\_packing\_data into strings, and\_unpacking\_data from strings using format specifiers made up of characters representing the type of the data and optional count and endian-ness indicators. For complete details, refer to the standard library documentation.
 
 In this example, the format specifier calls for an integer or long value, a two character string, and a floating point number. The spaces between the format specifiers are included here for clarity, and are ignored when the format is compiled.
 
 ```
-
 import struct 
 import binascii
 
@@ -91,7 +88,7 @@ endianness = [
     ('>', 'big-endian'),
     ('!', 'network'),
     ]
-    
+
 for code, name in endianness:
     s = struct.Struct(code + ' I 2s f')
     packed_data = s.pack(*values)
@@ -182,28 +179,19 @@ array
 Before  : 000000000000000000000000
 After   : 0100000061620000cdcc2c40
 Unpacked: (1, 'ab', 2.700000047683716)
-
 ```
 
-See also
+#### See also:
 
-[struct](http://docs.python.org/2.7/library/struct.html)
+**struct:** The standard library documentation for this module. \(https://docs.python.org/2.7/library/struct.html\)
 
-The standard library documentation for this module.
+**array:** The array module, for working with sequences of fixed-type values. \(https://docs.python.org/2/library/array.html\)
 
-[array](https://pymotw.com/2/array/index.html#module-array)
+**binascii: ** The binascii module, for producing ASCII representations of binary data. 
 
-The array module, for working with sequences of fixed-type values.
+\(https://docs.python.org/2/library/binascii.html\)
 
-binascii
+**WikiPedia: Endianness** - Explanation of byte order and endianness in encoding. \(https://en.wikipedia.org/wiki/Endianness\)
 
-The binascii module, for producing ASCII representations of binary data.
-
-[WikiPedia: Endianness](http://en.wikipedia.org/wiki/Endianness)
-
-Explanation of byte order and endianness in encoding.
-
-[_In-Memory Data Structures_](https://pymotw.com/2/articles/data_structures.html#article-data-structures)
-
-More tools for working with data structures.
+_**In-Memory Data Structures: **_ More tools for working with data structures. 
 
