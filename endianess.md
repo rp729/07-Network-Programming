@@ -9,7 +9,8 @@ import binascii
 values = (1, 'ab', 2.7)
 print 'Original values:', values
 
-endianness = [
+endianness = 
+    [
     ('@', 'native, native'),
     ('=', 'native, standard'),
     ('<', 'little-endian'),
@@ -60,5 +61,5 @@ Unpacked Value : (1, 'ab', 2.700000047683716)
 
 #### See also:
 
-**WikiPedia: Endianness** - Explanation of byte order and endianness in encoding. \([https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness%29\)\)
+**WikiPedia: Endianness** - Explanation of byte order and endianness in encoding. \([https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness%29%29\)
 
