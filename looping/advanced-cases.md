@@ -10,6 +10,14 @@ Options have a LEVEL, OPTION NAME, and a VALUE.
 
 Unfortunately, options are scattered all over the place in documentation. Man pages are currently the best source or for a grouping of common ones, see the refs.
 
+##### `socket.setsockopt`\(_level_, _ optname_, _ value_\)
+
+Set the value of the given socket option \(see the Unix manual page_setsockopt\(2\)_\). The needed symbolic constants are defined in the[`socket`](https://docs.python.org/2/library/socket.html#module-socket)module \(`SO_*`etc.\). The value can be an integer or a string representing a buffer. In the latter case it is up to the caller to ensure that the string contains the proper bits \(see the optional built-in module[`struct`](https://docs.python.org/2/library/struct.html#module-struct)for a way to encode C structures as strings\).
+
+##### `socket.getsockopt`\(_level_, _ optname_\[, _ buflen_\]\)
+
+Return the value of the given socket option \(see the Unix man page_getsockopt\(2\)_\). The needed symbolic constants \(`SO_*`etc.\) are defined in this module. If_buflen_is absent, an integer option is assumed and its integer value is returned by the function. If_buflen_is present, it specifies the maximum length of the buffer used to receive the option in, and this buffer is returned as a string. It is up to the caller to decode the contents of the buffer \(see the optional built-in module[`struct`](https://docs.python.org/2/library/struct.html#module-struct)for a way to decode C structures encoded as strings\).
+
 The default socket buffer size may not be suitable in many circumstances. In such circumstances, you can change the default socket buffer size to a more suitable value.
 
 ## How to do it...
@@ -33,11 +41,11 @@ RECV_BUF_SIZE = 4096
 
 def modify_buff_size():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM )
-    
+
     # Get the size of the socket's send buffer
     bufsize = sock.getsockopt(socket.SOL_SOCKET, socket.SO_SNDBUF)
     print "Buffer size [Before]:%d" %bufsize
-    
+
     sock.setsockopt(socket.SOL_TCP, socket.TCP_NODELAY, 1)
     sock.setsockopt(
             socket.SOL_SOCKET,
@@ -68,5 +76,7 @@ You can call the`getsockopt()`and`setsockopt()`methods on a socket object to ret
 
 #### See Also:
 
+http://man7.org/linux/man-pages/man2/setsockopt.2.html
 
+https://linux.die.net/man/2/getsockopt
 

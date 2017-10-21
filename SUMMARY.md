@@ -44,6 +44,9 @@
   * [\*encode\(\)/decode\(\)](looping/encodedecode.md)
   * [\*select\(\)](select.md)
   * [\*SocketServer](socketserver.md)
+  * \*Socket Timeout
+  * Socket Blocking
+  * Reusing Socket Addresses
 * [OSI Layer 2](osi-layer-2.md)
   * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
   * [Layer 1 Devices](osi-layer-2/layer-1-devices.md)
