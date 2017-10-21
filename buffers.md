@@ -1,6 +1,6 @@
 ## Buffers
 
-Working with binary packed data is typically reserved for highly performance sensitive situations or passing data into and out of extension modules. In such situations, you can optimize by avoiding the overhead of allocating a new buffer for each packed structure. Thepack\_into\(\)andunpack\_from\(\)methods support writing to pre-allocated buffers directly.
+Working with binary packed data is typically reserved for highly performance sensitive situations or passing data into and out of extension modules. In such situations, you can optimize by avoiding the overhead of allocating a new buffer for each packed structure. The pack\_into\(\) and unpack\_from\(\) methods support writing to pre-allocated buffers directly.
 
 ```
 import struct
@@ -14,8 +14,10 @@ print
 print 'ctypes string buffer'
 
 import ctypes
+
 b = ctypes.create_string_buffer(s.size)
 print 'Before  :', binascii.hexlify(b.raw)
+
 s.pack_into(b, 0, *values)
 print 'After   :', binascii.hexlify(b.raw)
 print 'Unpacked:', s.unpack_from(b, 0)
@@ -24,8 +26,10 @@ print
 print 'array'
 
 import array
+
 a = array.array('c', '\0' *s.size)
 print 'Before  :', binascii.hexlify(a)
+
 s.pack_into(a, 0, *values)
 print 'After   :', binascii.hexlify(a)
 print 'Unpacked:', s.unpack_from(a, 0)

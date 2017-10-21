@@ -72,11 +72,11 @@ Unpacked Values: (1, 'ab', 2.700000047683716)
 
 #### See also:
 
-**struct:** The standard library documentation for this module. \([https://docs.python.org/2.7/library/struct.html\](https://docs.python.org/2.7/library/struct.html%29\)
+**struct:** The standard library documentation for this module. \([https://docs.python.org/2.7/library/struct.html](https://docs.python.org/2.7/library/struct.html%29\)\)
 
-**array:** The array module, for working with sequences of fixed-type values. \([https://docs.python.org/2/library/array.html\](https://docs.python.org/2/library/array.html%29\)
+**array:** The array module, for working with sequences of fixed-type values. \([https://docs.python.org/2/library/array.html](https://docs.python.org/2/library/array.html%29\)\)
 
-**binascii: ** The binascii module, for producing ASCII representations of binary data.
+**binascii: ** The binascii module, for producing ASCII representations of binary data.  
 
-\([https://docs.python.org/2/library/binascii.html](https://docs.python.org/2/library/binascii.html%29\)\)
+\([https://docs.python.org/2/library/binascii.html](https://docs.python.org/2/library/binascii.html%29%29\)\)
 
