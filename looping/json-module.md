@@ -2,7 +2,57 @@
 
 JSON = JavaScript Object Notation. It's a series of key-value pairs. The key-value pairs may be nested.
 
+* A data encoding commonly used on the web when interacting with Javascript 
+* Sometime preferred over XML because it's less verbose and faster to parse 
+* Syntax is almost identical to a Python dict
 
+{  
+
+    "recipe" : {
+
+        "title" : "Famous Guacomole",
+
+        "description" : "A southwest favorite!",
+
+        "ingredients" : \[
+
+            {"num": "2", "item":"Large avocados, chopped"},
+
+            {"num": "1/2", "units":"C", "item":"White onion, chopped"},
+
+            {"num": "1", "units":"tbl", "item":"Fresh squeezed lemon juice"},
+
+            {"num": "1", "item":"Jalapeno pepper, diced"},
+
+            {"num": "1", "units":"tbl", "item":"Fresh cilantro, minced"}, 
+
+            {"num": "3", "units":"tsp", "item":"Sea Salt"}, 
+
+            {"num": "6", "units":"bottles","item":"Ice-cold beer"} 
+
+        \],      
+
+        "directions" : "Combine all ingredients and hand whisk to desired consistency. Serve and enjoy with ice-cold beers."  
+
+    } 
+
+}
+
+* #### **Parsing a JSON document **
+
+`import json `
+
+`doc = json.load(open("recipe.json")) `
+
+* #### Result is a collection of nested dict/lists
+
+`ingredients = doc['recipe']['ingredients'] `
+
+`for item in ingredients:     `
+
+  `   # Process item     `
+
+  `   ... `
 
 json.dumps\(\) creates a JSON string from the data passed in. It looks like a Python dictionary with quotes around it
 
@@ -19,8 +69,6 @@ json.dumps\(\) creates a JSON string from the data passed in. It looks like a Py
 `{'foo': 1, 'bar': 'qwerty'}`
 
 `>>>`
-
-
 
 json.loads\(\) takes a JSON String and makes it onto a dictionary
 
