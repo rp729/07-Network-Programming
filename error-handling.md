@@ -4,25 +4,23 @@
 
 #### `#handling errors in python socket programs`
 
-#### `importsocket  #for sockets`
+#### `importsocket  #for sockets`
 
-#### `import sys  #for exit`
+#### `import sys  #for exit`
 
-#### `try: `
+#### `try:`
 
-#### `     #create an AF_INET, STREAM socket (TCP)`
+####   `   #create an AF_INET, STREAM socket (TCP)`
 
-#### `     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
+####   `   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
 
 #### `except socket.error, msg:`
 
-#### `     print 'Failed to create socket. Error code: ' + str(msg[0]) +' , Error message : ' + msg[1]`
+####   `   print 'Failed to create socket. Error code: ' + str(msg[0]) +' , Error message : ' + msg[1]`
 
-#### `     sys.exit();`
+####   `   sys.exit();`
 
 #### `print 'Socket Created'`
-
- 
 
 All errors raise exceptions. The normal exceptions for invalid argument types and out-of-memory conditions can be raised; errors related to socket or address semantics raise the error[`socket.error`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.error).
 
