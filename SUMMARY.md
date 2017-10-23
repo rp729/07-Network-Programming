@@ -44,7 +44,7 @@
   * [\*encode\(\)/decode\(\)](looping/encodedecode.md)
   * [\*select\(\)](select.md)
   * [\*SocketServer](socketserver.md)
-  * [\*Socket Timeout](socket-timeout.md)
+  * [Socket Timeout](socket-timeout.md)
   * [Socket Blocking](socket-blocking.md)
   * [Reusing Socket Addresses](reusing-socket-addresses.md)
 * [OSI Layer 2](osi-layer-2.md)

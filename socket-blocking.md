@@ -25,7 +25,7 @@ def test_socket_modes():
     s.setblocking(1)
     s.settimeout(0.5)
     s.bind(("127.0.0.1", 0))
-    
+
     socket_address = s.getsockname()
     print "Trivial Server launched on socket: %s" %str(socket_address)
     while(1):
@@ -45,6 +45,4 @@ Trivial Server launched on socket: ('127.0.0.1', 51410)
 ## How it works...
 
 In this example, we enable blocking on a socket by setting the value`1`in the`setblocking()`method. Similarly, you can unset the value`0`in this method to make it non-blocking.
-
-This feature will be reused insome later recipes, where its real purpose will be elaborated.
 
