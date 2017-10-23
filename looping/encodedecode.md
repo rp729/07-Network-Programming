@@ -34,7 +34,7 @@ Converting from bytes to str and back.
 
 ---
 
- The method **encode\(\)** returns an encoded version of the string.
+The method **encode\(\)** returns an encoded version of the string.
 
 `bstr2 =str.encode('utf-8')`
 
@@ -42,5 +42,7 @@ Converting from bytes to str and back.
 
 `<class 'bytes'>`
 
-**References: **https://docs.python.org/2/howto/unicode.html
+-------------------------------------------
+
+**References: **[https://docs.python.org/2/howto/unicode.html](https://docs.python.org/2/howto/unicode.html)
 
