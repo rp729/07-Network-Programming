@@ -1,5 +1,29 @@
 # Error Handling
 
+**If any of the socket functions fail then python throws an exception called socket.error which must be caught.**
+
+#### `#handling errors in python socket programs`
+
+#### `importsocket  #for sockets`
+
+#### `import sys  #for exit`
+
+#### `try: `
+
+#### `     #create an AF_INET, STREAM socket (TCP)`
+
+#### `     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
+
+#### `except socket.error, msg:`
+
+#### `     print 'Failed to create socket. Error code: ' + str(msg[0]) +' , Error message : ' + msg[1]`
+
+#### `     sys.exit();`
+
+#### `print 'Socket Created'`
+
+ 
+
 All errors raise exceptions. The normal exceptions for invalid argument types and out-of-memory conditions can be raised; errors related to socket or address semantics raise the error[`socket.error`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.error).
 
 Non-blocking mode is supported through[`setblocking()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.socket.setblocking). A generalization of this based on timeouts is supported through[`settimeout()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.socket.settimeout).
@@ -14,13 +38,13 @@ Changed in version 2.6:[`socket.error`](https://docs.python.org/2/library/socket
 
 _exception _`socket.herror`
 
-This exception is raised for address-related errors, i.e. for functions that use_h\_errno_in the C API, including[`gethostbyname_ex()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.gethostbyname_ex)and[`gethostbyaddr()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.gethostbyaddr).
+This exception is raised for address-related errors, i.e. for functions that use\_h\_errno\_in the C API, including[`gethostbyname_ex()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.gethostbyname_ex)and[`gethostbyaddr()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.gethostbyaddr).
 
-The accompanying value is a pair`(h_errno,string)`representing an error returned by a library call._string_represents the description of_h\_errno_, as returned by the`hstrerror()`C function.
+The accompanying value is a pair`(h_errno,string)`representing an error returned by a library call._string\_represents the description of\_h\_errno_, as returned by the`hstrerror()`C function.
 
 _exception_`socket.gaierror`
 
-This exception is raised for address-related errors, for[`getaddrinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getaddrinfo)and[`getnameinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getnameinfo). The accompanying value is a pair`(error,string)`representing an error returned by a library call._string_represents the description of_error_, as returned by the`gai_strerror()`C function. The_error_value will match one of the`EAI_*`constants defined in this module.
+This exception is raised for address-related errors, for[`getaddrinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getaddrinfo)and[`getnameinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getnameinfo). The accompanying value is a pair`(error,string)`representing an error returned by a library call._string\_represents the description of\_error_, as returned by the`gai_strerror()`C function. The_error\_value will match one of the\`EAI_\*\`constants defined in this module.
 
 _exception_`socket.timeout`
 
