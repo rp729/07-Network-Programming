@@ -39,7 +39,7 @@
   * [Endianess](endianess.md)
   * [Network Byte Order](network-byte-order.md)
   * [In-Memory Data Structures](in-memory-data-structures.md)
-  * [\*setsockopt\(\)/getsockopt\(\)](looping/advanced-cases.md)
+  * [setsockopt\(\)/getsockopt\(\)](looping/advanced-cases.md)
   * [\*JSON Module](looping/json-module.md)
   * [\*encode\(\)/decode\(\)](looping/encodedecode.md)
   * [\*select\(\)](select.md)
