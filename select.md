@@ -68,11 +68,9 @@ Remember that the parameters and return values are all Python lists. There is NO
 
 #### `socklist = [mysock1: ‘host1’, mysock2: ‘host1:8080’, mysock3: ‘host2-description’}`
 
-
-
 #### `while True:`
 
-#### `readable, writable, exceptional =select.select(inputs, outputs, inputs)`
+#### `readable, writable, exceptional = select.select(inputs, outputs, inputs)`
 
 #### `for s in readable:`
 

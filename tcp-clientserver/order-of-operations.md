@@ -19,5 +19,15 @@
 * **send/recv\(\)** – Data Transfer
 * **close\(\)** – Close the socket
 
+#### Multiple Assignment:
+
+`ret = sock.accept()`
+
+`ret[0] # The socket`
+
+`ret[1] # tuple of remote ip/port`
+
+`accept_socket, remote = sock.accept`
+
 
 
