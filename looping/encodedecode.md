@@ -16,6 +16,8 @@ UTF-8 has several convenient properties:
 4. UTF-8 is fairly compact; the majority of code points are turned into two bytes, and values less than 128 occupy only a single byte.
 5. If bytes are corrupted or lost, it’s possible to determine the start of the next UTF-8-encoded code point and resynchronize. It’s also unlikely that random 8-bit data will look like valid UTF-8.
 
+-------------------------------
+
 Converting from bytes to str and back.
 
 `bstr=b'qwerty'`
@@ -42,7 +44,7 @@ The method **encode\(\)** returns an encoded version of the string.
 
 `<class 'bytes'>`
 
--------------------------------------------
+---
 
 **References: **[https://docs.python.org/2/howto/unicode.html](https://docs.python.org/2/howto/unicode.html)
 
