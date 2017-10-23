@@ -1,8 +1,13 @@
 # UDP Characteristics
 
+![](/assets/udp1.PNG)
+
 **Datagram-based **
 
-* Connectionless, unreliable, can broadcast 
+* Connectionless
+* unreliable \(no ordering of data\)
+* can broadcast 
+* Higher performance \(used in games, etc.\)
 
 **Applications usually message-based **
 
@@ -15,5 +20,7 @@
 
 * Usually below 1024, requiring privilege
 
-![](/assets/tcpvudp.PNG)
+![](/assets/tcpvudp.PNG)![](/assets/udp22.PNG)
+
+![](/assets/udp33.PNG)
 
