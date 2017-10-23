@@ -31,6 +31,7 @@
 * [TCP Client/Server](tcp-clientserver.md)
   * [Order of Operations](tcp-clientserver/order-of-operations.md)
   * [sendall\(\)](tcp-clientserver/sendall.md)
+  * [Data Reassembly](tcp-clientserver/data-reassembly.md)
 * [UDP Client/Server](udp-clientserver.md)
   * [Order of Operations](udp-clientserver/order-of-operations.md)
 * [\*Multiple Assignment](udp-clientserver/multiple-assignment.md)
