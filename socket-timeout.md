@@ -1,6 +1,6 @@
 # Setting and Getting The Default Socket Timeout
 
-Sometimes, you need tomanipulate the default values of certain propertiesof a socket library,for example, the socket timeout.
+Sometimes, you need tomanipulate the default values of certain properties of a socket library,for example, the socket timeout.
 
 ![](/assets/timeout.PNG)
 
@@ -40,5 +40,5 @@ Current socket timeout: 100.0
 
 ## How it works...
 
-In this code snippet, we have first created a socket object by passing the socket family and socket type as the first and secondarguments of the socket constructor. Then, youcan get the socket timeout value by calling`gettimeout()`and alter the value by calling the`settimeout()`method. The timeout value passed to the`settimeout()`method can be in seconds \(non-negative float\) or`None`. This method is used for manipulatingtheblocking-socket operations. Setting a timeout of`None`disables timeouts on socket operations.
+In this code snippet, we have first created a socket object by passing the socket family and socket type as the first and secondarguments of the socket constructor. Then, you can get the socket timeout value by calling`gettimeout()`and alter the value by calling the`settimeout()`method. The timeout value passed to the`settimeout()`method can be in seconds \(non-negative float\) or`None`. This method is used for manipulating the blocking-socket operations. Setting a timeout of`None`disables timeouts on socket operations.
 
