@@ -2,7 +2,7 @@
 
 In this exercise, we experiment with setting up a network connection between two different Python interpreters.
 
-To do this exercise, you need to start a different Python interpreter than the one you are using with IDLE. On Windows, go to the "Start" menu and run the "Python \(command line\)" program.  This should pop up a command window where you can directly interact with a Python interpreter.![](/assets/python cmd.PNG)If you want to run it in Linux you can use the Terminal.
+On Windows, go to the "Start" menu and run the "Python \(command line\)" program.  This should pop up a command window where you can directly interact with a Python interpreter.![](/assets/python cmd.PNG)If you want to run it in Linux you can use the Terminal.
 
 **\(a\) Waiting for a Connection**
 
@@ -20,7 +20,7 @@ These statements create a server that is now waiting for an incoming connection.
 
 **\(b\) Making a Connection**
 
-Using IDLE, type the following statements to make a connection to your server program. Keep in mind, these statements are being typed into a _different_ Python interpreter than the one that's running in part \(a\).
+Type the following statements to make a connection to your server program. Keep in mind, these statements are being typed into a _different_ Python interpreter than the one that's running in part \(a\).
 
 > ```
 > >>>from socket import *
@@ -43,7 +43,7 @@ The variable c returned by accept\(\) is a socket object that's connected to the
 
 **\(c\) Sending Some Data**
 
-In IDLE \(the client\), type the following statement to send a "Hello World" message to the server:
+In the interpreter \(the client\), type the following statement to send a "Hello World" message to the server:
 
 > ```
 > >>>s.send("Hello World")
@@ -68,7 +68,7 @@ Have the server send a message back to the client:
 > >>>
 > ```
 
-Have the client receive the server's response. In IDLE, type
+Have the client receive the server's response. Type:
 
 > ```
 > >>>resp = s.recv(1024)
@@ -81,7 +81,7 @@ Observe that you are sending data back and forth between the two Python interpre
 
 **\(d\) Closing the Connection**
 
-In IDLE \(the client\), issue a recv\(\) operation to wait for more data. This should block since the server hasn't actually sent any additional data yet.
+In the client, issue a recv\(\) operation to wait for more data. This should block since the server hasn't actually sent any additional data yet.
 
 > ```
 > >>>s.recv(1024)
@@ -126,9 +126,9 @@ Once again, the server now waits until a new connection arrives.
 
 **\(f\) Connecting with a Browser**
 
-Try connecting to your server program using your internet browser. Simply click on this link \(or type it into the navigation bar\):
+Try connecting to your server program using your internet browser. Type this link into the navigation bar:
 
-[http://localhost:15000/index.html](http://localhost:15000/index.html)
+http://localhost:15000/index.html
 
 In your server program, you should see that the accept\(\) operation has returned. Try reading the browser request and print it out.
 

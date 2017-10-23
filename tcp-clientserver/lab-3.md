@@ -12,7 +12,7 @@ Write a simple socket program that will send back your machine's Host name and I
 
 **Lab 2C**
 
-Write a simple socket program that will pull the IP address from a remote website.
+Write a simple socket program that will pull the IP address from a remote website.  Then use gethostbyaddr\(\) to pull name information.
 
 **Lab 2D**
 
