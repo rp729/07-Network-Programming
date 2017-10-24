@@ -49,7 +49,7 @@
   * [Reusing Socket Addresses](reusing-socket-addresses.md)
   * [\*select\(\)](select.md)
   * [\*SocketServer](socketserver.md)
-  * [\*Concurrency](concurrency.md)
+  * [Threading and Concurrency](concurrency.md)
 * [OSI Layer 2](osi-layer-2.md)
   * [Intro to Ethernet](osi-layer-2/intro-to-ethernet.md)
   * [Layer 1 Devices](osi-layer-2/layer-1-devices.md)
