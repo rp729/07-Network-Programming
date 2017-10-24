@@ -9,5 +9,5 @@
 * Server must always be ready to accept new connections
 * Must allow each client to operate independently \(each may be performing different tasks on the server\) 
 
-
+![](/assets/conc4.PNG)
 

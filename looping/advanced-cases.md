@@ -16,7 +16,7 @@ Set the value of the given socket option \(see the Unix manual page_setsockopt\(
 
 ##### `socket.getsockopt`\(_level_, _ optname_\[, _ buflen_\]\)
 
-Return the value of the given socket option \(see the Unix man page_getsockopt\(2\)_\). The needed symbolic constants \(`SO_*`etc.\) are defined in this module. If_buflen_is absent, an integer option is assumed and its integer value is returned by the function. If_buflen_is present, it specifies the maximum length of the buffer used to receive the option in, and this buffer is returned as a string. It is up to the caller to decode the contents of the buffer \(see the optional built-in module[`struct`](https://docs.python.org/2/library/struct.html#module-struct)for a way to decode C structures encoded as strings\).
+Return the value of the given socket option \(see the Unix man page_getsockopt\(2\)_\). The needed symbolic constants \(`SO_*`etc.\) are defined in this module. If\_buflen\_is absent, an integer option is assumed and its integer value is returned by the function. If\_buflen\_is present, it specifies the maximum length of the buffer used to receive the option in, and this buffer is returned as a string. It is up to the caller to decode the contents of the buffer \(see the optional built-in module[`struct`](https://docs.python.org/2/library/struct.html#module-struct)for a way to decode C structures encoded as strings\).
 
 The default socket buffer size may not be suitable in many circumstances. In such circumstances, you can change the default socket buffer size to a more suitable value.
 
@@ -29,11 +29,6 @@ First, define two constants:`SEND_BUF_SIZE`/`RECV_BUF_SIZE`and then wrap a socke
 Listing 1.8 shows how to modify socket send/receive buffer sizes as follows:
 
 ```
-#!/usr/bin/env python
-# Python Network Programming Cookbook -- Chapter – 1
-# This program is optimized for Python 2.7. It may run on any
-# other Python version with/without modifications
-
 import socket
 
 SEND_BUF_SIZE = 4096
@@ -76,7 +71,7 @@ You can call the`getsockopt()`and`setsockopt()`methods on a socket object to ret
 
 #### See Also:
 
-http://man7.org/linux/man-pages/man2/setsockopt.2.html
+[http://man7.org/linux/man-pages/man2/setsockopt.2.html](http://man7.org/linux/man-pages/man2/setsockopt.2.html)
 
-https://linux.die.net/man/2/getsockopt
+[https://linux.die.net/man/2/getsockopt](https://linux.die.net/man/2/getsockopt)
 

@@ -40,7 +40,7 @@ The first parameter is for reads.
 
 The second parameter is for writes.
 
-The third parameter to see if there is anyfdsthat threw an exception.
+The third parameter to see if there is any fds that threw an exception.
 
 FDs can be in multiple lists.
 

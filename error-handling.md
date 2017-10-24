@@ -10,15 +10,15 @@
 
 #### `try:`
 
-####   `   #create an AF_INET, STREAM socket (TCP)`
+#### `#create an AF_INET, STREAM socket (TCP)`
 
-####   `   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
+#### `s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)`
 
 #### `except socket.error, msg:`
 
-####   `   print 'Failed to create socket. Error code: ' + str(msg[0]) +' , Error message : ' + msg[1]`
+#### `print 'Failed to create socket. Error code: ' + str(msg[0]) +' , Error message : ' + msg[1]`
 
-####   `   sys.exit();`
+#### `sys.exit();`
 
 #### `print 'Socket Created'`
 
@@ -42,7 +42,7 @@ The accompanying value is a pair`(h_errno,string)`representing an error returned
 
 _exception_`socket.gaierror`
 
-This exception is raised for address-related errors, for[`getaddrinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getaddrinfo)and[`getnameinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getnameinfo). The accompanying value is a pair`(error,string)`representing an error returned by a library call._string\_represents the description of\_error_, as returned by the`gai_strerror()`C function. The_error\_value will match one of the\`EAI_\*\`constants defined in this module.
+This exception is raised for address-related errors, for[`getaddrinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getaddrinfo)and[`getnameinfo()`](https://docs.python.org/2/library/socket.html?highlight=pton#socket.getnameinfo). The accompanying value is a pair`(error,string)`representing an error returned by a library call._string\_represents the description of\_error_, as returned by the`gai_strerror()`C function. The _ error\_value will match one of the\`EAI_\*\`constants defined in this module.
 
 _exception_`socket.timeout`
 

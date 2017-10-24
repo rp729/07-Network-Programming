@@ -13,11 +13,6 @@ We first create a socket object inside a`test_socket_timeout()`function. Then, w
 Listing 1.6 shows`socket_timeout`as follows:
 
 ```
-#!/usr/bin/env python
-# Python Network Programming Cookbook -- Chapter - 1
-# This program is optimized for Python 2.7. It may run on any   
-# other Python version with/without modifications
-
 import socket
 
 def test_socket_timeout():
