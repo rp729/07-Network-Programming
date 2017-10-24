@@ -1,18 +1,3 @@
-![](/assets/conc1.PNG)
-
-![](/assets/conc2.PNG)
-
-![](/assets/conc3.PNG)
-
-#### To manage multiple clients
-
-* Server must always be ready to accept new connections
-* Must allow each client to operate independently \(each may be performing different tasks on the server\) 
-
-![](/assets/conc4.PNG)
-
------------------------------------
-
 ## Thread Objects
 
 The simplest way to use a Thread is to instantiate it with a target function and call start\(\) to let it begin working.
@@ -44,7 +29,7 @@ Worker
 Worker
 ```
 
- It useful to be able to spawn a thread and pass it arguments to tell it what work to do. This example passes a number, which the thread then prints.
+It useful to be able to spawn a thread and pass it arguments to tell it what work to do. This example passes a number, which the thread then prints.
 
 ```
 import threading
@@ -72,6 +57,25 @@ Worker: 2
 Worker: 3
 Worker: 4
 ```
+
+------------------------------------------------
+
+![](/assets/conc1.PNG)
+
+![](/assets/conc2.PNG)
+
+![](/assets/conc3.PNG)
+
+#### To manage multiple clients
+
+* Server must always be ready to accept new connections
+* Must allow each client to operate independently \(each may be performing different tasks on the server\) 
+
+![](/assets/conc4.PNG)
+
+---
+
+## 
 
 
 
