@@ -82,37 +82,37 @@ In order to show an example of threading on a server to handle concurrent connec
 ```
 import socket
 import sys
- 
+
 HOST = ''   # Symbolic name meaning all available interfaces
 PORT = 5000 # Arbitrary non-privileged port
- 
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print 'Socket created'
- 
+
 try:
     s.bind((HOST, PORT))
 except socket.error , msg:
     print 'Bind failed. Error Code : ' + str(msg[0]) + ' Message ' + msg[1]
     sys.exit()
-     
+
 print 'Socket bind complete'
- 
+
 s.listen(10)
 print 'Socket now listening'
- 
+
 #accept will run in a loop and the server will stay active
 while 1:
     #wait to accept a connection - blocking call
     conn, addr = s.accept()
     print 'Connected with ' + addr[0] + ':' + str(addr[1])
-     
+
     data = conn.recv(1024)
     reply = 'OK...' + data
     if not data: 
         break
-     
+
     conn.sendall(reply) #sendall blocks until all of the transmittion is sent
- 
+
 conn.close()
 s.close()
 ```
@@ -151,56 +151,64 @@ One way to achieve this is using threads. The main server program accepts a conn
 import socket
 import sys
 from thread import *
- 
+
 HOST = ''   # Symbolic name meaning all available interfaces
 PORT = 8888 # Arbitrary non-privileged port
- 
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print 'Socket created'
- 
+
 #Bind socket to local host and port
 try:
     s.bind((HOST, PORT))
 except socket.error , msg:
     print 'Bind failed. Error Code : ' + str(msg[0]) + ' Message ' + msg[1]
     sys.exit()
-     
+
 print 'Socket bind complete'
- 
+
 #Start listening on socket
 s.listen(10)
 print 'Socket now listening'
- 
+
 #Function for handling connections. This will be used to create threads
 def clientthread(conn):
     #Sending message to connected client
     conn.send('Welcome to the server. Type something and hit enter\n') #send only takes string
-     
+
     #infinite loop so that function do not terminate and thread do not end.
     while True:
-         
+
         #Receiving from client
         data = conn.recv(1024)
         reply = 'OK...' + data
         if not data: 
             break
-     
+
         conn.sendall(reply)
-     
+
     #came out of loop
     conn.close()
- 
+
 #now keep talking with the client
 while 1:
     #wait to accept a connection - blocking call
     conn, addr = s.accept()
     print 'Connected with ' + addr[0] + ':' + str(addr[1])
-     
+
     #start new thread takes 1st argument as a function name to be run, second is the tuple of arguments to the function.
     start_new_thread(clientthread ,(conn,))
- 
+
 s.close()
 ```
 
- Run the above server and open 3 terminals like before. Now the server will create a thread for each client connecting to it. and be able to continuously communicate with each client.
+Run the above server and open 3 terminals like before. Now the server will create a thread for each client connecting to it. and be able to continuously communicate with each client.
+
+#### References:
+
+`thread.start_new_thread`\(_function_, _args_\[, _kwargs_\]\)
+
+Start a new thread and return its identifier. The thread executes the function _function_ with the argument list _args_ \(which must be a tuple\). The optional _kwargs_ argument specifies a dictionary of keyword arguments. When the function returns, the thread silently exits. When the function terminates with an unhandled exception, a stack trace is printed and then the thread exits \(but other threads continue to run\).
+
+https://docs.python.org/2/library/thread.html
 
