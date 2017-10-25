@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG,
                     )
 
 class EchoRequestHandler(SocketServer.BaseRequestHandler):
-    
+
     def __init__(self, request, client_address, server):
         self.logger = logging.getLogger('EchoRequestHandler')
         self.logger.debug('__init__')
@@ -39,7 +39,7 @@ class EchoRequestHandler(SocketServer.BaseRequestHandler):
         return SocketServer.BaseRequestHandler.finish(self)
 
 class EchoServer(SocketServer.TCPServer):
-    
+
     def __init__(self, server_address, handler_class=EchoRequestHandler):
         self.logger = logging.getLogger('EchoServer')
         self.logger.debug('__init__')
@@ -202,12 +202,11 @@ $ python SocketServer_echo_simple.py
 
 Sending : "Hello, world"
 Received: "Hello, world"
-
 ```
 
-## Threading and Forking
+## Threading
 
-Adding threading or forking support to a server is as simple as including the appropriate mix-in in the class hierarchy for the server. The mix-in classes override process\_request\(\) to start a new thread or process when a request is ready to be handled, and the work is done in the new child.
+Adding threading support to a server is as simple as including the appropriate mix-in in the class hierarchy for the server. The mix-in classes override process\_request\(\) to start a new thread or process when a request is ready to be handled, and the work is done in the new child.
 
 For threads, use the ThreadingMixIn:
 
@@ -267,7 +266,6 @@ $ python SocketServer_threaded.py
 Server loop running in thread: Thread-1
 Sending : "Hello, world"
 Received: "Thread-2: Hello, world"
-
 ```
 
 To use separate processes, use the ForkingMixIn:
@@ -328,7 +326,6 @@ $ python SocketServer_forking.py
 Server loop running in process: 14610
 Sending : "Hello, world"
 Received: "14611: Hello, world"
-
 ```
 
 
