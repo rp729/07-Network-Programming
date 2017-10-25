@@ -18,6 +18,18 @@ The return value is a triple of lists of objects that are ready: subsets of the 
 
 Among the acceptable object types in the sequences are Python file objects \(e.g. sys.stdin, or objects returned by [open\(\)](https://docs.python.org/3.0/library/functions.html#open) or os.popen\(\)\), socket objects returned by [socket.socket\(\)](https://docs.python.org/3.0/library/socket.html#socket.socket). You may also define a _wrapper_ class yourself, as long as it has an appropriate fileno\(\) method \(that really returns a file descriptor, not just a random integer\).
 
+---------------------------------
+
+You pass`select`three lists: the first contains all sockets that you might want to try reading; the second all the sockets you might want to try writing to, and the last \(normally left empty\) those that you want to check for errors. You should note that a socket can go into more than one list. The`select`call is blocking, but you can give it a timeout. This is generally a sensible thing to do - give it a nice long timeout \(say a minute\) unless you have good reason to do otherwise.
+
+In return, you will get three lists. They contain the sockets that are actually readable, writable and in error. Each of these lists is a subset \(possibly empty\) of the corresponding list you passed in.
+
+If a socket is in the output readable list, you can be as-close-to-certain-as-we-ever-get-in-this-business that a`recv`on that socket will return_something_. Same idea for the writable list. You’ll be able to send_something_. Maybe not all you want to, but_something_is better than nothing. \(Actually, any reasonably healthy socket will return as writable - it just means outbound network buffer space is available.\)
+
+If you have a “server” socket, put it in the potential\_readers list. If it comes out in the readable list, your`accept`will \(almost certainly\) work. If you have created a new socket to`connect`to someone else, put it in the potential\_writers list. If it shows up in the writable list, you have a decent chance that it has connected.
+
+One very nasty problem with`select`: if somewhere in those input lists of sockets is one which has died a nasty death, the`select`will fail. You then need to loop through every single damn socket in all those lists and do a`select([sock],[],[],0)`until you find the bad one. That timeout of 0 means it won’t take long, but it’s ugly.
+
 ---
 
 ### Socket Setup
