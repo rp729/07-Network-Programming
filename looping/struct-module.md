@@ -18,11 +18,11 @@ It uses a format string and variable arguments \(like print or printf in C\)
 
 ## Functions vs. Struct Class
 
-There are a set of module-level functions for working with structured values, and there is also theStructclass \(new in Python 2.5\). Format specifiers are converted from their string format to a compiled representation, similar to the way regular expressions are. The conversion takes some resources, so it is typically more efficient to do it once when creating aStructinstance and call methods on the instance instead of using the module-level functions. All of the examples below use theStructclass.
+There are a set of module-level functions for working with structured values, and there is also the Struct class \(new in Python 2.5\). Format specifiers are converted from their string format to a compiled representation, similar to the way regular expressions are. The conversion takes some resources, so it is typically more efficient to do it once when creating a Struct instance and call methods on the instance instead of using the module-level functions. All of the examples below use the Struct class.
 
 ## Packing and Unpacking
 
-Structs support\_packing\_data into strings, and\_unpacking\_data from strings using format specifiers made up of characters representing the type of the data and optional count and endian-ness indicators. For complete details, refer to the standard library documentation.
+Structs support\_packing\_data into strings, and\_unpacking\_data from strings using format specifiers made up of characters representing the type of the data and optional count and endianess indicators. For complete details, refer to the standard library documentation.
 
 In this example, the format specifier calls for an integer or long value, a two character string, and a floating point number. The spaces between the format specifiers are included here for clarity, and are ignored when the format is compiled.
 
