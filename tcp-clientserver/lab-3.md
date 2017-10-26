@@ -1,40 +1,28 @@
-**Lab 2A**
+#### **Lab 2A**
 
 Write a TCP server that receives a string, reverses order of the words, and sends it back to the client.
 
-Write a TCP client to connect to and print the response \(build in both IPv4 and IPv6\).
+Write a TCP client to connect to print the response \(build in both IPv4 and IPv6\).
 
-**Lab 2B**
+#### **Lab 2B**
 
 Write a simple socket program that will send back your machine's Host name and IP Address.
 
 \(Don't forget to use your resources \(Pydocs, Man pages\).  You can also get formatting help from the python interpreter by using help\(socket.gethostname\) and help\(socket.gethostbyname\) after importing the socket module.\)
 
-**Lab 2C**
+#### **Lab 2C**
 
-Write a simple socket program that will pull the IP address from a remote website.  Then use gethostbyaddr\(\) to pull name information.
+Write a simple socket program that will ask a user to enter a url and pull the IP address from a remote website.  Then use gethostbyaddr\(\) to pull name information.
 
-**Lab 2D**
+#### **Lab 2D**
 
 Write a UDP sender that takes a dictionary, turns it into a JSON string, and sends it to a listener.
 
-Write the UDP receiver to receive the JSON string and turns it back into a dictionary.
+Write the UDP receiver to receive the JSON string and turn it back into a dictionary.
 
 Validate by printing the type of your dictionary variable. \(Build in IPv4 and IPv6\)
 
-**Lab 2E \(Bonus\)**
-
-Write a UDP receiver that receives a string, and orders the words from longest to shortest in a new string.
-
-That new string should be sent to the remote port+1.
-
-\(i.e. the source port of message from the SENDER's POV\)
-
-Write a UDP sender that sends the initial string, and receives the response from the receiver above.
-
-Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
-
-\***Lab 2F**
+#### **Lab 2E**
 
 [https://linux.die.net/man/8/arping](https://linux.die.net/man/8/arping)
 
