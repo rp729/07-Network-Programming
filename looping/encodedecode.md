@@ -16,19 +16,19 @@ UTF-8 has several convenient properties:
 4. UTF-8 is fairly compact; the majority of code points are turned into two bytes, and values less than 128 occupy only a single byte.
 5. If bytes are corrupted or lost, it’s possible to determine the start of the next UTF-8-encoded code point and resynchronize. It’s also unlikely that random 8-bit data will look like valid UTF-8.
 
--------------------------------
+---
 
 Converting from bytes to str and back.
 
-`bstr=b'qwerty'`
+`bstr = b'qwerty'`
 
-`type (bstr)`
+`type(bstr)`
 
 `<class 'bytes'>`
 
 ---
 
-`str=bstr.decode('utf-8')`
+`str = bstr.decode('utf-8')`
 
 `type(str)`
 
@@ -38,7 +38,7 @@ Converting from bytes to str and back.
 
 The method **encode\(\)** returns an encoded version of the string.
 
-`bstr2 =str.encode('utf-8')`
+`bstr2 = str.encode('utf-8')`
 
 `type(bstr2)`
 
