@@ -2,8 +2,6 @@ Lab 4A
 
 blocking/non-blocking
 
-reusing socket address
-
 echo client/server
 
 multicast udp

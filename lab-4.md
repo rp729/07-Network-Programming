@@ -12,6 +12,8 @@ Hint: The second step is intentionally ambiguous on how to proceed. There are mu
 
 #### Lab 3B
 
+Create a TCP server that takes a 32 bit value packs it into 
+
 struct pack/unpack
 
 host to network byte order
