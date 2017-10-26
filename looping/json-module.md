@@ -57,7 +57,7 @@ JSON = JavaScript Object Notation. It's a series of key-value pairs. The key-val
 
 * #### Dumping a dictionary as JSON:
 
-`f = open("file.json","w") `
+`f = open("file.json","w")`
 
 `json.dump(doc,f)`
 
@@ -79,7 +79,7 @@ JSON = JavaScript Object Notation. It's a series of key-value pairs. The key-val
 
 **json.loads\(\) takes a JSON String and makes it onto a dictionary.**
 
-`>>>jsonstr=json.dumps(data)`
+`>>>jsonstr = json.dumps(data)`
 
 `>>> type(json.loads(jsonstr))`
 
