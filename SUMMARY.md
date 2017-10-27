@@ -122,5 +122,4 @@
   * [HTTP Responses](osi-layer-7/http-responses.md)
   * [HTTP Status Codes](osi-layer-7/http-status-codes.md)
   * [\*Lab 5](lab-6.md)
-* [Hidden](hidden.md)
 
