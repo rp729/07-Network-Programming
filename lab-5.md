@@ -6,8 +6,6 @@ echo client/server
 
 multicast udp
 
-ForkingMixIn
-
 ThreadingMixIn
 
 Chat Client/Server \(select\), direct messaging, multicast, IPv6

@@ -11,11 +11,13 @@
 * ### Introduction to Sockets
 * ### TCP Client/Server
 * ### UDP Client/Server
+* ### Advanced Functionality
 * ### OSI Layer 2
 * ### OSI Layer 3
 * ### OSI Layer 4
 * ### OSI Layer 7
-* ### Advanced Functionality
+
+### 
 
 
 

@@ -12,7 +12,7 @@ Hint: The second step is intentionally ambiguous on how to proceed. There are mu
 
 #### Lab 3B
 
-Create a TCP server that takes a 32 bit value packs it into 
+Create a TCP server that takes a 32 bit value packs it into
 
 struct pack/unpack
 
@@ -23,8 +23,6 @@ buffer sizes
 socket timeout
 
 handling socket errors
-
-modifying send.rec buffer size
 
 echo server
 
