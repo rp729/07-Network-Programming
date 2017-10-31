@@ -54,7 +54,9 @@ Convert 2A into decimal
 
 \(2\*16\) + \(A\*1\) = \(2\*16\) + \(10\*1\) = 32+10 = 42
 
-# Convert Binary to Hexadecimal
+![](/assets/htod.PNG)
+
+### Convert Binary to Hexadecimal
 
 \([http://www.wikihow.com/Convert-Binary-to-Hexadecimal\](http://www.wikihow.com/Convert-Binary-to-Hexadecimal%29\)
 
@@ -122,13 +124,21 @@ Once you've converted all the 4-digit parts, simply ram them together to get you
 * 3          B         2         9
 * **11101100101001 = 3B29**
 
-# **Convert long binary string to Decimal**
+![](/assets/htob.PNG)
+
+### **Convert long binary string to Decimal**
 
 | 8192 | 4096 | 2048 | 1024 | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 1 |
 
 * 11101100101001 = 15,145
+
+### Convert Decimal to Hex
+
+![](/assets/dtoh.PNG)
+
+# ........ = 0xF00D
 
 
 
