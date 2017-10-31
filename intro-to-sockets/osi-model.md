@@ -4,16 +4,16 @@ The OSI model divides the complex task of computer-to-computer communications in
 
 **Upper layers:**
 
-* 1. application
-* 1. presentation
-* 1. session
+* Application
+* Presentation
+* Session
 
 **Lower layers:**
 
-* 1. transport
-* 1. network
-* 1. data link
-* 1. physical
+* Transport
+* Network
+* Data link
+* Physical
 
 
 
