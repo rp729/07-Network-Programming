@@ -1,8 +1,14 @@
-Lab 4A
+#### Lab 4A
+
+Create a UDP chat server that connects to multiple clients and echos data to all users using multicast.
+
+#### Lab 4B
+
+Create a TCP chat server that connects to multiple clients using IPv4 and either Select or Threading. Then echo back data to all clients using broadcasts.
+
+------------------------------
 
 blocking/non-blocking
-
-echo client/server
 
 multicast udp
 
