@@ -8,7 +8,7 @@ Each module has it's own page describing the functions, function parameters, con
 
 The search function on Pydocs will let you search for a specific function to see it's parameters and return values. It does require you to know the module.
 
-* e.g. accept\(\) can be found by searchingsocket.accept\(\)
+* e.g. accept\(\) can be found by searching socket.accept\(\)
 
 
 
