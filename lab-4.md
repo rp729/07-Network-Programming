@@ -18,7 +18,7 @@ Write a UDP sender that sends the initial string, and receives the response from
 
 Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
 
--------------------------
+---
 
 host to network byte order
 
@@ -27,4 +27,6 @@ buffer sizes
 socket timeout
 
 handling socket errors
+
+Router Solicitation, Neighbor Solicitation, and Redirect message
 
