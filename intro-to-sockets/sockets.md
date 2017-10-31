@@ -9,12 +9,12 @@
 
 #### Each endpoint of a network connection is always represented by a host and port \
 
-#### In Python you write it out as a tuple \(host,port\)
+#### In Python you write it out as a tuple \(host, port\)
 
 * #### \("www.python.org",80\)
 * #### \("205.172.13.4",443\)
 
-#### In almost all of the network programs you’ll write, you use this convention to specify a network address
+#### In all of the network programs you’ll write, you use this convention to specify a network address.
 
 # **Common Ports **
 
