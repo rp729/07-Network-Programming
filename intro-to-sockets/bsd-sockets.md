@@ -8,9 +8,9 @@
 
 ![](/assets/ineternet socket.png)
 
-Sockets are the abstraction that allow applications to communicate with eachother.  Socket programming allows us to control the functionality of the interface between ports and applications. Another way to think of them, is they're a way to speak to other programs using standard Unix file descriptors. Since everything in Unix/Linux is a file.
+Sockets are the abstraction that allow applications to communicate with each other.  Socket programming allows us to control the functionality of the interface between ports and applications. Another way to think of them, is they're a way to speak to other programs using standard Unix file descriptors. Since everything in Unix/Linux is a file.
 
-A file descriptor is simply an integer associated with an open file. But, that file can be a network connection, a FIFO, a pipe, a terminal, a real on-the-disk file, or just about anything else. Everything in Unix is a file! So when you want to communicate with another program over the Internet you're gonna do it through a file descriptor.
+A file descriptor is simply an integer associated with an open file. But, that file can be a network connection, a F/IO, a pipe, a terminal, a real on-the-disk file, or just about anything else. Everything in Unix is a file! So when you want to communicate with another program over the Internet you're gonna do it through a file descriptor.
 
 Just like using **read\(\)** and **write\(\) calls **to communicate with a file. You make a call to the ** socket\(\)** system routine. It returns the socket descriptor, and you communicate through it using the specialized** send\(\)** and** recv\(\)** socket calls.
 
