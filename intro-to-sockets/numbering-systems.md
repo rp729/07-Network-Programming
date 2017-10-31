@@ -14,7 +14,7 @@ A byte on most computers is the same as an octet
 
 ##### **Hexadecimal - base 16**
 
-Counting: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10,11,12, 13....
+Counting: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10,11,12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B....
 
 A single hex digit = 4 bits/half a byte
 

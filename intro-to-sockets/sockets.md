@@ -32,7 +32,7 @@
 
 #### Ports &gt;= 1024 can be used by anyone
 
-#### If you do not bind to a port as a TCP client/UDP sender, you will get a random high number port automatically assigned to your process. This is called an “ephemeral port”
+#### If you do not bind to a port as a TCP client/UDP sender, you will get a random high number port automatically assigned to your process. This is called an “ephemeral port”.
 
 
 
