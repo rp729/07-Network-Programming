@@ -2,11 +2,11 @@
 
 Create a TCP Echo Server that mimmicks and sends back all of the data received from the client.
 
-You will be usingstruct.pack\(\) to simulate a binary protocol.
+You will be using struct.pack\(\) to simulate a binary protocol.
 
 #### Lab 3B.1
 
-Pack the values \(1, 2, -3, -4\) as the following data types \(unsigned short, unsignedint, signed short, signedint\)
+Pack the values \(1, 2, -3, -4\) as the following data types \(unsigned short, unsigned int, signed short, signed int\)
 
 1 as an unsigned short
 
@@ -22,7 +22,7 @@ Write a TCP server that receives the string, unpacks it using little endian and 
 
 #### Lab 3B.2
 
-Create a TCP client.  Pack the following values using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Send the packed hex to the TCP echo server.  Have the server unpack and send the values back to the client. Also try encode\(\)/decode\(\) modules.
+Create a TCP client.  Pack the following values using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Send the packed hex to the TCP echo server.  Have the server unpack and send the values back to the client. Also try encode\(\)/decode\(\) modules and compare different types of encoding.
 
 Q1\) Which unpacked are the same?
 
@@ -40,7 +40,7 @@ That new string should be sent to the remote port+1.
 
 \(i.e. the source port of message from the SENDER's POV\)
 
-Write a UDP sender that sends the initial string, and receives the response from the receiver above.
+Write a UDP sender that sends the initial string, and receives the response from the receiver above \(you can use multiple receivers or combine them\).
 
 Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
 
