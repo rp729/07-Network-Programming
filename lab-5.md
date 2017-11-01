@@ -4,7 +4,7 @@ Create a TCP chat server that connects to multiple clients using IPv4 and either
 
 #### Lab 4B
 
-Create a UDP chat server using multicast \(IPv6\) to transmit to all clients.
+Create an IPv6 UDP chat server using multicast to transmit to all clients.
 
 Message strings should follow the following format:
 
@@ -36,5 +36,9 @@ Using the reference set the following socket options, with a level of socket.IPP
 
 ---
 
+socket timeouts
+
 blocking/non-blocking
+
+select, threading, concurrency
 

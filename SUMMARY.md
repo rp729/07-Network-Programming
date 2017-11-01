@@ -89,7 +89,7 @@
   * [ICMP Header](osi-layer-3/icmp-header.md)
   * [MTU and Fragmentation](osi-layer-3/mtu-and-fragmentation.md)
   * [NDP](osi-layer-3/ndp.md)
-  * [\*Lab 3](lab-4.md)
+  * [Lab 3](lab-4.md)
 * [OSI Layer 4](osi-layer-4.md)
   * [Intro to TCP](osi-layer-4/intro-to-tcp.md)
   * [TCP Header](osi-layer-4/tcp-header.md)
