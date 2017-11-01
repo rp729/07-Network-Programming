@@ -2,7 +2,7 @@
 
 **Hardware Type** - The physical medium of transmission. 1 for Ethernet, 6 for 802.11 \(wifi\).
 
-**Protocol Type** - Uses same constants asEtherType. Identifies the Layer 3 address that needs to be mapped to an Ethernet address.
+**Protocol Type** - Uses same constants as EtherType. Identifies the Layer 3 address that needs to be mapped to an Ethernet address.
 
 **Hardware Address Length** - Size of Layer 2 address defined in Hardware type.
 
