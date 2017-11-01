@@ -8,8 +8,8 @@ Manufacturers 'burn in' a MAC address to each port on a device, however most mod
 
 * OUIs specific to each manufacturer \(VMWare OUI 00:50:56, Intel OUIs 00:02:B3, 00:03:47, 00:04:23\)
 * Majority of the time OUIs are enforced. The MAC address of a device will be unique within the network
-* LSBitin 1st byte in OUI determines if address is unicast \(0\) ormuilticast\(1\)
-* 2ndLSBitin 1st byte in OUI determines if the mac is globally unique \(0\), or locally administered \(1\)
+* LSBit in 1st byte in OUI determines if address is unicast \(0\) or muilticast\(1\)
+* 2ndLSBit in 1st byte in OUI determines if the mac is globally unique \(0\), or locally administered \(1\)
 
 **Host ID** - Last 3 bytes
 
