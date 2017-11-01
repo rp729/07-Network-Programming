@@ -26,19 +26,13 @@ Create a TCP client.  Pack the following values using network byte order: 12345,
 
 Q1\) Which unpacked are the same?
 
-
-
 Q2\) Why are they the same? Does it matter whatEndianessyour system is using?
-
-
 
 Q3\) Assume I repeat this lab with a client on a little-endian architecture, and the server on a big-endian architecture. How will the files change? Why?
 
-
-
 Q4\) How can I be sure that the data I send is properly received on any endian machine?
 
-#### Lab 3B
+#### Lab 3C
 
 Write a UDP receiver that receives a string, and orders the words from longest to shortest in a new string.
 
