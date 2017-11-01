@@ -8,7 +8,7 @@ Write a TCP client to connect to print the response \(build in both IPv4 and IPv
 
 Write a simple socket program that will send back your machine's Host name and IP Address.
 
-\(Don't forget to use your resources \(Pydocs, Man pages\).  You can also get formatting help from the python interpreter by using help\(socket.gethostname\) and help\(socket.gethostbyname\) after importing the socket module.\)
+\(Don't forget to use your resources \(Pydocs, Man pages\).  You can also get formatting help from the python interpreter by using help\(socket.gethostname\) and help\(socket.gethostbyname\) after importing the socket library.\)
 
 #### **Lab 2C**
 
@@ -20,15 +20,19 @@ Write a UDP sender that takes a dictionary, turns it into a JSON string, and sen
 
 Write the UDP receiver to receive the JSON string and turn it back into a dictionary.
 
-Validate by printing the type of your dictionary variable. \(Build in IPv4 and IPv6\)
+Validate by printing the type of your dictionary variable \(Build in IPv4 and IPv6\).
 
 #### **Lab 2E**
-
-[https://linux.die.net/man/8/arping](https://linux.die.net/man/8/arping)
 
 Generate a valid ARP Request to your VM. Wireshark confirms it is not malformed/displays no errors, and your request produces a reply.
 
 Ensure that you see both your frame and your VM's frame on Wireshark.
 
 Ensure that you see the ARP Reply triggered by your ARP request in Wireshark.
+
+**Reference: **
+
+http://man7.org/linux/man-pages/man7/arp.7.html 
+
+[https://linux.die.net/man/8/arping](https://linux.die.net/man/8/arping)
 
