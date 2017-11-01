@@ -103,7 +103,7 @@
   * [Traffic Control](osi-layer-4/traffic-control.md)
   * [UDP](osi-layer-4/udp.md)
   * [UDP Header](osi-layer-4/udp-header.md)
-  * [\*Lab 4](lab-5.md)
+  * [Lab 4](lab-5.md)
 * [OSI Layer 7](osi-layer-7.md)
   * [Intro to DNS](osi-layer-7/intro-to-dns.md)
   * [DNS Servers](osi-layer-7/dns-servers.md)
