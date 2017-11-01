@@ -10,11 +10,11 @@ Pack the values \(1, 2, -3, -4\) as the following data types \(unsigned short, u
 
 1 as an unsigned short
 
-2 as an unsignedint
+2 as an unsigned int
 
 -3 as a signed short
 
--4 as a signedint
+-4 as a signed int
 
 Write a TCP client that packs those values, sends the packed string to a server.
 
@@ -22,11 +22,11 @@ Write a TCP server that receives the string, unpacks it using little endian and 
 
 #### Lab 3B.2
 
-Create a TCP client.  Pack the following values using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Send the packed hex to the TCP echo server.  Have the server unpack and send the values back to the client. Notice which values have changed and why.
+Create a TCP client.  Pack the following values using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Send the packed hex to the TCP echo server.  Have the server unpack and send the values back to the client. Also try encode\(\)/decode\(\) modules.
 
 Q1\) Which unpacked are the same?
 
-Q2\) Why are they the same? Does it matter whatEndianessyour system is using?
+Q2\) Why are they the same? Does it matter what Endianess your system is using?
 
 Q3\) Assume I repeat this lab with a client on a little-endian architecture, and the server on a big-endian architecture. How will the files change? Why?
 
@@ -51,8 +51,6 @@ host to network byte order
 buffer sizes
 
 socket timeout
-
-handling socket errors
 
 Router Solicitation, Neighbor Solicitation, and Redirect message
 
