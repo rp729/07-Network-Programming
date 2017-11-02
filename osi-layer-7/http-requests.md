@@ -15,7 +15,7 @@ The initial line is different for the request than for the response. A request l
 
 Notes:
 
-* **GET** is the most common HTTP method; it says "give me this resource". Other methods include **POST** and **HEAD**-- more on those [later](file:///C:/Users/DOT/Desktop/HTTP Made Really Easy.htm#othermethods). Method names are always uppercase.
+* **GET** is the most common HTTP method; it says "give me this resource". Other methods include **POST** and **HEAD**-- more on those later. Method names are always uppercase.
 * The path is the part of the URL after the host name, also called the request URI \(a URI is like a URL, but more general\).
 * The HTTP version always takes the form "**HTTP/x.x**", uppercase.
 

@@ -18,9 +18,9 @@ These allow domains to identify the services offered and the hosts responsible f
 
 **Target **- FQDN for service host
 
-#### ` _http._tcp.reskit.com. IN SRV 0 0 80 webserver1.noam.reskit.com.`
+#### `_http._tcp.reskit.com. IN SRV 0 0 80 webserver1.noam.reskit.com.`
 
-#### ` _http._tcp.reskit.com. IN SRV 10 0 80 webserver2.noam.reskit.com.`
+#### `_http._tcp.reskit.com. IN SRV 10 0 80 webserver2.noam.reskit.com.`
 
 
 
