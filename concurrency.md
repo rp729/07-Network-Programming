@@ -29,7 +29,7 @@ Worker
 Worker
 ```
 
-It useful to be able to spawn a thread and pass it arguments to tell it what work to do. This example passes a number, which the thread then prints.
+It is useful to be able to spawn a thread and pass it arguments to tell it what work to do. This example passes a number, which the thread then prints.
 
 ```
 import threading
@@ -210,5 +210,5 @@ Run the above server and open 3 terminals like before. Now the server will creat
 
 Start a new thread and return its identifier. The thread executes the function _function_ with the argument list _args_ \(which must be a tuple\). The optional _kwargs_ argument specifies a dictionary of keyword arguments. When the function returns, the thread silently exits. When the function terminates with an unhandled exception, a stack trace is printed and then the thread exits \(but other threads continue to run\).
 
-https://docs.python.org/2/library/thread.html
+[https://docs.python.org/2/library/thread.html](https://docs.python.org/2/library/thread.html)
 
