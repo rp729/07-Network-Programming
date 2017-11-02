@@ -19,7 +19,7 @@ This example of a PTR record for an IPv6 address shows the _nibble_ format of th
 * #### The IP is backwards.
 * #### The string 'in-addr.arpa.' is appended to the reversed IP.
 * #### 'in-addr.arpa.' ends with a . \(meaning it's the fully qualified domain name\)
-* #### The IPv6 address is not in a traditional format \( [http://rdns6.com/hostRecord](http://rdns6.com/hostRecord%29%29%29\) \)
+* #### The IPv6 address is not in a traditional format  [http://rdns6.com/hostRecord](http://rdns6.com/hostRecord%29%29%29%29 \)
 
 
 
