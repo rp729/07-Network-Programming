@@ -12,7 +12,7 @@ Message strings should follow the following format:
 
 The receiver a should display recieved chats in the following format:
 
-**Chatbot \(IPv6Addr\): The quick brown fox jumps over the lazy dogs**
+\[\(**IPv6Addr\)\]: The quick brown fox jumps over the lazy dogs**
 
 \*\*Hints:
 
