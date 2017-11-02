@@ -1,6 +1,6 @@
 #### Lab 4A
 
-Create a TCP chat server that connects to multiple clients using IPv4 and either Select\(\) or Threading. Then echo back data to all clients using broadcasts.
+Create a simple TCP chat server that connects to multiple clients using IPv4 and either Select\(\) or Threading. Then echo back data to all clients using broadcasts.
 
 #### Lab 4B
 
