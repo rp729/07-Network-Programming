@@ -2,7 +2,7 @@
 
 * Select\(\) is a potential solution for when you want to open multiple sockets for communication, but don't want your receive/send functions to block and hold up your program.
 * Select is a Linux function call that operates on file descriptors. In Linux specifically, everything is a file. This means at it's core in Linux, a network socket is a file descriptor.
-* Since it's a syscall, it works in C, Python, and any other language you can make syscalls from \(in Linux anyway\). Under the hood it is a wrapper for poll\(\).
+* Since it's a sys call, it works in C, Python, and any other language you can make syscalls from \(in Linux anyway\). Under the hood it is a wrapper for poll\(\).
 
 ### select.select\(rlist, wlist, xlist\[, timeout\]\)
 
