@@ -111,7 +111,7 @@ while 1:
     if not data: 
         break
 
-    conn.sendall(reply) #sendall blocks until all of the transmittion is sent
+    conn.sendall(reply) #sendall blocks until all of the transmission is sent
 
 conn.close()
 s.close()
