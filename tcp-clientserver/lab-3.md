@@ -12,7 +12,9 @@ Write a simple socket program that will send back your machine's Host name and I
 
 #### **Lab 2C**
 
-Write a simple socket program that will ask a user to enter a url and pull the IP address from a remote website.  Then use gethostbyaddr\(\) to pull name information.
+Write a simple socket program that will ask a user to enter a **Domain **and pull the IP address from a remote website.  Then use gethostbyaddr\(\) to pull name information.
+
+http://man7.org/linux/man-pages/man3/gethostbyname.3.html
 
 #### **Lab 2D**
 
@@ -32,7 +34,7 @@ Ensure that you see the ARP Reply triggered by your ARP request in Wireshark.
 
 **Reference: **
 
-http://man7.org/linux/man-pages/man7/arp.7.html 
+[http://man7.org/linux/man-pages/man7/arp.7.html](http://man7.org/linux/man-pages/man7/arp.7.html)
 
 [https://linux.die.net/man/8/arping](https://linux.die.net/man/8/arping)
 
