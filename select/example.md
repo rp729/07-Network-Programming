@@ -50,8 +50,7 @@ while inputs:
 Creating server socket looks the same except for one line:`server.setblocking(0)` This is done to make the socket nonblocking. This server is more advanced since it can serve more than one client. The main point is in`selecting`sockets:
 
 ```
-readable, writable, exceptional = select.select(
-    inputs, outputs, inputs)
+readable, writable, exceptional = select.select(inputs, outputs, inputs)
 ```
 
 Here we call`select.select`to ask the OS to check given sockets whether they are ready to write, read, or if there is some exception respectively. That is why it passes three lists of sockets to specify which socket is expected to be writable, readable, and which should be checked for errors. This call will block the program \(unless a timeout argument is passed\) until some of the passed sockets are ready. In this moment, the call will return three lists with sockets for specified operations.
