@@ -22,7 +22,7 @@ Write a TCP server that receives the string, unpacks it using little endian and 
 
 #### Lab 3B.2
 
-Create a TCP client.  Pack the following values using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Send the packed hex to the TCP echo server.  Have the server unpack the values and send them back to the client. Also try encode\(\)/decode\(\) modules and compare different types of encoding.
+Create a TCP client.  Pack the following values using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Send the packed string to the TCP echo server.  Have the server unpack the values and send them back to the client. Also try encode\(\)/decode\(\) modules and compare different types of encoding.
 
 Q1\) Which unpacked are the same?
 

@@ -20,11 +20,11 @@ Ref: [http://man7.org/linux/man-pages/man7/ipv6.7.html](http://man7.org/linux/ma
 
 Using the reference set the following socket options, with a level of socket.IPPROTO\_IPV6:
 
-**Receiver**
+**Sender:**
 
 •Set the multicast hops to 5
 
-**Sender**
+**Receiver:**
 
 •Set the socket's multicast group \(this is for the OS, it is \_NOT\_ IPv6 related\)
 
