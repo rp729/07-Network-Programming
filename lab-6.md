@@ -16,13 +16,11 @@ Portlist= 2345, 1789, 9999, 65233, 25000, 33912, 5901, 2223, 8768, 43848, 4432, 
 
 \(Port zzzz\) brown
 
-...
+--------------------------------------------------------------------
 
 #### Lab 5B
 
 HTTP Client/Server Turtorial under construction.
 
----
 
-select\(\)
 
