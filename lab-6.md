@@ -2,7 +2,7 @@
 
 Write a TCP Server that will generate a random number from 0 to 100. Write TCP Client that will receive an input from the user \(number 0 to 100\) and send the guess to the server.  The server will then send back a message prompting the user to guess higher or lower.  If the user guesses the correct number, have the server send back a success message and when the client receives the success message it will break the connection.
 
------------------------
+---
 
 #### Lab 5B
 
@@ -16,9 +16,9 @@ Portlist= 2345, 1789, 9999, 65233, 25000, 33912, 5901, 2223, 8768, 43848, 4432, 
 
 ::
 
-\(Portxxxx\) The
+\(Port xxxx\) The
 
-\(Portyyyy\) quick
+\(Port yyyy\) quick
 
 \(Port zzzz\) brown
 
