@@ -1,4 +1,4 @@
-# ig - replacement for nslookup
+# Dig - replacement for nslookup
 
 Dig is a better DNS query tool. It will soon replace nslookup altogether. Comes standard for Linux and Unix.
 
