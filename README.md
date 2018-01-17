@@ -1,4 +1,4 @@
-# 90 COS/DOT - Python Network Programming
+# Python Network Programming
 
 ![](/assets/python-logo-master-v3-TM.png)
 
