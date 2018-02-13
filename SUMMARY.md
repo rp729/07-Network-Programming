@@ -63,7 +63,7 @@
   * [ARP](osi-layer-2/arp.md)
   * [ARP Header](osi-layer-2/arp-header.md)
   * [RARP](osi-layer-2/rarp.md)
-  * [Lab 2](tcp-clientserver/lab-3.md)
+  * [Lab 2\*](tcp-clientserver/lab-3.md)
     * [Address in Use](tcp-clientserver/lab-3/address-in-use.md)
 * [OSI Layer 3](osi-layer-3.md)
   * [References](osi-layer-3/references.md)
