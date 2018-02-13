@@ -40,7 +40,7 @@ A number like 25 is broken down:
 
 \(2\*10\) + \(5\*1\) = 20+5 = 25
 
-**In hexadecimal the "tens" place is actually "sixteens", and  the "ones" stays the same but now consists of 15 numbers, 0 to F.**
+**In hexadecimal the "tens" place is actually "sixteens", and  the "ones" stays the same but now consists of 16 numbers, 0 to F.**
 
 BASE is 16:
 
