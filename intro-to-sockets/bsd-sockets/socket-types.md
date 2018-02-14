@@ -17,5 +17,5 @@ If your message is "fire and forget", you do not need error handling, or the who
 
 If you are transferring a large amount of data, you require error handling and correction, or you don't know what to choose, use TCP.
 
-In python, the socket module defines the constants as **SOCK\_DGRAM** and **SOCK\_STREAM** respectively. They handle layers 1-4 for you. If you need to control lower the layers, you will use RAW sockets. 
+In python, the socket module defines the constants as **SOCK\_DGRAM** and **SOCK\_STREAM** respectively. They handle layers 1-4 for you. If you need to control the lower layers, you will use RAW sockets.
 
