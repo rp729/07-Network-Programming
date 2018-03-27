@@ -26,9 +26,7 @@
 
 * #### Processes must have root/admin privileges to bind to these ports
 * #### They are typically reserved for servers. IANA maintains the list of well known ports
-* #### \(see references: [http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml), also attached cheat sheet\)
-
-#### 
+* #### \(see references: [http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml](http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)\)
 
 #### Ports &gt;= 1024 can be used by anyone
 
