@@ -1,5 +1,7 @@
 # **Numbering Systems**
 
+---
+
 bit = 1 or 0
 
 nibble = 4 bits, half a byte
