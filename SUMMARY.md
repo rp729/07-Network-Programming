@@ -10,7 +10,6 @@
     * [RFC - Request For Comments](intro-to-sockets/rfcs-pydocs-man-pages/rfc-request-for-comments.md)
     * [Pydocs](intro-to-sockets/rfcs-pydocs-man-pages/pydocs.md)
     * [Man Pages](intro-to-sockets/rfcs-pydocs-man-pages/man-pages.md)
-  * [VM Setup](intro-to-sockets/vm-setup.md)
   * [Wireshark](intro-to-sockets/wireshark.md)
     * [Wireshark Installation and Setup.](intro-to-sockets/vm-setup/wireshark-installation-and-setup.md)
     * [Analyzing Packets](intro-to-sockets/wireshark/analyzing-packets.md)
