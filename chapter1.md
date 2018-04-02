@@ -1,5 +1,7 @@
 # **Introduction to Python Network Programming**
 
+---
+
 ### _**Course Objectives**_
 
 * Perform socket programming for TCP and UDP in Python without supervision.
