@@ -20,5 +20,16 @@
 * We will be using multiple Virtual Machines of Linux, because Windows does not support BSD Sockets.
 * If you need assistance with Linux, let us know during the lab portions.
 
+### Concepts Overview
+
+* Numbering Systems
+* Endianness
+* RFCs, Pydocs, Man Pages
+* Wireshark
+* Netcat
+* OSI Model
+* Broadcast vs Collision Domains
+* TCP/UDP
+
 
 
