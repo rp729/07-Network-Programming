@@ -1,4 +1,6 @@
-# **Introduction to Sockets**
+# **Introduction to Networking**
+
+---
 
 * Network programming is a major use of Python 
 * The Python Standard Library has wide support for network protocols, data encoding/decoding, etc...
