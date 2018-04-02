@@ -1,5 +1,7 @@
 # **Endianess**
 
+---
+
 A number is represented by a sequence of bytes. A 32 bit integer is 4 bytes.
 
 * Least Significant Byte \(LSB\)- The byte representing the smallest part of a number \(e.g. the "ones"\)
