@@ -1,5 +1,7 @@
 # **RFC's, Pydocs, Man Pages**
 
+---
+
 **RFC:**
 
 [https://tools.ietf.org/html/rfc6458](https://tools.ietf.org/html/rfc6458)
@@ -16,7 +18,5 @@
 
 [http://man7.org/linux/man-pages/man7/ipv6.7.html](http://man7.org/linux/man-pages/man7/ipv6.7.html)
 
-**Download Link:**
 
-[https://mega.nz/\#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw](https://mega.nz/#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw)
 
