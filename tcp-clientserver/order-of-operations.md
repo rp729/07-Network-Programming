@@ -1,5 +1,7 @@
 # TCP Client Order of Operations
 
+---
+
 * **socket\(\)** – Get a socket descriptor
 
 * **bind\(\)** – Specify SOURCE port \(Optional\)
@@ -11,6 +13,8 @@
 * **close\(\)** – Close the socket
 
 # TCP Server Order of Operations
+
+---
 
 * **socket\(\)** – Get a socket descriptor
 * **bind\(\)** – Specify SOURCE port to listen on \(Mandatory\)
@@ -28,6 +32,4 @@
 `ret[1] # tuple of remote ip/port`
 
 `accept_socket, remote = sock.accept`
-
-
 

@@ -1,5 +1,7 @@
 # UDP Characteristics
 
+---
+
 ![](/assets/udp1.PNG)
 
 **Datagram-based **

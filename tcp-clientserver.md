@@ -1,5 +1,7 @@
 # TCP Characteristics
 
+---
+
 **Connection-oriented **
 
 * Two endpoints of a virtual circuit 

@@ -1,5 +1,7 @@
 # UDP Order of Operations
 
+---
+
 * **socket\(\)** – Get a socket descriptor
 * **bind\(\)** – Specify SOURCE port \(Optional for client/sender, Mandatory server/reciever\)
 * **sendto\(\)/recvfrom\(\)** – _Data transfer\*_
@@ -36,6 +38,4 @@ You may use multiple assignments here as well:
 `ret[1] # tuple of remote ip/port`
 
 `data, remote = sock.recvfrom()`
-
-
 
