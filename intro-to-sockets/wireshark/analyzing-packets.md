@@ -1,5 +1,7 @@
 # Analyzing Packets
 
+---
+
 Now that you've recorded some network data it's time to take a look at the captured packets. As shown in the screenshot below, the captured data interface contains three main sections: The packet list pane, the packet details pane, and the packet bytes pane.
 
 ##### **There are three windows in Wireshark:**
