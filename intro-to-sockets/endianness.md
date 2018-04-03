@@ -1,4 +1,4 @@
-# **Endianess**
+# **Endianness**
 
 ---
 
