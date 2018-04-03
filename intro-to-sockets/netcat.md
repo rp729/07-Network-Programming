@@ -6,7 +6,7 @@ Netcat is the "swiss army knife" of networking. It is a simple networking progra
 
 If you need to download Netcat, there should be a copt in the download file:
 
-#### [https://mega.nz/\#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw](https://mega.nz/#F!oWJwVSRC!SWYzxOzE2QDaTU50yrKrKw)
+#### 
 
 #### Use Terminal to navigate to the downloaded file: "**nc111nt"**
 
