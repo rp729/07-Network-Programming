@@ -1,5 +1,7 @@
 # Address Resolution Protocol
 
+---
+
 ARP:  [https://tools.ietf.org/html/rfc826](https://tools.ietf.org/html/rfc826)
 
 EtherType:  [http://www.iana.org/assignments/ieee-802-numbers/ieee-802-numbers.xhtml](http://www.iana.org/assignments/ieee-802-numbers/ieee-802-numbers.xhtml)
