@@ -1,5 +1,7 @@
 # OSI Layer 2
 
+---
+
 * #### Introduction to Ethernet
 * #### Layer 1 Devices
 * #### Layer 2 Devices

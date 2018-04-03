@@ -1,5 +1,7 @@
 # Ethernet Header
 
+---
+
 ![](/assets/Ethernet-Frame-Explained.png)
 
 **Source MAC Address** - Originator of the traffic.

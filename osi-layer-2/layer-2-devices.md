@@ -1,5 +1,7 @@
 # Layer 2 Devices
 
+---
+
 **Bridges **have two ports and connect two independent PHYSICAL networks. These days, you are most likely to encounter a bridge in virtualization software or a system's network interfaces. \(e.g. bridging vs NAT mode for VMs, or combining two interfaces in Linux \)
 
 #### 
