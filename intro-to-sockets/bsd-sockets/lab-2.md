@@ -1,5 +1,7 @@
 # **Create Simple TCP Server**
 
+---
+
 In this exercise, we experiment with setting up a network connection between two different Python interpreters.
 
 On Windows, go to the "Start" menu and run the "Python \(command line\)" program.  This should pop up a command window where you can directly interact with a Python interpreter.![](/assets/python cmd.PNG)If you want to run it in Linux you can use the Terminal.
@@ -128,7 +130,7 @@ Once again, the server now waits until a new connection arrives.
 
 Try connecting to your server program using your internet browser. Type this link into the navigation bar:
 
-http://localhost:15000/index.html
+[http://localhost:15000/index.html](http://localhost:15000/index.html)
 
 In your server program, you should see that the accept\(\) operation has returned. Try reading the browser request and print it out.
 

@@ -1,5 +1,7 @@
 # Client/Server Model
 
+---
+
 * Servers wait for incoming connections and provide a service \(e.g., web, mail, etc.\) 
 * Clients make connections to servers
 * Each endpoint is a running program![](/assets/client_server.PNG)

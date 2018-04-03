@@ -1,6 +1,8 @@
 # Socket Basics
 
-https://docs.python.org/2/library/socket.html?highlight=pton\#module-socket
+---
+
+[https://docs.python.org/2/library/socket.html?highlight=pton\#module-socket](https://docs.python.org/2/library/socket.html?highlight=pton#module-socket)
 
 * **To create a socket:**
 
