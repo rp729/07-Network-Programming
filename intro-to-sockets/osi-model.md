@@ -1,4 +1,4 @@
-# **Open Systems Interconnection model** \(**OSI model**\)![](/assets/osi.PNG)
+# **Open Systems Interconnection model** \(**OSI model**\)
 
 ---
 
