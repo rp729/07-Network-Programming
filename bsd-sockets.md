@@ -1,5 +1,7 @@
 # I**ntroduction to Sockets**
 
+---
+
 #### OSI Model
 
 * **OSI Layers**
