@@ -1,5 +1,7 @@
 # **Data Transport**
 
+---
+
 **There are two basic types of communication **
 
 * Streams \(TCP\):  Computers establish a connection with each other and read/write data in a continuous stream of bytes---like a ﬁle.  This is the most common. 

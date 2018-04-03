@@ -1,5 +1,7 @@
 # I**ntroduction to Sockets**
 
+---
+
 * #### **Internet Protocol Suite**
 
 ![](/assets/IP_stack_connections.svg.png)

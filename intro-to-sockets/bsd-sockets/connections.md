@@ -1,11 +1,13 @@
+# **Connections**
+
+---
+
 ##### In order to connect to another host, you need to make a socket. To do so, you need to know 2 things:
 
 * The type of address.
 * The type of data being transmitted.![](/assets/sock_con.PNG)
 
-# **Connections**
-
-##### Each endpoint of a network connection is always represented by a host and port 
+##### Each endpoint of a network connection is always represented by a host and port
 
 * In Python you write it out as a tuple \(host,port\)
 

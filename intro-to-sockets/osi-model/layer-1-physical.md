@@ -1,5 +1,7 @@
 # **Layers of the OSI**
 
+---
+
 ![](/assets/84433547__Web.png)
 
 ### Layer 1 Physical -
