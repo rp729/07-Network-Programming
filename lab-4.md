@@ -10,8 +10,6 @@ Write the UDP receiver to receive the JSON string and turns it back into a dicti
 
 Validate by printing the type of your dictionary variable \(Build in IPv4 and IPv6\).
 
-
-
 #### Lab 3B
 
 Using the struct package from the python library, pack the values \(1, 2, -3, -4\) as the following data types \(unsigned short, unsigned int, signed short, signed int\)
@@ -28,8 +26,6 @@ Write a TCP client that packs those values, sends the packed string to a server.
 
 Write a TCP server that receives the string, unpacks it using little endian and prints it, then unpacks it again using big endian and prints it.
 
-
-
 #### Lab 3C
 
 Write a UDP receiver that receives a string, and orders the words from longest to shortest in a new string.
@@ -43,12 +39,6 @@ Write a UDP sender that sends the initial string, and receives the response from
 Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
 
 ---
-
-host to network byte order
-
-buffer sizes
-
-socket timeout
 
 
 
