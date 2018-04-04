@@ -1,3 +1,7 @@
+# Layer 2 Labs
+
+---
+
 #### **Lab 2A**
 
 Write a TCP server that receives a string, reverses order of the words, and sends it back to the client.
@@ -17,6 +21,4 @@ Write a simple socket program that will ask a user to enter a domain and pull th
 [https://docs.python.org/2/library/socket.html](https://www.gitbook.com/book/cybertrainingusaf/iqt-network-programming-course/edit#)
 
 [http://man7.org/linux/man-pages/man3/gethostbyname.3.html](https://www.gitbook.com/book/cybertrainingusaf/iqt-network-programming-course/edit#)
-
-
 
