@@ -1,5 +1,7 @@
 # OSI Layer 7
 
+---
+
 * Introduction to DNS
 * FQDN
 * DNS Record Format
