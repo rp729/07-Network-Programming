@@ -18,9 +18,9 @@ Write a simple socket program that will send back your machine's Host name and I
 
 Write a simple socket program that will ask a user to enter a domain and pull the IP address from a remote website. Then use gethostbyaddr\(\) to pull name information.
 
-[https://docs.python.org/2/library/socket.html](https://www.gitbook.com/book/cybertrainingusaf/iqt-network-programming-course/edit#)
+[https://docs.python.org/2/library/socket.html](https://docs.python.org/2/library/socket.html)
 
-[http://man7.org/linux/man-pages/man3/gethostbyname.3.html](https://www.gitbook.com/book/cybertrainingusaf/iqt-network-programming-course/edit#)
+[http://man7.org/linux/man-pages/man3/gethostbyname.3.html](http://man7.org/linux/man-pages/man3/gethostbyname.3.html)
 
 ---
 
