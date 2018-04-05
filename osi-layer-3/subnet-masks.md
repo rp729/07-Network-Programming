@@ -18,6 +18,10 @@ Mixing 1's and 0's together is not allowed. This means that the only valid numbe
 
 All bits in the IP address that are masked with 1's determine the NETWORK, and all 0's determine the HOST
 
+Class A Subnets
+
+![](/assets/subnet.png)
+
 If you bitwise AND an IP and a subnet mask, you will get the network IP.
 
 #### **IP: **   172.16.237.18
