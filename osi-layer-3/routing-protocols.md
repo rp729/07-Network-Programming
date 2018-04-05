@@ -1,5 +1,7 @@
 # Routing Protocols
 
+---
+
 Routers operate on Layer 3.
 
 They ignore Layer 2 addresses for decision making.

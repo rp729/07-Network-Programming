@@ -1,5 +1,7 @@
 # IPv4 Addresses
 
+---
+
 IPv4 Addresses are represented in “dotted decimal” notation.
 
 IPv4 addresses are 32 bits, so each number is represented by a single byte.
@@ -18,7 +20,7 @@ In the Internet addressing architecture, the Internet Engineering Task Force \(I
 
 ###### IPv4![](/assets/ipv4.PNG)
 
----------------------------------
+---
 
 #### IPv6![](/assets/ipv6.PNG)
 

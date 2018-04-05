@@ -1,5 +1,7 @@
 # IPv6 Header
 
+---
+
 ![](/assets/ipv6header.png)
 
 Version – Set 6 for IPv6.

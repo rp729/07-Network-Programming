@@ -1,5 +1,7 @@
 # Routing
 
+---
+
 Packets are routed independently of each other, even if they are to the same destination.
 
 Traffic destined for a private IP address will not be routed onto the public internet without special configurations.

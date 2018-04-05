@@ -1,5 +1,7 @@
 # Neighbor Discovery Protocol
 
+---
+
 Neighbor Discovery Protocol is a collection of ICMPv6 messages for auto configuration, discovery, and awareness.
 
 NDP uses the ICMP Header format. If you compare the ICMP header to that of the RFC4861 you will notice similarities.

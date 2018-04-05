@@ -1,5 +1,7 @@
 # ICMP Error Messages
 
+---
+
 Below, I've captured some anecdotal reasons you will see some common ICMP errors. They are NOT absolutes, but just things to think about should you encounter them.
 
 **Network unavailable typically means there is no route to the network.**

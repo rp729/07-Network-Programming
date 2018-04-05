@@ -1,5 +1,7 @@
 # IPv6 Address Types
 
+---
+
 Generally there are three types of addresses:
 
 * Unicast

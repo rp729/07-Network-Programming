@@ -1,5 +1,7 @@
 # IPv4 Header
 
+---
+
 ![](/assets/Ethernet-Frame-Explained.png)
 
 * Version - Set to 4 for IPv4

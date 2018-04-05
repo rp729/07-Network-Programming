@@ -1,5 +1,7 @@
 # Subnet Mask
 
+---
+
 Subnet masks were introduced to identify the **NETWORK **and **HOST **bits of an IP.
 
 Subnet masks are a special kind of IPv4 address used in tandem with a normal IPv4 addresses to provide that context.

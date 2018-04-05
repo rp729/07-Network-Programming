@@ -1,5 +1,7 @@
 # Internet Protocol version 6
 
+---
+
 IPv6 is the latest version. It returns to the cleaner design of IP that IPv4 had before attempts to curb exhaustion happened.
 
 Differences from IPv4:

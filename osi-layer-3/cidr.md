@@ -1,5 +1,7 @@
 # Classless Inter-Domain Routing {#firstHeading}
 
+---
+
 CIDR notation is a quick way of writing a subnet mask that allows for advanced networking.
 
 After the IP address put a slash followed by the number of network bits.
