@@ -18,23 +18,37 @@ Mixing 1's and 0's together is not allowed. This means that the only valid numbe
 
 All bits in the IP address that are masked with 1's determine the NETWORK, and all 0's determine the HOST
 
-Class A Subnets
+#### Class A Subnets
 
 ![](/assets/subnet.png)
 
 If you bitwise AND an IP and a subnet mask, you will get the network IP.
 
-#### **IP: **   172.16.237.18
+##### **IP: **   172.16.237.18
 
-#### **SM: **  255.255.248.0
+##### **SM: **  255.255.248.0
 
-#### **IP:  **              `10101100.00010000.11101 | 101.00010010`
+##### **IP:  **              `10101100.00010000.11101 | 101.00010010`
 
-#### **SM:              **`11111111.11111111.11111 | 000.00000000`
+##### **SM:              **`11111111.11111111.11111 | 000.00000000`
 
-#### **Network IP:** `10101100.00010000.11101 | 000.00000000`
+##### **Network IP:** `10101100.00010000.11101 | 000.00000000`
 
-#### Network IP: 172.16.232.0
+##### Network IP: 172.16.232.0
+
+---
+
+#### Class B Subnets
+
+![](/assets/subnetB.png)
+
+---
+
+#### Class C Subnets
+
+![](/assets/subnetC.png)
+
+---
 
 
 
