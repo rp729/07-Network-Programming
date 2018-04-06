@@ -1,4 +1,4 @@
-# OSI Layer 7
+# OSI Layer 7: Application
 
 ---
 
