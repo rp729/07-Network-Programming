@@ -1,4 +1,4 @@
-# OSI Layer 3
+# OSI Layer 3: Network
 
 ---
 

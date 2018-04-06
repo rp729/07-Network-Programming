@@ -1,4 +1,4 @@
-# OSI Layer 2
+# OSI Layer 2: Data Link
 
 ---
 
