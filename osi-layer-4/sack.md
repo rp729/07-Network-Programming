@@ -1,5 +1,7 @@
 # Selective Acknowledgements \(SACK\)
 
+---
+
 Originally, the data after the error \(either 8-10 or 4-10 in the examples above\) would be dropped.
 
 RFCs 1017 and 2018 introduced/refined selective acknowledgements. It allows all segments received properly to be ACKed, resulting in only the missing/wrong data being re-sent.

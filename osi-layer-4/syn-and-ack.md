@@ -1,5 +1,7 @@
 # Sequence and Acknowledgements
 
+---
+
 Sequence numbers indicate the most recent piece of data sent.
 
 Acknowledgement numbers indicate the next byte expected.

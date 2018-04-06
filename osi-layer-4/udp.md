@@ -1,5 +1,7 @@
 # User Datagram Protocol
 
+---
+
 UDP is connectionless and best effort delivery. Error checking is limited to a UDP checksum.
 
 Being connectionless minimizes overhead.

@@ -1,5 +1,7 @@
 # TCP State
 
+---
+
 TCP sockets have numerous states. Many of these can be seen in the output of a properly timed netstat command.
 
 #### **Handshake states:**
