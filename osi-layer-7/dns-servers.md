@@ -18,7 +18,7 @@ The requester then sends a new request to the IP address \(given to it by the ro
 
 So, to continue our example, it would send a request to the name server responsible for knowing about "org" domains to see if it knows where "www.wikipedia.org" is located.
 
-Once again, the requester will look for "www.wikipdia.org" in its zone files. It will not find this record in its files.
+Once again, the requester will look for "www.wikipedia.org" in its zone files. It will not find this record in its files.
 
 However, it will find a record listing the IP address of the name server responsible for "wikipedia.org". This is getting much closer to the answer we want.
 
