@@ -1,6 +1,6 @@
 ![](/assets/systemcalls.PNG)![](/assets/calls.PNG)
 
-A **CONNECTION **is a unique combination of:
+A **CONNECTION **is a unique combination of: 
 
 * Client IP
 * Client Port
