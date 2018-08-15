@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/nightearth.jpg)
 
-## **Contents:**
+## **Course Overview:**
 
 * **Introduction**
 * **Introduction to Networking**
