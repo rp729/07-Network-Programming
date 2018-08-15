@@ -1,7 +1,5 @@
 # Switches
 
----
-
 Switches operate using MAC addresses found in the Ethernet header of the traffic.
 
 Switches have CAM \(Content Addressable Memory\) tables that map a physical port to MAC addresses.

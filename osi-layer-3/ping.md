@@ -1,7 +1,5 @@
 # Ping
 
----
-
 Ping is ubiquitous. It shows the connectivity status between two hosts.
 
 It is an example of ICMP used for information purposes.

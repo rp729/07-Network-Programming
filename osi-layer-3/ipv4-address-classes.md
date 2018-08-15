@@ -1,7 +1,5 @@
 # IPv4 Address Classes
 
----
-
 **Class A** - first bit is 0 \(First octet 1-127\)
 
 **Class B** - first TWO bits are 10 \(First octet is 128-191\)
@@ -12,5 +10,5 @@
 
 **Class E** - The following IPs 240.0.0.0 to 255.255.255.254. Used for experimentation only. No network/host specified
 
-![](/assets/ip_address_range.png)
+![](../.gitbook/assets/ip_address_range.png)
 

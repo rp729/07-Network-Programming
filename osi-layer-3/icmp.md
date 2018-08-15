@@ -1,12 +1,10 @@
-# Internet Control Message Protocol
+# ICMP
 
 A "helper" protocol that supports IP, provides information, and error reporting.
 
 Many messages have been deprecated, reserved, or are obsolete.
 
 Each message has a Type, and each type may have several Codes.
-
----
 
 Type 0 Echo Reply:
 
@@ -30,6 +28,4 @@ Type 11 Time Exceeded:
 Type 30 Traceroute:
 
 * Deprecated
-
-
 

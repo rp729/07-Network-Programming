@@ -1,4 +1,6 @@
-![](/assets/arp-6-638.jpg)
+# ARP Header
+
+![](../.gitbook/assets/arp-6-638.jpg)
 
 **Hardware Type** - The physical medium of transmission. 1 for Ethernet, 6 for 802.11 \(wifi\).
 

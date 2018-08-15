@@ -1,6 +1,4 @@
-# Introduction to Internet Protocol
-
----
+# Intro to Internet Protocol
 
 Ethernet addressing is limited to networks sharing the same physical medium \(i.ethe broadcast domain\). In order to connect multiple distinct networks, a new technology is needed.
 

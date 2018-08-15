@@ -1,6 +1,4 @@
-# ICMP Error Messages
-
----
+# ICMP Errors
 
 Below, I've captured some anecdotal reasons you will see some common ICMP errors. They are NOT absolutes, but just things to think about should you encounter them.
 
@@ -23,6 +21,4 @@ Below, I've captured some anecdotal reasons you will see some common ICMP errors
 **Reassembly Time Exceeded**
 
 * I have never encountered this, however a severely degraded connection with multiple varying MTUs could theoretically cause this.
-
-
 

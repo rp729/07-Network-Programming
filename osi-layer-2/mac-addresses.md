@@ -1,7 +1,5 @@
 # MAC Addresses
 
----
-
 48 bits long, usually represented as 6 groups of hex \(e.g.aa:bb:cc:dd:ee:ff\).
 
 Manufacturers 'burn in' a MAC address to each port on a device, however most modern equipment allows the MAC to be changed in software as well.
@@ -22,6 +20,4 @@ Manufacturers 'burn in' a MAC address to each port on a device, however most mod
 
 * The Layer 2 BROADCAST address for IPv4 and ARP is FF:FF:FF:FF:FF:FF
 * The Layer 2 MULTICAST address for IPv6 is 33:33:00:00:00:01
-
-
 

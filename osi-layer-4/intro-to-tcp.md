@@ -1,12 +1,10 @@
-# Intro to Transmission Control Protocol
+# Intro to TCP
 
-![](/assets/tcp.png)
+![](../.gitbook/assets/tcp.png)
 
 * The OSI model is primarily a theory model.
 * The TCP/IP Model is more practical oriented.
 * Both are useful at different times. We are primarily concerned with OSI layers 2,3,4,7 in this class.
-
----
 
 TCP is a connection oriented protocol that provides error checking and reliability of communication.
 
@@ -21,6 +19,4 @@ TCP provides reliable transfer via:
 * Re-requesting packets that were corrupt or not received at all.
 * Flow and congestion control.
 * Requires positive acknowledgement before next data transmission.
-
-
 

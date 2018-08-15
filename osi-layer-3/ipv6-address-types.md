@@ -1,7 +1,5 @@
 # IPv6 Address Types
 
----
-
 Generally there are three types of addresses:
 
 * Unicast
@@ -15,8 +13,6 @@ There are also several scopes:
 * Link Local
 
 There is no IPv6 broadcast address. Multicast addresses fulfill that role.
-
----
 
 The type of address is specified by the value of the first hextet.
 

@@ -1,8 +1,6 @@
 # Ethernet Header
 
----
-
-![](/assets/Ethernet-Frame-Explained.png)
+![](../.gitbook/assets/ethernet-frame-explained.png)
 
 **Source MAC Address** - Originator of the traffic.
 
@@ -12,6 +10,4 @@
 
 * ARP, IPv4, IPv6, etc...
 * See references page...
-
-
 

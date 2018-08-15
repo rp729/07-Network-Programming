@@ -1,7 +1,5 @@
 # Intro to Ethernet
 
----
-
 Ethernet is a family of technologies used to connect LANs and WANs. It has used several different physical mediums over time from coaxial, to twisted pair, and now fiber.
 
 The Ethernet protocol is the foundation of sending and receiving traffic and is the lowest level of network communication we will discuss in class.
@@ -15,6 +13,4 @@ In the TCP/IP world, the encapsulation of IP datagrams is defined in RFC 894 \[H
 1. Must be able to send and receive packets using RFC 894 \(Ethernet\) encapsulation. 
 2. Should be able to receive RFC 1042 \(IEEE 802\) packets intermixed with RFC 894 packets. 
 3. May be able to send packets using RFC 1042 encapsulation. If the host can send both types of packets, the type of packet sent must be configurable and the configuration option must default to RFC 894 packets. 
-
-
 

@@ -1,6 +1,4 @@
 # TCP Handshake
 
----
-
-![](/assets/handshake.png)
+![](../.gitbook/assets/handshake.png)
 

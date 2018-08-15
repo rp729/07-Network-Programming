@@ -1,6 +1,4 @@
-# Neighbor Discovery Protocol
-
----
+# NDP
 
 Neighbor Discovery Protocol is a collection of ICMPv6 messages for auto configuration, discovery, and awareness.
 
@@ -18,5 +16,5 @@ Read the RFC! It tells you how to fill out values in previous headers!
 
 * An RA also tells you if the sender is the first hop for that network, or if the network is actually considered "on-link" \(i.e. directly connected because multiple prefixes on the same LAN\)
 
-**Redirect **- If you see traffic destined somewhere, and you know a better route to a given host you can send this to have the sender redirect their traffic
+**Redirect** - If you see traffic destined somewhere, and you know a better route to a given host you can send this to have the sender redirect their traffic
 

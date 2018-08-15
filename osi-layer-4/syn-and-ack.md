@@ -1,6 +1,4 @@
-# Sequence and Acknowledgements
-
----
+# SYN and ACK
 
 Sequence numbers indicate the most recent piece of data sent.
 
@@ -26,6 +24,4 @@ Acknowledgement numbers indicate the next byte expected.
 
 * A sends 10 data, with as eq of 1, but B only receives 1-7, the Ack number will be 8.
 * A sends 10 data, with as eq of 1, but B only receives 1 and 4-10, the Ack number will be 2.
-
-
 

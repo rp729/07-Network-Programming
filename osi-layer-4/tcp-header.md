@@ -1,28 +1,26 @@
 # TCP Header
 
----
+![](../.gitbook/assets/mjb-tcp-header-800x564.png)
 
-![](/assets/MJB-TCP-Header-800x564.png)
+**Source Port** – sending port
 
-**Source Port **– sending port
+**Destination Port** – Receiving port
 
-**Destination Port **– Receiving port
+**Sequence Number** – Initially random. Each new transmission adds the size of the data
 
-**Sequence Number **– Initially random. Each new transmission adds the size of the data
-
-**Acknowledgment Number **– The next byte expected to be received.
+**Acknowledgment Number** – The next byte expected to be received.
 
 **Data offset** - Size of TCP header in 32bit words
 
-**Reserved **– 0's
+**Reserved** – 0's
 
-**Flags **– Bit mask of all TCP flags
+**Flags** – Bit mask of all TCP flags
 
 **Window size** – Max number of bytes receiver can handle
 
-**Checksum **– Checksum of header and data
+**Checksum** – Checksum of header and data
 
 **Urgent Pointer** – Only valid if URG flag set
 
-**Options **– Allows for expanded uses
+**Options** – Allows for expanded uses
 

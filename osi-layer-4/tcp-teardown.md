@@ -1,6 +1,4 @@
 # TCP Teardown
 
----
-
-![](/assets/teardown.png)
+![](../.gitbook/assets/teardown.png)
 

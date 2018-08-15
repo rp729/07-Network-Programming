@@ -1,6 +1,4 @@
-# Classless Inter-Domain Routing {#firstHeading}
-
----
+# CIDR
 
 CIDR notation is a quick way of writing a subnet mask that allows for advanced networking.
 

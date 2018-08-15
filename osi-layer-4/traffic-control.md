@@ -1,7 +1,5 @@
 # Traffic Control
 
----
-
 Window scaling is determined during the handshake and it determines the maximum data to be received before being ACKed.
 
 Flow control in TCP is accomplished using a sliding window. Receivers specify the amount of data that they are willing to receive, and the sender will only send that much before waiting for an ACK. If the window is 0, transmission stops for a timeout to allow the receiver to ACK with a new window.

@@ -1,7 +1,5 @@
 # MTU and Fragmentation
 
----
-
 Maximum Transmission Unit is the maximum size of the payload on a given link-layer \(Layer 2\) protocol. \(1500 bytes for Ethernet\).
 
 The max size of an IP packet is 65535 bytes \(unless jumbogram extension header is used\).

@@ -1,8 +1,6 @@
 # IPv6 Header
 
----
-
-![](/assets/ipv6header.png)
+![](../.gitbook/assets/ipv6header.png)
 
 Version – Set 6 for IPv6.
 
@@ -18,9 +16,7 @@ Hop Limit – Same as TTL.
 
 Source / Destination - Do not change during routing.
 
----
-
-##### IPv6 Headers are identified by number. They are not required to be used, however they provide useful features that were absent or poorly implemented in IPv4.
+## IPv6 Headers are identified by number. They are not required to be used, however they provide useful features that were absent or poorly implemented in IPv4.
 
 0 = Hop-by-Hop Options - Options that need to be examined by all devices on the path.
 

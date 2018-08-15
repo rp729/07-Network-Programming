@@ -1,7 +1,5 @@
 # IPv6 Addresses
 
----
-
 IPv6 addresses are 128 bits long and represented by groups of 1-4 hex characters separated by a **:** \(aka a "hextet“, or more formally a “hexadectet”\).
 
 * 2001:0db8:0000:0000:0000:ff00:0042:8329

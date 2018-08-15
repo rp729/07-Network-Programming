@@ -1,7 +1,5 @@
 # Routing Protocols
 
----
-
 Routers operate on Layer 3.
 
 They ignore Layer 2 addresses for decision making.
@@ -33,6 +31,4 @@ Routing tables are populated by the information exchanges dictated by the specif
 
 * Neighbors advertise what NETWORKS they know about, and their WEIGHTS.
 * The NEXT HOP will either be the IP of the router that advertised the best path to a destination, OR it will be the locally connected network.
-
-
 

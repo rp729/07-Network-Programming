@@ -1,6 +1,4 @@
-# IPv6 Anycast
-
----
+# Anycast
 
 Anycast addressing does not operate like traditional addressing.
 

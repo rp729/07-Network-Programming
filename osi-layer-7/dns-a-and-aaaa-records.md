@@ -4,13 +4,11 @@ Both of these records map a host to an IP address. The "A" record is used to map
 
 The general format of these records is this:
 
-```
+```text
 host     IN      A       172.16.48.1 (IPv4_address)
 ```
 
-```
+```text
 host     IN      AAAA    2001:db8::ff00:42:8329 (IPv6_address)
 ```
-
-
 

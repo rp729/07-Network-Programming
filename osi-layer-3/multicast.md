@@ -1,16 +1,12 @@
-# IPv6 Multicast
+# Multicast
 
----
+## A global multicast address can be broken down as follows:
 
-#### A global multicast address can be broken down as follows:
-
-![](/assets/ipv6multicast.png)
+![](../.gitbook/assets/ipv6multicast.png)
 
 [https://mrncciew.com/2013/04/05/ipv6-basics/](https://mrncciew.com/2013/04/05/ipv6-basics/)
 
 [http://www.txv6tf.org/wp-content/uploads/2013/07/Martin-IPv6-Multicast-TM-v3.pdf](http://www.txv6tf.org/wp-content/uploads/2013/07/Martin-IPv6-Multicast-TM-v3.pdf)
-
----
 
 | Address | Scope | Meaning |
 | :--- | :--- | :--- |

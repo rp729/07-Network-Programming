@@ -1,6 +1,4 @@
-# Selective Acknowledgements \(SACK\)
-
----
+# SACK
 
 Originally, the data after the error \(either 8-10 or 4-10 in the examples above\) would be dropped.
 

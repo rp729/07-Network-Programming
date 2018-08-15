@@ -1,4 +1,4 @@
-# Introduction to Hyper Text Transport Protocol
+# Intro to HTTP
 
 HTTP stands for **Hypertext Transfer Protocol**. It's the network protocol used to deliver virtually all files and data \(collectively called resources\) on the World Wide Web, whether they're HTML files, image files, query results, or anything else. Usually, HTTP takes place through TCP/IP sockets \(and this tutorial ignores other possibilities\).
 
@@ -16,9 +16,7 @@ A browser is an HTTP client because it sends requests to an HTTP server \(Web se
 * Metadata about the transaction \(date, webserver, content length and type\).
 * The data.
 
----
-
-#### HTTP Line Breaks
+### HTTP Line Breaks
 
 * An HTTP line break is a carriage return \(CRLF\) followed by a newline \(\r\n\).
 * A blank line with a single \r\n signifies the end of a header.
@@ -27,9 +25,7 @@ A browser is an HTTP client because it sends requests to an HTTP server \(Web se
 
 **CR** and **LF** are control characters, respectively coded 0x0D \(13 decimal\) and 0x0A \(10 decimal\). They are used to mark a line break in a text file. As you indicated, Windows uses two characters the **CR LF** sequence; Unix only uses **LF** and the old MacOS \( pre-OSX MacIntosh\) used **CR.**
 
----
-
-### HTTP 1.1
+## HTTP 1.1
 
 Like many protocols, HTTP is constantly evolving. HTTP 1.1 has recently been defined, to address new needs and overcome shortcomings of HTTP 1.0. Generally speaking, it is a superset of HTTP 1.0. Improvements include:
 
@@ -37,6 +33,4 @@ Like many protocols, HTTP is constantly evolving. HTTP 1.1 has recently been def
 * Faster response and great bandwidth savings, by adding cache support.
 * Faster response for dynamically-generated pages, by supporting chunked encoding, which allows a response to be sent before its total length is known.
 * Efficient use of IP addresses, by allowing multiple domains to be served from a single IP address.
-
-
 
