@@ -14,6 +14,8 @@
 * Major System Calls
 * Socket Basics
 
+#### Lab 1
+
 ## Objectives
 
 * \[OBJECTIVES\]

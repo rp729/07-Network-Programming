@@ -2,15 +2,7 @@
 
 In this exercise, we experiment with setting up a network connection between two different Python interpreters.
 
-On Windows, go to the "Start" menu and run the "Python 
-
-\(
-
-command line
-
-\)
-
-" program. This should pop up a command window where you can directly interact with a Python interpreter.
+On Windows, go to the "Start" menu and run the "Python \(command line\)" program. This should pop up a command window where you can directly interact with a Python interpreter.
 
 ![](../.gitbook/assets/python-cmd.PNG)
 
