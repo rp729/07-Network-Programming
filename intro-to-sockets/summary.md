@@ -1,22 +1,14 @@
-# Intro to Sockets
+# Summary
 
-## Overview
-
-#### OSI Model
+#### OSI Model {#osi-model}
 
 * OSI Layers
 
-#### **BSD Socket API**
+#### **BSD Socket API** {#bsd-socket-api}
 
 * Sockets Types
 * Connections
 * Client/Server Model
 * Major System Calls
 * Socket Basics
-
-## Objectives
-
-* \[OBJECTIVES\]
-
-
 

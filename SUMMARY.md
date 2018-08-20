@@ -29,6 +29,8 @@
     * [Major System Calls](intro-to-sockets/bsd-socket-api/major-system-calls.md)
     * [Socket Basics](intro-to-sockets/bsd-socket-api/socket-basics.md)
   * [Lab 1](intro-to-sockets/lab-1.md)
+  * [Review](intro-to-sockets/review.md)
+  * [Summary](intro-to-sockets/summary.md)
 * [TCP Client/Server](tcp-client-server/README.md)
   * [Order of Operations](tcp-client-server/order-of-operations.md)
   * [sendall\(\)](tcp-client-server/sendall.md)
