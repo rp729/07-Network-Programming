@@ -17,6 +17,8 @@
     * [Coloring Rules](intro-to-networking/wireshark/coloring-rules.md)
   * [Netcat](intro-to-networking/netcat.md)
   * [Lab 0](intro-to-networking/lab-0.md)
+  * [Review](intro-to-networking/review.md)
+  * [Summary](intro-to-networking/summary.md)
 * [Intro to Sockets](intro-to-sockets/README.md)
   * [OSI Model](intro-to-sockets/osi-model/README.md)
     * [OSI Layers](intro-to-sockets/osi-model/osi-layers.md)

@@ -1,16 +1,4 @@
-# Intro to Networking
-
-#### Overview
-
-* Networks and Ports
-* Numbering Systems
-* Endianess
-* RFCs, Pydcocs, Man Pages
-* Wireshark
-* Netcat
-* Lab 0
-
-#### Objectives
+# Review
 
 * Developers will have a thorough understanding of Ports and Protocols
 * Developers will apply knowledge of Bitwise Protocol and binary operators: AND, OR, XOR
