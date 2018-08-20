@@ -12,5 +12,15 @@
 * Major System Calls
 * Socket Basics
 
+#### UDP Client/Server
+
+* Order of Operations
+
+#### TCP Client/Server
+
+* Order of Operations
+* sendall\(\)
+* Data Reassembly
+
 #### Lab 1
 
