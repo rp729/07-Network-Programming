@@ -1,6 +1,4 @@
-# OSI Layer 7
-
-### Overview
+# Summary
 
 * Introduction to DNS
 * DNS Servers
@@ -18,8 +16,4 @@
 * HTTP Requests
 * HTTP Responses
 * HTTP Status Codes
-
-### Objectives
-
-
 

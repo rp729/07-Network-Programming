@@ -1,6 +1,6 @@
-# OSI Layer 3
+# Summary
 
-### Overview
+
 
 * Introduction to Internet Protocol
 * IPv4 Addresses
@@ -24,8 +24,4 @@
 * ICMP Header
 * MTU and Fragmentation
 * NDP
-
-### Objectives
-
-
 

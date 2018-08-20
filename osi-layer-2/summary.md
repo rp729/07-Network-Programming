@@ -1,6 +1,4 @@
-# OSI Layer 2
-
-### **Overview**
+# Summary
 
 * **Introduction to Ethernet**
 * **Layer 1 Devices**
@@ -13,9 +11,6 @@
 * **ARP Header**
 * **RARP**
 * **Address in Use**
-* **Lab 2**
 
-### Objectives
-
-* objectives
+\*\*\*\*
 
