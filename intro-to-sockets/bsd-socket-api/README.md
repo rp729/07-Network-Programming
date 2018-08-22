@@ -20,8 +20,9 @@ Berkeley sockets evolved with little modification from a [de facto standard](htt
 
 [https://en.wikipedia.org/wiki/Berkeley\_sockets](https://en.wikipedia.org/wiki/Berkeley_sockets)
 
-* We will be using the BSD Socket API for networking
-* Knowing BSD sockets will provide a foundation to do networking in almost any language/environment
+* **We will be using the BSD Socket API for networking**
+* **Knowing BSD sockets will provide a foundation to do networking in almost any language/environment**
+* **Default socket API is a string-based protocol**
 
 \(Even Windows' Winsock library still follows the call pattern, even if Microsoft makes their function calls take a dozen more parameters\)
 

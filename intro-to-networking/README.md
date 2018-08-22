@@ -1,6 +1,6 @@
 # Intro to Networking
 
-#### Overview
+### Overview
 
 * Networks and Ports
 * Numbering Systems
@@ -10,7 +10,7 @@
 * Netcat
 * Lab 0
 
-#### Objectives
+### Objectives
 
 * Developers will have a thorough understanding of Ports and Protocols
 * Developers will apply knowledge of Bitwise Protocol and binary operators: AND, OR, XOR
