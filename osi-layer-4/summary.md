@@ -3,7 +3,7 @@
 * Introduction to TCP
 * TCP Header
 * TCP Header and Flags
-* Sequence and Acknowledgements
+* Synchronize and Acknowledgements
 * SACK
 * TCP Handshake
 * TCP Teardown
@@ -12,4 +12,5 @@
 * Traffic Control
 * UDP
 * UDP Header
+* Lab 4
 

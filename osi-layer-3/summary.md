@@ -1,7 +1,5 @@
 # Summary
 
-
-
 * Introduction to Internet Protocol
 * IPv4 Addresses
 * IPv4 Address Classes
@@ -24,4 +22,5 @@
 * ICMP Header
 * MTU and Fragmentation
 * NDP
+* Lab 3
 
