@@ -1,4 +1,4 @@
-# Lab 2\*
+# Lab 2-2
 
 ## **Lab 2A**
 
@@ -8,15 +8,27 @@ Write a TCP client to connect to print the response \(build in both IPv4 and IPv
 
 ## **Lab 2B**
 
+Write a UDP sender that takes a dictionary, turns it into a JSON string, and sends it to a listener.
+
+Write the UDP receiver to receive the JSON string and turns it back into a dictionary.
+
+Validate by printing the type of your dictionary variable \(Build in IPv4 and IPv6\).
+
+## **Lab 2C**
+
 Write a simple socket program that will send back your machine's Host name and IP Address.
 
 \(Don't forget to use your resources \(Pydocs, Man pages\). You can also get formatting help from the python interpreter by using help\(socket.gethostname\) and help\(socket.gethostbyname\) after importing the socket library.\)
 
-## **Lab 2C**
+## **Lab 2D**
 
 Write a simple socket program that will ask a user to enter a domain and pull the IP address from a remote website. Then use gethostbyaddr\(\) to pull name information.
 
 [https://docs.python.org/2/library/socket.html](https://docs.python.org/2/library/socket.html)
 
-[http://man7.org/linux/man-pages/man3/gethostbyname.3.html](http://man7.org/linux/man-pages/man3/gethostbyname.3.html)
+{% embed data="{\"url\":\"http://man7.org/linux/man-pages/man3/gethostbyname.3.html\",\"type\":\"link\",\"title\":\"gethostbyname\(3\) - Linux manual page\"}" %}
+
+## Bonus:
+
+Raw Socket Lab
 

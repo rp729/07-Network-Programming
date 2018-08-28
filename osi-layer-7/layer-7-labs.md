@@ -1,4 +1,4 @@
-# Layer 7 Labs
+# Lab 5-2
 
 ## Lab A:
 
@@ -35,4 +35,10 @@ Using the reference set the following socket options, with a level of socket.IPP
 ◦Packing the multicast IPv6 addr using socket.inet\_pton\(\)
 
 ◦Packing a 32 bit unsigned integer with the value 0, using struct.pack\(\)
+
+## Bonus: 
+
+HTTP Lab
+
+
 

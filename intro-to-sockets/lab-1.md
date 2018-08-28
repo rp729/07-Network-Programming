@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 1-1
 
 In this exercise, we experiment with setting up a network connection between two different Python interpreters.
 
