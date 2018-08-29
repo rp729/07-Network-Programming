@@ -4,7 +4,7 @@
 
 Write a TCP server that receives a string, reverses order of the words, and sends it back to the client.
 
-Write a TCP client to connect to print the response \(build in both IPv4 and IPv6\).
+Write a TCP client to connect to print the response \(build in IPv4\).
 
 ## **Lab 2B**
 
@@ -12,7 +12,7 @@ Write a UDP sender that takes a dictionary, turns it into a JSON string, and sen
 
 Write the UDP receiver to receive the JSON string and turns it back into a dictionary.
 
-Validate by printing the type of your dictionary variable \(Build in IPv4 and IPv6\).
+Validate by printing the type of your dictionary variable \(build in IPv4\).
 
 ## **Lab 2C**
 
