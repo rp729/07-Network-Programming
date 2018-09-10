@@ -1,5 +1,15 @@
 # Lab 2-2
 
+## Address in Use
+
+If you encounter an error **"Address in use"**, set the following socket option on your sockets \(both client and server\).
+
+## `mysock.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR, 1)` {#mysock-setsockopt-socket-sol_socket-socket-so_reuseaddr-1}
+
+You may have to wait out the initial timer \(or change your ports\).
+
+### See Also: _Reusing Socket Addresses_ in _Advanced Functionality._
+
 ## **Lab 2A**
 
 Write a TCP server that receives a string, reverses order of the words, and sends it back to the client.

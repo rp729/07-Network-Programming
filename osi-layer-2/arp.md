@@ -1,4 +1,4 @@
-# ARP
+# Address Resolution Protocol
 
 ARP: [https://tools.ietf.org/html/rfc826](https://tools.ietf.org/html/rfc826)
 

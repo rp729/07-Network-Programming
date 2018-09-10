@@ -10,7 +10,7 @@
 * ARP
 * ARP Header
 * RARP
-* Address in Use
+* NDP
 * Lab 2
 
 \*\*\*\*

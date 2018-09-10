@@ -12,5 +12,5 @@ During installation, a system group called `wireshark` was created. Users in thi
 
 ![](../../.gitbook/assets/wireshark2.PNG)
 
-Then log out and in again a you are ready to go!
+Then log out, back in again, and you are ready to go!
 
