@@ -28,13 +28,13 @@
 
 ### Objectives
 
-* Developers will Understand Unicast/Multicast/Broadcast/Anycast and explain their differences
-* Developers will relate Switching/Routing concepts
-* Developers will apply their fundamental understanding of IPv4 Addressing
-* Developers will have a fundamental understanding of CIDR Notation
-* Developers will apply their understanding of IPv6 Addressing
-* Developers will implement data interchange formats such as JSON, Struct libraries \(Python\)
-* Developers will manipulate multiple sockets in a single client or server
+* Understand Unicast/Multicast/Broadcast/Anycast and explain their differences
+* Relate Switching/Routing concepts
+* Apply their fundamental understanding of IPv4 Addressing
+* Have a fundamental understanding of CIDR Notation
+* Apply their understanding of IPv6 Addressing
+* Implement data interchange formats such as JSON, Struct libraries \(Python\)
+* Manipulate multiple sockets in a single client or server
 
 
 

@@ -11,7 +11,7 @@
 ## _**Environment**_
 
 * The majority of the labs will use IPv4 using Python and BSD Sockets.
-* We will also cover IPv6 and socket programming in C throughout the course.
+* We will also cover IPv6, raw sockets, and socket programming in C throughout the course.
 * We will be using multiple Linux Virtual Machines to simulate a network environment.
   * \(Windows does not support BSD Sockets.\)
 * If you need assistance with Linux, let us know during the labs.
