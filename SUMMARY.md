@@ -46,7 +46,7 @@
   * [Switches](osi-layer-2/switches.md)
   * [Ethernet Header](osi-layer-2/ethernet-header.md)
   * [Broadcast vs Collision Domains](osi-layer-2/broadcast-vs-collision-domains.md)
-  * [Address Resolution Protocol](osi-layer-2/arp.md)
+  * [\*\*\*Address Resolution Protocol](osi-layer-2/arp.md)
   * [ARP Header](osi-layer-2/arp-header.md)
   * [\*\*\*Reverse Address Resolution Protocol](osi-layer-2/rarp.md)
   * [\*\*\*Neighbor Discovery Protocol](osi-layer-2/neighbor-discovery-protocol.md)
