@@ -1,6 +1,6 @@
 # ICMP Header
 
-![](../.gitbook/assets/icmpheader.png)
+![](../.gitbook/assets/icmp_packet.png)
 
 ![](../.gitbook/assets/1mport.png)
 

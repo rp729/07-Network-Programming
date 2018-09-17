@@ -35,9 +35,7 @@ The group is a value obtained by combining the following:
 * Packing the multicast IPv6 addr using socket.inet\_pton\(\)
 * Packing a 32 bit unsigned integer with the value 0, using struct.pack\(\)
 
-## Bonus: 
-
-HTTP Lab
+## 
 
 
 

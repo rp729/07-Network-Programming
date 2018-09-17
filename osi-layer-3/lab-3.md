@@ -28,7 +28,5 @@ Write a UDP sender that sends the initial string, and receives the response from
 
 Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
 
-## Lab 3C: 
-
-C client and server in TCP and UDP
+## 
 

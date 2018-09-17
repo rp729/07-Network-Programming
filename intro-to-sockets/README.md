@@ -2,29 +2,10 @@
 
 ### Overview
 
-**OSI Model**
-
-* OSI Layers
-
-**BSD Socket API**
-
-* Sockets Types
-* Connections
-* Client/Server Model
-* Major System Calls
-* Socket Basics
-
-**UDP Client/Server**
-
-* Order of Operations
-
-**TCP Client/Server**
-
-* Order of Operations
-* sendall\(\)
-* Data Reassembly
-
-**Lab 1**
+* OSI Model
+* BSD Socket API
+* UDP Client/Server
+* TCP Client/Server
 
 ### Objectives
 

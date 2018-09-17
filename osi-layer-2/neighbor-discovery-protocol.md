@@ -1,2 +1,0 @@
-# \*\*\*Neighbor Discovery Protocol
-
