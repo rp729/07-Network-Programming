@@ -6,5 +6,6 @@
 * RFCs, Pydcocs, Man Pages
 * Wireshark
 * Netcat
-* Lab 0
+
+
 
