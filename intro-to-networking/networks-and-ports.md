@@ -11,20 +11,20 @@
 
 ![](../.gitbook/assets/2.PNG)
 
-### Each endpoint of a network connection is always represented by a host and port \
+#### Each endpoint of a network connection is always represented by a host \(URL/Domain/IP\) and port.
 
-### In Python you write it out as a tuple \(host, port\)
+#### Ports are how processes get access to the network.
 
-* **\("www.python.org",80\)**
-* **\("205.172.13.4",443\)**
+#### In Python you write it out as a tuple \(host, port\)
 
-### In all of the network programs you’ll write, you use this convention to specify a network address.
+* **\("www.python.org", 80\)**
+* **\("205.172.13.4", 443\)**
+
+#### In all of the network programs you’ll write, you use this convention to specify a network address.
 
 ## **Common Ports** 
 
 ![](../.gitbook/assets/ports.PNG)
-
-### Ports are how processes get access to the network.
 
 ### Port numbers &lt; 1024 are considered "privileged" ports
 

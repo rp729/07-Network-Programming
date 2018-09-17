@@ -6,9 +6,7 @@ bit = 1 or 0
 
 nibble = 4 bits, half a byte
 
-octet = 8 bits
-
-A byte on most computers is the same as an octet
+octet = 8 bits = 1 byte
 
 #### **Binary uses only 1's and 0's**
 
