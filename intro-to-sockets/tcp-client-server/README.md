@@ -1,5 +1,7 @@
 # TCP Client/Server
 
+![](../../.gitbook/assets/image.png)
+
 **Connection-oriented** 
 
 * Two endpoints of a virtual circuit 

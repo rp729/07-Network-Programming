@@ -1,7 +1,9 @@
 # Order of Operations
 
+![UDP Socket Diagram](../../.gitbook/assets/udpfuncdiag.png)
+
 * **socket\(\)** – Get a socket descriptor
-* **bind\(\)** – Specify SOURCE port \(Optional for client/sender, Mandatory server/reciever\)
+* **bind\(\)** – Specify SOURCE port \(Optional for client/sender, Mandatory server/receiver\)
 * **sendto\(\)/recvfrom\(\)** – _Data transfer\*_
 * **close\(\)** – Close the socket
 
