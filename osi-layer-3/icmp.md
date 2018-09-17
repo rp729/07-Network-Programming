@@ -1,6 +1,6 @@
 # ICMP
 
-A "helper" protocol that supports IP, provides information, and error reporting.
+The Internet Control Message Protocol is a supporting or "helper" protocol in the Internet protocol suite. It is used by network devices, including routers, to send error messages and operational information indicating, for example, that a requested service is not available or that a host or router could not be reached.
 
 Many messages have been deprecated, reserved, or are obsolete.
 

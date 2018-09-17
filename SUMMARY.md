@@ -115,6 +115,7 @@
   * [HTTP Responses](osi-layer-7/http-responses.md)
   * [HTTP Status Codes](osi-layer-7/http-status-codes.md)
   * [\*\*\*SMTP](osi-layer-7/smtp.md)
+  * [\*\*\*DHCP](osi-layer-7/dhcp.md)
   * [Review](osi-layer-7/review.md)
   * [Summary](osi-layer-7/summary.md)
   * [Lab 5-1](osi-layer-7/lab-5-1.md)
