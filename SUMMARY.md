@@ -82,6 +82,7 @@
   * [Lab 3-1](osi-layer-3/lab-3-1.md)
   * [Lab 3-2](osi-layer-3/lab-3.md)
 * [OSI Layer 4](osi-layer-4/README.md)
+  * [Layer 4 Devices](osi-layer-4/layer-4-devices.md)
   * [Intro to TCP](osi-layer-4/intro-to-tcp.md)
   * [TCP Header](osi-layer-4/tcp-header.md)
   * [TCP Header and Flags](osi-layer-4/tcp-header-and-flags.md)
