@@ -1,6 +1,6 @@
 # TCP Client/Server
 
-![](../../.gitbook/assets/image.png)
+![Differences between TCP and UDP connections](../../.gitbook/assets/tcpvudp.PNG)
 
 **Connection-oriented** 
 

@@ -1,5 +1,7 @@
 # Order of Operations
 
+![](../../.gitbook/assets/image.png)
+
 ## TCP Client Order of Operations
 
 * **socket\(\)** – Get a socket descriptor

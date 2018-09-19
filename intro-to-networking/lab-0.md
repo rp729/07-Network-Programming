@@ -10,7 +10,7 @@ I expect you to be able to use Wireshark and Netcat for troubleshooting and debu
 
 Practice filtering traffic by:
 
-* IP/IPv6
+* IPv4/IPv6
 * MAC Address
 * port
 * protocol

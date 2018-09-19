@@ -1,10 +1,10 @@
 # Socket Basics
 
-[https://docs.python.org/2/library/socket.html?highlight=pton\#module-socket](https://docs.python.org/2/library/socket.html?highlight=pton#module-socket)
+**Reference:** [https://docs.python.org/2/library/socket.html?highlight=pton\#module-socket](https://docs.python.org/2/library/socket.html?highlight=pton#module-socket)
 
-* **To create a socket:**
+## **To create a socket:**
 
-### _import socket_ 
+#### _import socket_ 
 
 ### _s = socket.socket\(addr\_family, type\)_
 

@@ -20,8 +20,6 @@
 
 * Usually below 1024, requiring privilege
 
-![](../../.gitbook/assets/tcpvudp.PNG)
-
 ![](../../.gitbook/assets/udp22.PNG)
 
 ![](../../.gitbook/assets/udp33.PNG)
