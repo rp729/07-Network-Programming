@@ -1,5 +1,7 @@
 # \*\*\*Address Resolution Protocol
 
+![](../.gitbook/assets/arp-discovery-reply-and-caching.png)
+
 ARP: [https://tools.ietf.org/html/rfc826](https://tools.ietf.org/html/rfc826)
 
 EtherType: [http://www.iana.org/assignments/ieee-802-numbers/ieee-802-numbers.xhtml](http://www.iana.org/assignments/ieee-802-numbers/ieee-802-numbers.xhtml)
@@ -11,6 +13,4 @@ For example, in IP Version 4 an address is 32 bits long. In an Ethernet local ar
 ## How ARP Works
 
 When an incoming packet destined for a host machine on a particular local area network arrives at a gateway, the gateway asks the ARP program to find a physical host or MAC address that matches the IP address. The ARP program looks in the ARP cache and, if it finds the address, provides it so that the packet can be converted to the right packet length and format and sent to the machine. If no entry is found for the IP address, ARP broadcasts a request packet in a special format to all the machines on the LAN to see if one machine knows that it has that IP address associated with it. A machine that recognizes the IP address as its own returns a reply so indicating. ARP updates the ARP cache for future reference and then sends the packet to the MAC address that replied.
-
-![](../.gitbook/assets/arp-discovery-reply-and-caching.png)
 

@@ -1,6 +1,6 @@
 # Order of Operations
 
-![UDP Socket Diagram](../../.gitbook/assets/udpfuncdiag.png)
+![UDP Client/Server](../../.gitbook/assets/udpfuncdiag.png)
 
 * **socket\(\)** – Get a socket descriptor
 * **bind\(\)** – Specify SOURCE port \(Optional for client/sender, Mandatory server/receiver\)
