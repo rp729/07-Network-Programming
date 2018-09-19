@@ -55,6 +55,7 @@
   * [Lab 2-2](osi-layer-2/lab-2.md)
 * [OSI Layer 3](osi-layer-3/README.md)
   * [References](osi-layer-3/references.md)
+  * [Layer 3 Devices](osi-layer-3/layer-3-devices.md)
   * [Intro to Internet Protocol](osi-layer-3/intro-to-internet-protocol.md)
   * [IPv4 Addresses](osi-layer-3/ipv4-addresses.md)
   * [IPv4 Address Classes](osi-layer-3/ipv4-address-classes.md)

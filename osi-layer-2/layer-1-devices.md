@@ -1,6 +1,6 @@
 # Layer 1 Devices
 
-Dedicated Layer 1 devices are mostly extinct in today's environments. As technology advanced, the functionality became obsolete or was rolled into layer 2 devices.
+Dedicated Layer 1 devices are mostly extinct in today's environments. As technology advanced, the functionality became obsolete or was rolled into layer 2 devices. Most of Layer 1 consists of data transfer equipment or media, such as: Cables \(Cat5, Cat6, Coax, Fiber Optic etc..\), WiFi, Bluetooth, USB, etc..
 
 **Repeater** - Has 2 ports. Takes received data from one side and retransmits it on the other. It allows the physical transmission medium to be extended.
 

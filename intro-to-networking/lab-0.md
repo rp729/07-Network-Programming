@@ -1,6 +1,6 @@
 # Lab 0
 
-I expect you to be able to use Wireshark and Netcat for troubleshooting and debugging. Make sure you understand how to find Ethernet addresses and IP addresses. Startup Wireshark, have it listening to you Virtual Machine traffic, and verify connectivity between virtual machines before beginning the Labs.
+I expect you to be able to use Wireshark and Netcat for troubleshooting and debugging. Make sure you understand how to find Ethernet addresses and IP addresses. Startup Wireshark, have it listening to your Virtual Machine traffic, and verify connectivity between virtual machines before beginning the Labs.
 
 * Use ifconfig to find your IP addresses.
 * Become root.

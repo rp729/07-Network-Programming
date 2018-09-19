@@ -1,7 +1,5 @@
 # Introduction
 
-![](.gitbook/assets/videoplayback.mp4)
-
 ## _**Course Objectives**_
 
 * Perform socket programming for TCP and UDP in Python without supervision.
