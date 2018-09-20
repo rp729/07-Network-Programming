@@ -1,6 +1,6 @@
 # Order of Operations
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 ## TCP Client Order of Operations
 

@@ -1,4 +1,4 @@
-# \*\*\*Address Resolution Protocol
+# Address Resolution Protocol
 
 ![](../.gitbook/assets/arp-discovery-reply-and-caching.png)
 
