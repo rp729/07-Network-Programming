@@ -1,12 +1,6 @@
 # Intro to TCP
 
-![](../.gitbook/assets/tcp.png)
-
-* The OSI model is primarily a theory model.
-* The TCP/IP Model is more practical oriented.
-* Both are useful at different times. We are primarily concerned with OSI layers 2,3,4,7 in this class.
-
-TCP is a connection oriented protocol that provides error checking and reliability of communication.
+ TCP is a connection oriented protocol that provides error checking and reliability of communication.
 
 Most protocols commonly used on the internet use TCP including: HTTP, SMTP, and SSH.
 
@@ -19,4 +13,28 @@ TCP provides reliable transfer via:
 * Re-requesting packets that were corrupt or not received at all.
 * Flow and congestion control.
 * Requires positive acknowledgement before next data transmission.
+
+![TCP Header](../.gitbook/assets/mjb-tcp-header-800x564.png)
+
+**Source Port** – sending port
+
+**Destination Port** – Receiving port
+
+**Sequence Number** – Initially random. Each new transmission adds the size of the data
+
+**Acknowledgment Number** – The next byte expected to be received.
+
+**Data offset** - Size of TCP header in 32bit words
+
+**Reserved** – 0's
+
+**Flags** – Bit mask of all TCP flags
+
+**Window size** – Max number of bytes receiver can handle
+
+**Checksum** – Checksum of header and data
+
+**Urgent Pointer** – Only valid if URG flag set
+
+**Options** – Allows for expanded uses
 
