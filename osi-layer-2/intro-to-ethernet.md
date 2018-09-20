@@ -1,6 +1,6 @@
 # Intro to Ethernet
 
-![OSI VS TCP/IP](../.gitbook/assets/image%20%281%29.png)
+![OSI VS TCP/IP](../.gitbook/assets/image%20%283%29.png)
 
  Ethernet is a family of technologies used to connect LANs and WANs. It has used several different physical mediums over time from coaxial, to twisted pair, and now fiber.
 
