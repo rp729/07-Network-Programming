@@ -10,5 +10,5 @@ MTU can vary at each hop. This means it is possible for every node on the path t
 
 * Senders usually try to discover the smallest MTU on the path and shrink  their own transmissions appropriately.
 
-Packets larger than MTU are dropped and ICMP message returned to sender indicating the packet is too big.
+Packets larger than MTU are dropped and an ICMP message is returned to the sender indicating the packet is too big.
 
