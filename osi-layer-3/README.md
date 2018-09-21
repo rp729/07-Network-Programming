@@ -3,6 +3,7 @@
 ### Overview
 
 * Introduction to Internet Protocol
+* Layer 3 Devices
 * IPv4 Addresses
 * IPv4 Address Classes
 * Subnet Mask
@@ -22,7 +23,6 @@
 * Ping
 * ICMP Errors
 * ICMP Header
-* MTU and Fragmentation
 * NDP
 
 ### Objectives
