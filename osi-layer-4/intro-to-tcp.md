@@ -1,6 +1,6 @@
 # Intro to TCP
 
- TCP is a connection oriented protocol that provides error checking and reliability of communication.
+The Transmission Control Protocol is connection oriented, provides error checking, and reliability of communication.
 
 Most protocols commonly used on the internet use TCP including: HTTP, SMTP, and SSH.
 
