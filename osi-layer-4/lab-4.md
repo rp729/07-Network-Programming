@@ -12,5 +12,5 @@ Create a simple TCP chat server that connects to multiple clients using IPv4 and
 
 ### Lab 4B
 
-Create a multi-user chat server in C using IPv6 and either Select\(\) or Threading \(Use multiple VM's and track traffic in Wireshark\).
+Create a Flood/DoS program \(Syn / Ack, [etc](https://en.wikipedia.org/wiki/Denial-of-service_attack#Reflected_.2F_spoofed_attack)...\) using Raw Sockets in C or Python, and IPv4. Get creative!
 

@@ -38,5 +38,7 @@ Write a simple socket program that will ask a user to enter a domain and pull th
 
 {% embed data="{\"url\":\"http://man7.org/linux/man-pages/man3/gethostbyname.3.html\",\"type\":\"link\",\"title\":\"gethostbyname\(3\) - Linux manual page\"}" %}
 
-## Bonus:  Create an ARP Request using Raw Sockets.
+## Bonus:  
+
+#### Create an ARP Request using Raw Sockets.
 

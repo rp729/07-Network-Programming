@@ -1,4 +1,4 @@
-# Lab 3
+# Lab 3-2
 
 ## Lab 3A
 
@@ -28,5 +28,9 @@ Write a UDP sender that sends the initial string, and receives the response from
 
 Hint: The second step is intentionally ambiguous on how to proceed. There are multiple solutions.
 
-## 
+## Bonus:  
+
+#### Create a port scanner. Code it in Python, C, or Raw Sockets. Use IPv4 or IPv6, TCP and/or UDP.
+
+
 

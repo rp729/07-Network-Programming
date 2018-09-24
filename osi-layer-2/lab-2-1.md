@@ -232,3 +232,7 @@ packet = ip_header + tcp_header + user_data
 s.sendto(packet, (dest_ip , 0 ))    # put this in a loop if you want to flood the target
 ```
 
+-----
+
+
+
