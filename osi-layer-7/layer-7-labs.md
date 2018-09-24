@@ -1,12 +1,12 @@
 # Lab 5-2
 
-## Lab A:
+## Lab 5A:
 
-Write a TCP Server that will generate a random number from 0 to 100. Write TCP Client that will receive an input from the user \(number 0 to 100\) and send the guess to the server. The server will then send back a message prompting the user to guess higher or lower. If the user guesses the correct number, have the server send back a success message and when the client receives the success message it will break the connection.
+Write a TCP Server that will generate a random number from 0 to 100. Then write a TCP Client that will receive an input from the user \(number 0 to 100\) and send the guess to the server. The server will then send back a message prompting the user to guess higher or lower. If the user guesses the correct number, have the server send back a success message and when the client receives the success message it will break the connection \(close the socket\).
 
-## Lab B:
+## Lab 5B:
 
-Create an IPv6 UDP chat server using multicast to transmit to all clients.
+Create an IPv6 UDP chat server in Python using multicast to transmit to all clients.
 
 Message strings should follow the following format:
 
