@@ -1,6 +1,6 @@
 # Lab 2-1
 
-## Raw Socket Tutorial
+## Raw Socket Tutorial in Python
 
 **Raw Socket** - A raw socket gives the user the ability to read and write IP packets directly without using a transport protocol such as UDP or TCP.  Raw sockets are intended for processes that wish to take advantage of some protocol feature not directly accessible through the normal interface or for the development of protocols built atop existing protocols.
 

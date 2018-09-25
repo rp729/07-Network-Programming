@@ -1,6 +1,6 @@
 # Lab 3-1
 
-## TCP Sockets in C
+## TCP Sockets Tutorial in C
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
