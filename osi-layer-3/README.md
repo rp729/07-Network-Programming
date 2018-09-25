@@ -18,20 +18,19 @@
 * Unicast
 * Multicast
 * Anycast
-* IPv6 Header 
+* NDP
 * ICMP
 * Ping
 * ICMP Errors
 * ICMP Header
-* NDP
 
 ### Objectives
 
 * Understand Unicast/Multicast/Broadcast/Anycast and explain their differences
 * Relate Switching/Routing concepts
-* Apply their fundamental understanding of IPv4 Addressing
+* Apply a fundamental understanding of IPv4 Addressing
 * Have a fundamental understanding of CIDR Notation
-* Apply their understanding of IPv6 Addressing
+* Apply an understanding of IPv6 Addressing
 * Implement data interchange formats such as JSON, Struct libraries \(Python\)
 * Manipulate multiple sockets in a single client or server
 

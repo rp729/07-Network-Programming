@@ -3,18 +3,17 @@
 ### Overview
 
 * Introduction to TCP
-* TCP Header
+* Layer 4 Devices
 * TCP Header and Flags
 * Synchronize and Acknowledgements
 * SACK
 * TCP Handshake
 * TCP Teardown
 * TCP State
-* Reset and ICMP
+* Reset
 * Traffic Control
 * UDP
 * UDP Header
-* Lab 4
 
 ### Objectives
 

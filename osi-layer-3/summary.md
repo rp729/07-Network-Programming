@@ -1,6 +1,7 @@
 # Summary
 
 * Introduction to Internet Protocol
+* Layer 3 Devices
 * IPv4 Addresses
 * IPv4 Address Classes
 * Subnet Mask
@@ -15,13 +16,9 @@
 * Unicast
 * Multicast
 * Anycast
-* IPv6 Header 
+* NDP
 * ICMP
 * Ping
 * ICMP Errors
 * ICMP Header
-* MTU and Fragmentation
-* NDP
-
-
 

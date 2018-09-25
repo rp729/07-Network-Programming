@@ -18,7 +18,9 @@
 * HTTP Requests
 * HTTP Responses
 * HTTP Status Codes
-* Lab 7
+* HTTPS
+* SMTP
+* DHCP
 
 ### Objectives
 
