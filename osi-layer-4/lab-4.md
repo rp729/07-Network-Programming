@@ -2,7 +2,7 @@
 
 ### Performance Lab:
 
-Create a TCP client using IPv4. Pack the following values in a struct using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Then send them to a TCP server and print the unpacked struct.
+Create a TCP client using IPv4. Pack the following values in a struct using network byte order: 12345, 56789, &, \*, 0x7d0, 0b11111010000. Then send the packed struct to a TCP server and print the unpacked values.
 
 
 
