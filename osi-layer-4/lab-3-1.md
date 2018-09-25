@@ -2,7 +2,7 @@
 
 ## Raw Sockets Tutorial in C
 
-#### Packet = Ethernet Header + IP Header + TCP Header + Data
+#### Packet = \(Ethernet Header\) + IP Header + TCP Header + Data
 
 The structure of an IP header as given by RFC 791:
 

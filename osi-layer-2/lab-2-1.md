@@ -8,7 +8,7 @@ For example, the ping program is implemented using a raw ICMP socket.  The raw I
 
 Raw socket support is available natively in the socket api in linux. Although, you do need root privileges to send a raw socket packet. This is different from windows where it is absent \(it became available in windows 2000/xp/xp sp1 but was removed later\). Although raw sockets don't find much use in common networking applications, they are used widely in applications related to network security.   In the simplest terms, it's for adding custom headers instead of headers provided by the underlying operating system.
 
-###  A packet = Ip header + Tcp header + data
+###  A packet = \(Ethernet header\) + IP header + TCP header + data
 
 **Ip header**
 
