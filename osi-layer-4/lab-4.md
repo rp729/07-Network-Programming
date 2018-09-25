@@ -12,7 +12,7 @@ Create a simple TCP chat server that connects to multiple clients using IPv4 and
 
 ### Lab 4B
 
-Create a program using a Raw UDP socket in Python with an IPv4 or IPv6 header.
+Create a program using a Raw UDP socket in Python with an IPv4 header.
 
 ## Bonus:
 
