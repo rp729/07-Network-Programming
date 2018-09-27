@@ -2,6 +2,14 @@
 
 The status code is a three-digit integer, and the first digit identifies the general category of response.
 
+The first digit of the status code specifies one of five standard classes of responses. The message phrases shown are typical, but any human-readable alternative may be provided. Unless otherwise stated, the status code is part of the **HTTP/1.1** standard \([RFC 7231](https://tools.ietf.org/html/rfc7231)\).
+
+So, if you can’t find the file that client is asking, then you send appropriate status code.
+
+If the client has no permission to see the file, then you send appropriate status code.
+
+[These are the list of status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) we can use.
+
 Below are some common ones:
 
 **100 Series, Informational**
