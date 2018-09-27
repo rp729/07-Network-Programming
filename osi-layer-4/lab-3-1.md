@@ -225,10 +225,10 @@ int main (void)
         {
             perror("sendto failed");
         }
-        //Data send successfully
+        //Data sent successfully
         else
         {
-            printf ("Packet Send. Length : %d \n" , iph->tot_len);
+            printf ("Packet Sent. Length : %d \n" , iph->tot_len);
         }
     }
      
@@ -252,7 +252,7 @@ The structure of a UDP header as given by RFC 793:
 +-----------------------------------+
 ```
 
-The length is the length of the udp header + data in bytes. So the udp header itself is 8 byte long and data can be up to 65536 byte long. The checksum is calculated the same way as the checksum of a tcp header, using a pseudo header.
+The length is the length of the udp header + data in bytes. So the udp header itself is 8 bytes long and data can be up to 65536 byte long. The checksum is calculated the same way as the checksum of a tcp header, using a pseudo header.
 
 Raw UDP socket creation:
 

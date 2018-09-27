@@ -6,7 +6,7 @@ The Transmission Control Protocol is connection oriented, provides error checkin
 
 Most protocols commonly used on the internet use TCP including: HTTP, SMTP, and SSH.
 
-TCP connections open with a handshake, data is transmitted, and then the connection is closed with a teardown.
+TCP connections open with a handshake, data is transmitted, and then the connection is closed with a tear down.
 
 TCP provides reliable transfer via:
 

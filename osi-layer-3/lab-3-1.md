@@ -6,7 +6,7 @@
 
 ### TCP Client:
 
-First, import standard and socket realted libraries.
+First, import standard and socket related libraries.
 
 ```text
 #include <stdio.h>
@@ -18,6 +18,28 @@ First, import standard and socket realted libraries.
 
 Next, create the socket. 
 
+A socket, `network_socket`, is created with the _socket_ system call:
+
+```text
+int network_socket = socket(domain, type, protocol);
+```
+
+All the parameters as well as the return value are integers:
+
+**domain, or address family** —
+
+communication domain in which the socket should be created. Some of address families are `AF_INET (IP)`, `AF_INET6 (IPv6)`, `AF_UNIX (local channel, similar to pipes)`, `AF_ISO (ISO protocols)`, and `AF_NS (Xerox Network Systems protocols)`.
+
+**type** —
+
+type of service. This is selected according to the properties required by the application: `SOCK_STREAM (virtual circuit service)`, `SOCK_DGRAM (datagram service)`, `SOCK_RAW (direct IP service)`. Check with your address family to see whether a particular service is available.
+
+**protocol** —
+
+indicate a specific protocol to use in supporting the sockets operation. This is useful in cases where some families may have more than one protocol to support a given type of service. The return value is a file descriptor \(a small integer\).
+
+ For TCP/IP sockets, we want to specify the IP address family \(`AF_INET`\) and virtual circuit service \(`SOCK_STREAM`\). Since there’s only one form of virtual circuit service, there are no variations of the protocol, so the last argument, _protocol_, is zero. Our code for creating a TCP socket looks like this:
+
 ```text
 	int network_socket;
 	network_socket = socket(AF_INET, SOCK_STREAM, 0);
@@ -27,7 +49,7 @@ Next, create the socket.
 >
 > SOCK\_STREAM = TCP \| SOCK\_DGRAM = UDP
 
-Then, specify an address for the socket.
+Now, specify an address for the socket to connect to.
 
 ```text
 	struct sockaddr_in server_address;  // socket struct called server_address
@@ -152,7 +174,38 @@ Then, specify an address for the server.
     server_address.sin_addr.s_addr = INADDR_ANY;
 ```
 
-Then, bind the socket to the specified IP address and port where the server can then listen for connections.
+The first parameter, `socket`, is the socket that was created with the _socket_ system call.
+
+For the second parameter, the structure `sockaddr` is a generic container that just allows the OS to be able to read the first couple of bytes that identify the address family. The address family determines what variant of the `sockaddr` struct to use that contains elements that make sense for that specific communication type. For IP networking, we use `struct sockaddr_in`, which is defined in the header `netinet/in.h`. This structure defines:
+
+```text
+struct sockaddr_in 
+{ 
+    __uint8_t         sin_len; 
+    sa_family_t       sin_family; 
+    in_port_t         sin_port; 
+    struct in_addr    sin_addr; 
+    char              sin_zero[8]; 
+};
+```
+
+Before calling _bind_, we need to fill out this structure. The three key parts we need to set are:
+
+**sin\_family**
+
+The address family we used when we set up the socket. In our case, it’s `AF_INET`.
+
+**sin\_port**
+
+The port number \(the transport address\). You can explicitly assign a transport address \(port\) or allow the operating system to assign one. If you’re a client and won’t be receiving incoming connections, you’ll usually just let the operating system pick any available port number by specifying port 0. If you’re a server, you’ll generally pick a specific number since clients will need to know a port number to connect to.
+
+**sin\_addr**
+
+The address for this socket. This is just your machine’s IP address. With IP, your machine will have one IP address for each network interface. For example, if your machine has both Wi-Fi and ethernet connections, that machine will have two addresses, one for each interface. Most of the time, we don’t care to specify a specific interface and can let the operating system use whatever it wants. The special address for this is 0.0.0.0, defined by the symbolic constant `INADDR_ANY`.
+
+Since the address structure may differ based on the type of transport used, the third parameter specifies the length of that structure. This is simply `sizeof(struct sockaddr_in)`.
+
+The code to bind and listen on a socket looks like this:
 
 ```text
 bind(server_socket, (struct sockaddr*) &server_address, sizeof(server_address));
