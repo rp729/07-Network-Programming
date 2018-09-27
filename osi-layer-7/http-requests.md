@@ -15,7 +15,7 @@ The initial line is different for the request than for the response. A request l
 
 Notes:
 
-* **GET** is the most common HTTP method; it says "give me this resource". Other methods include **POST** and **HEAD**-- more on those later. Method names are always uppercase.
+* **GET** is the most common HTTP method; it says "give me this resource". \(Method names are always uppercase.\)
 * The path is the part of the URL after the host name, also called the request URI \(a URI is like a URL, but more general\).
 * The HTTP version always takes the form "**HTTP/x.x**", uppercase.
 
@@ -70,4 +70,58 @@ REST APIs use GET, PUT, POST, and DELETE.
 #### Safe methods
 
 Some of the methods \(for example, HEAD, GET, OPTIONS and TRACE\) are, by convention, defined as safe, which means they are intended only for information retrieval and should not change the state of the server.
+
+### POST
+
+```text
+POST /index.html HTTP/1.1
+```
+
+When a web browser sends a POST request from a web form element, the default Internet media type is "application/x-www-form-urlencoded". This is a format for encoding key-value pairs with possibly duplicate keys. Each key-value pair is separated by an '&' character, and each key is separated from its value by an '=' character. Keys and values are both escaped by replacing spaces with the '+' character and then using URL encoding on all other non-alphanumeric characters.
+
+For example, the key-value pairs
+
+```text
+Name: Gareth Wylie
+Age: 24
+Formula: a + b == 13%!
+```
+
+are encoded as
+
+```text
+Name=Gareth+Wylie&Age=24&Formula=a+%2B+b+%3D%3D+13%25%21
+```
+
+Starting with HTML 4.0, forms can also submit data in [multipart/form-data](https://en.wikipedia.org/wiki/Multipart/form-data) as defined in [RFC 2388](https://tools.ietf.org/html/rfc2388) 
+
+#### Examples:
+
+A simple form using the default `application/x-www-form-urlencoded` content type:
+
+```text
+POST / HTTP/1.1
+Host: foo.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+
+say=Hi&to=Mom
+```
+
+A form using the `multipart/form-data` content type:
+
+```text
+POST /test.html HTTP/1.1 
+Host: example.org 
+Content-Type: multipart/form-data;boundary="boundary" 
+
+--boundary 
+Content-Disposition: form-data; name="field1" 
+
+value1 
+--boundary 
+Content-Disposition: form-data; name="field2"; filename="example.txt" 
+
+value2
+```
 

@@ -19,11 +19,11 @@
 
 ### `+noanswer` – Turn off the answer section \(Of course, you wouldn’t want to turn off the answer section\).
 
-## `$ dig redhat.com +noall+answer`
+### `$ dig redhat.com +noall+answer`
 
-## `; <<>> DiG 9.7.3-RedHat-9.7.3-2.el6 <<>> redhat.com +noall+answer`
+### `; <<>> DiG 9.7.3-RedHat-9.7.3-2.el6 <<>> redhat.com +noall+answer`
 
-## `;; global options: +cmd`
+### `;; global options: +cmd`
 
-## `redhat.com. 60 IN A 209.132.183.81`
+### `redhat.com. 60 IN A 209.132.183.81`
 
