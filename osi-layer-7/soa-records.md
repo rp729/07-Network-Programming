@@ -22,7 +22,7 @@ In addition to the DNS record fields, it contains more information:
 
 **Serial Number** - Current "version number", used by secondary DNS to determine whether they should update.
 
-**Refresh** - Number of second between each secondary DNS checks for updates.
+**Refresh** - Number of seconds between each secondary DNS checks for updates.
 
 **Retry** - Number of seconds to wait for secondary DNS to re-try a zone transfer.
 
