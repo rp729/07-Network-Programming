@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Main](07-Network-Programming/00-Click-me-First/README.md)
-* [Introduction](00-Click-me-First/introduction.md)
+* [Main](01-introduction/00-README.md)
+* [Introduction](01-introduction/01-introduction.md)
 * [Intro to Networking](02-intro-to-networking/README.md)
   * [Networks and Ports](02-intro-to-networking/networks-and-ports.md)
   * [Numbering Systems](02-intro-to-networking/numbering-systems.md)
