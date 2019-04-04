@@ -1,6 +1,6 @@
 # Table of contents
 
-**When using the table of contents to navigate the course; please remember to use the back arrow to return to the table upon completion of each open section.  You will need to go out to 07-Network-Programming to reopen the table of contents if you do not use the back arrow.**
+**When using the Table of Contents to navigate the course; please remember to use the back arrow to return to the table upon completion of each open section.  You will need to go out to 07-Network-Programming to reopen the table of contents if you do not use the back arrow.**
 
 * [Main](01-introduction/01-README.md)
 * [Introduction](01-introduction/02-introduction.md)
