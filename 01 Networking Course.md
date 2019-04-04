@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Main](README.md)
-* [Introduction](01 introduction.md)
+* [Introduction](01-introduction.md)
 * [Intro to Networking](intro-to-networking/README.md)
   * [Networks and Ports](intro-to-networking/networks-and-ports.md)
   * [Numbering Systems](intro-to-networking/numbering-systems.md)
