@@ -1,6 +1,6 @@
 # Main
 
-![](.gitbook/assets/nightearth.jpg)
+![](/.gitbook/assets/nightearth.jpg)
 
 ## **Course Overview:**
 
