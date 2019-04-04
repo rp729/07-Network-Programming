@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Main](README.md)
+* [Main](00-README.md)
 * [Introduction](01-introduction.md)
 * [Intro to Networking](intro-to-networking/README.md)
   * [Networks and Ports](intro-to-networking/networks-and-ports.md)
