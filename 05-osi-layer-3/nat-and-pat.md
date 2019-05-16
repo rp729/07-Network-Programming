@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # NAT and PAT
 
 ## NAT - Network Address Translation
@@ -10,3 +12,4 @@
 * Maps public IP to port number for each device on the network and translates traffic in router.
 * Used to conserve IPv4 addresses.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
