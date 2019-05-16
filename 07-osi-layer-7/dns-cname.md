@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # DNS - CNAME
 
 CNAME records define an alias for canonical name for your server \(one defined by an A or AAAA record\).
@@ -11,3 +13,4 @@ www         IN  CNAME   server1
 
 According to RFC 2181, there must be only one canonical name per alias.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
