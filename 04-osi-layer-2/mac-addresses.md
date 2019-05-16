@@ -23,4 +23,4 @@ Manufacturers 'burn in' a MAC address to each port on a device, however most mod
 * The Layer 2 BROADCAST address for IPv4 and ARP is FF:FF:FF:FF:FF:FF
 * The Layer 2 MULTICAST address for IPv6 is 33:33:00:00:00:01
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/switches.md" > Continue to Next Topic </a>
