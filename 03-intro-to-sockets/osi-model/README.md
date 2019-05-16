@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # OSI Model
 
 ![](../../.gitbook/assets/osi.PNG)
@@ -17,3 +19,4 @@ The OSI model divides the complex task of computer-to-computer communications in
 * Data link
 * Physical
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
