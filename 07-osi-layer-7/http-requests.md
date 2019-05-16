@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # HTTP Requests
 
 ### **HTTP Requests**
@@ -125,3 +127,4 @@ Content-Disposition: form-data; name="field2"; filename="example.txt"
 value2
 ```
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
