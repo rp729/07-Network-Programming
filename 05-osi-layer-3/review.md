@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Review
 
 * Developers will Understand Unicast/Multicast/Broadcast/Anycast and explain their differences
@@ -8,3 +10,4 @@
 * Developers will implement data interchange formats such as JSON, Struct libraries \(Python\)
 * Developers will manipulate multiple sockets in a single client or server
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
