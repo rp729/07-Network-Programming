@@ -26,4 +26,4 @@
 
 #### Lab 1
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/lab-1.md" > Continue to Lab 1-1 </a>
