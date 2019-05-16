@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # DNS Resolution
 
 * Resolving addresses are performed with DNS Request messages.
@@ -10,3 +12,4 @@
 
 ![](../.gitbook/assets/dns_3.png)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
