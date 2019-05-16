@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # IPv6 Address Types
 
 Generally there are three types of addresses:
@@ -30,3 +32,4 @@ NOTE: This list is not exhaustive.
 
 [http://www.iana.org/assignments/ipv6-multicast-addresses/ipv6-multicast-addresses.xhtml](http://www.iana.org/assignments/ipv6-multicast-addresses/ipv6-multicast-addresses.xhtml)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
