@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # IPv4 Addresses
 
 IPv4 Addresses are represented in “dotted decimal” notation.
@@ -22,3 +24,4 @@ IPv6
 
 ![](../.gitbook/assets/ipv6.PNG)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
