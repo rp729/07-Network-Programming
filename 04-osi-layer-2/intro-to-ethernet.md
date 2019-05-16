@@ -18,5 +18,4 @@ In the TCP/IP world, the encapsulation of IP datagrams is defined in RFC 894 \[H
 2. Should be able to receive RFC 1042 \(IEEE 802\) packets intermixed with RFC 894 packets. 
 3. May be able to send packets using RFC 1042 encapsulation. If the host can send both types of packets, the type of packet sent must be configurable and the configuration option must default to RFC 894 packets. 
 
-
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/layer-1-devices.md" > Continue to Next Topic </a>
