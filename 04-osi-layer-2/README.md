@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # OSI Layer 2
 
 ### **Overview**
@@ -20,5 +22,5 @@
 * Able to create code using the POSIX API/BSD Sockets
 * Set socket options
 
-
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
 
