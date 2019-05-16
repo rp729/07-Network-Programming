@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+
 # select\(\)
 
 * Select\(\) is a potential solution for when you want to open multiple sockets for communication, but don't want your receive/send functions to block and hold up your program.
@@ -93,3 +95,4 @@ socklist = [mysock1: ‘host1’, mysock2: ‘host1:8080’, mysock3: ‘host2-d
                 (e.g. is the user logged in? How far along in a buffer are you)
 ```
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
