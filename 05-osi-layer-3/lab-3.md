@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Lab 3-2
 
 ## Lab 3A
@@ -32,5 +34,5 @@ Hint: The second step is intentionally ambiguous on how to proceed. There are mu
 
 #### Create a port scanner. Code it in Python, C, or Raw Sockets. Use IPv4 or IPv6, TCP and/or UDP.
 
-
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
 
