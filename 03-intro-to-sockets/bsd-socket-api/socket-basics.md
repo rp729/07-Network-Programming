@@ -42,4 +42,4 @@
 * Calls to accept\(\) will NOT alter the LISTENING socket
 * By default, accept\(\) will block until a connection is received
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/bsd-socket-api/socket-basics.md" > Continue to Next Topic </a>
