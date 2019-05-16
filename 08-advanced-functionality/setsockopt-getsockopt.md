@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # setsockopt\(\)/getsockopt\(\)
 
 Using socket options gives you some advanced options for sockets to do interesting things.
@@ -75,3 +77,4 @@ You can call the`getsockopt()`and`setsockopt()`methods on a socket object to ret
 
 [https://linux.die.net/man/2/getsockopt](https://linux.die.net/man/2/getsockopt)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
