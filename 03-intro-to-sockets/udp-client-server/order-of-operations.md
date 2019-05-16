@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Order of Operations
 
 ![UDP Client/Server](../../.gitbook/assets/udpfuncdiag.png)
@@ -39,3 +41,4 @@ You may use multiple assignments here as well:
 
 `data, remote = sock.recvfrom()`
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
