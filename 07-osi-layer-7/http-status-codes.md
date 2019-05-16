@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # HTTP Status Codes
 
 The status code is a three-digit integer, and the first digit identifies the general category of response.
@@ -43,3 +45,4 @@ Below are some common ones:
 * **HTTP 1.0 \(RFC 1945\)--**[HTML](http://www.ics.uci.edu/pub/ietf/http/rfc1945.html), [text](http://www.ics.uci.edu/pub/ietf/http/rfc1945.txt), and [gzip'd PostScript](http://www.ics.uci.edu/pub/ietf/http/rfc1945.ps.gz)
 * **HTTP 1.1 \(RFC 2616\)--**[HTML](http://www.w3.org/Protocols/rfc2616/rfc2616.html), [text](http://www.w3.org/Protocols/rfc2616/rfc2616.txt), [PostScript](ftp://ftp.isi.edu/in-notes/rfc2616.ps), and [PDF](http://www.w3.org/Protocols/HTTP/1.1/rfc2616.pdf)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
