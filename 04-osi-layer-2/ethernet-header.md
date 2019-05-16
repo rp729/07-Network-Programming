@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Ethernet Header
 
 ![](../.gitbook/assets/ethernet-frame-explained.png)
@@ -11,3 +13,4 @@
 * ARP, IPv4, IPv6, etc...
 * See references page...
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
