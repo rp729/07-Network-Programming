@@ -6,5 +6,5 @@
 * Able to create code using C28POSIX API/BSD Sockets
 * Set socket options
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/summary.md" > Continue to Next Topic </a>
 
