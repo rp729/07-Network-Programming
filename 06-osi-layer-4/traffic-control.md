@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Traffic Control
 
 Window scaling is determined during the handshake and it determines the maximum data to be received before being ACKed.
@@ -8,3 +10,4 @@ Congestion is controlled by the TCP stack using timers and various algorithms to
 
 In depth analysis of these are out of the scope of this class.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
