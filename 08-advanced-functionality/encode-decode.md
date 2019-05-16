@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # encode\(\)/decode\(\)
 
 A Unicode string is a sequence of code points, which are numbers from 0 to 0x10ffff. This sequence needs to be represented as a set of bytes \(meaning, values from 0–255\) in memory. The rules for translating a Unicode string into a sequence of bytes are called an **encoding**. Python's default encoding is 'ASCII'.  However,  UTF-8 is probably the most commonly supported encoding.
@@ -40,3 +42,4 @@ The method **encode\(\)** returns an encoded version of the string.
 
 **References:** [https://docs.python.org/2/howto/unicode.html](https://docs.python.org/2/howto/unicode.html)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
