@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Order of Operations
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
@@ -29,3 +31,4 @@
 
 `accept_socket, remote = sock.accept`
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
