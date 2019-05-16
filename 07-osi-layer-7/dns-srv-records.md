@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # DNS - SRV Records
 
 These allow domains to identify the services offered and the hosts responsible for providing the services:
@@ -22,3 +24,4 @@ These allow domains to identify the services offered and the hosts responsible f
 
 ## `_http._tcp.reskit.com. IN SRV 10 0 80 webserver2.noam.reskit.com.`
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
