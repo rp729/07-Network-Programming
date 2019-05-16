@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Anycast
 
 Anycast addressing does not operate like traditional addressing.
@@ -12,3 +14,4 @@ This seems strange. Why do it?
 
 Some services are run on multiple servers \(DNS or NTP for example\). You would assign anycast addresses where multiple servers provide the same service but only one reply is required to use the service.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
