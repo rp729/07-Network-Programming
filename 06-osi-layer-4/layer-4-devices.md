@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Layer 4 Devices
 
 The Transport Layer controls the reliability of communications through flow control, segmentation, and error control, such as: TCP and UDP. Layer 4 devices are also focused specifically on reliable packet transmission.  Gateways and Firewalls can be considered devices of Layers 4 - 7.
@@ -15,3 +17,4 @@ The Transport Layer controls the reliability of communications through flow cont
 
 **Load Balancers** - Refers to efficiently distributing incoming network traffic across a group of backend servers, also known as a server farm or server pool. Load balancing aims to optimize resource use, maximize throughput, minimize response time, and avoid overload of any single resource.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
