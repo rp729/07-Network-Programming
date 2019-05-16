@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Struct Module
 
 Struct allows you to pack values into specified data types/sizes and endianess. Packed data is represented by a string of hex bytes. Struct will also unpack data from the hex string and provide you a tuple of the values.
@@ -80,3 +82,4 @@ Unpacked Values: (1, 'ab', 2.700000047683716)
 
 [https://docs.python.org/2/library/binascii.html](https://docs.python.org/2/library/binascii.html%29%29%29\)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
