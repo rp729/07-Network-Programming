@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Routing
 
 Packets are routed independently of each other, even if they are to the same destination.
@@ -12,3 +14,4 @@ When a router receives a packet, the destination IP of a packet is compared to t
 * If the network is known, but not connected, send it to the NEXT HOP specified in the routing table with the 'best' weight.
 * Otherwise send it to the DEFAULT GATEWAY.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
