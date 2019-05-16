@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Intro to DNS
 
 Domain names are for the benefit of humans.
@@ -36,3 +38,4 @@ Typically, the leftmost label of a DNS domain name identifies a specific resourc
 
 ![](../.gitbook/assets/dns_1.png)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
