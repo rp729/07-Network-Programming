@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Socket Basics
 
 **Reference:** [https://docs.python.org/2/library/socket.html?highlight=pton\#module-socket](https://docs.python.org/2/library/socket.html?highlight=pton#module-socket)
@@ -40,3 +42,4 @@
 * Calls to accept\(\) will NOT alter the LISTENING socket
 * By default, accept\(\) will block until a connection is received
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
