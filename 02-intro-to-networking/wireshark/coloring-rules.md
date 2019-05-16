@@ -12,4 +12,6 @@ Packet colorization can be toggled off and on via the _Colorize Packet List_ opt
 
 [https://www.lifewire.com/wireshark-tutorial-4143298](https://www.lifewire.com/wireshark-tutorial-4143298)
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/netcat.md" > Continue to Next Topic </a>
