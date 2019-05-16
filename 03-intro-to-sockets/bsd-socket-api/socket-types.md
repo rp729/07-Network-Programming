@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Socket Types
 
 **There are two basic types of communication** 
@@ -19,3 +21,4 @@ If you are transferring a large amount of data, you require error handling and c
 
 In python, the socket module defines the constants as **SOCK\_STREAM** and **SOCK\_DGRAM** respectively. They handle layers 1-4 for you. If you need to control the lower layers, you will use RAW sockets.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
