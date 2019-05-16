@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # HTTP Responses
 
 HTTP Responses conclude the transaction. Other transactions may be required to get other resources found on the page. Remember that \r\n separates the header from the actual data.
@@ -51,3 +53,4 @@ Notes:
 
 `Content-Type: text/html; charset=iso-8859-1`
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
