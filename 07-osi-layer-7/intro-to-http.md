@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Intro to HTTP
 
 HTTP stands for **Hypertext Transfer Protocol**. It's the network protocol used to deliver virtually all files and data \(collectively called resources\) on the World Wide Web, whether they're HTML files, image files, query results, or anything else. Usually, HTTP takes place through TCP/IP sockets \(and this tutorial ignores other possibilities\).
@@ -34,3 +36,4 @@ Like many protocols, HTTP is constantly evolving. HTTP 1.1 has recently been def
 * Faster response for dynamically-generated pages, by supporting chunked encoding, which allows a response to be sent before its total length is known.
 * Efficient use of IP addresses, by allowing multiple domains to be served from a single IP address.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
