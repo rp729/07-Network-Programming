@@ -16,4 +16,4 @@ Switches check the DESTINATION MAC address against the MAC table.
 
 If the DESTINATION MAC is a broadcast address, then forward it out ALL ports EXCEPT the one it was received on.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/ethernet-header.md" > Continue to Next Topic </a>
