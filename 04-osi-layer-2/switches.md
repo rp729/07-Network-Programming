@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Switches
 
 Switches operate using MAC addresses found in the Ethernet header of the traffic.
@@ -14,3 +16,4 @@ Switches check the DESTINATION MAC address against the MAC table.
 
 If the DESTINATION MAC is a broadcast address, then forward it out ALL ports EXCEPT the one it was received on.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
