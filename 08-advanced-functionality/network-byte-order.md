@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Network Byte Order
 
 Network byte order is most-significant byte first.
@@ -52,3 +54,4 @@ Supported values for\_address\_family\_are currently[`AF_INET`](https://docs.pyt
 
 Availability: Unix \(maybe not all platforms\).
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
