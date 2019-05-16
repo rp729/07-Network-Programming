@@ -14,4 +14,4 @@ MTU can vary at each hop. This means it is possible for every node on the path t
 
 Packets larger than MTU are dropped and an ICMP message is returned to the sender indicating the packet is too big.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/broadcast-vs-collision-domains.md" > Continue to Next Topic </a>
