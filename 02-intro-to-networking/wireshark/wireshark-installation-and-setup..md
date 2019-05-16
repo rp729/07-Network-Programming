@@ -16,4 +16,4 @@ During installation, a system group called `wireshark` was created. Users in thi
 
 Then log out, back in again, and you are ready to go!
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/wireshark/analyzing-packets.md" > Continue to Next Topic </a>
