@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Analyzing Packets
 
 Now that you've recorded some network data it's time to take a look at the captured packets. As shown in the screenshot below, the captured data interface contains three main sections: The packet list pane, the packet details pane, and the packet bytes pane.
@@ -52,3 +54,4 @@ Selecting a specific portion of this data automatically highlights its correspon
 
 You can choose to show this data in bit format as opposed to hexadecimal by right-clicking anywhere within the pane and selecting the appropriate option from the context menu.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
