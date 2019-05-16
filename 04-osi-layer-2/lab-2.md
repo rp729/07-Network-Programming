@@ -46,4 +46,4 @@ Write a simple socket program that will ask a user to enter a domain and pull th
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/README.md" > Continue to Next Topic </a>
