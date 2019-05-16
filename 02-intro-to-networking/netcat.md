@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Netcat
 
 Netcat is the "swiss army knife" of networking. It is a simple networking program that can be used as a client or server. Any data that is received is printed to the terminal \(or file if using file redirection\). Netcat supports both IPv4/IPv6 and TCP/UDP. You can use Netcat to receive traffic you are sending, or to simulate a client accessing a server.
@@ -53,3 +55,4 @@ connection terminates\)
 
 •while true; do sudo nc -lp 80 &lt; index.html; done \(Equivalent to -L in Windows\)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
