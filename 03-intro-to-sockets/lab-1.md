@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Lab 1-1
 
 In this exercise, we experiment with setting up a network connection between two different Python interpreters.
@@ -156,3 +158,4 @@ Send an HTML greeting back to the browser:
 
 Congratulations! You have now made an extremely simple web server.
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
