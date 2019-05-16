@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Coloring Rules
 
 ![](../../.gitbook/assets/wireshark-colors-59512e8f3df78cae8137715b.png)
@@ -10,3 +12,4 @@ Packet colorization can be toggled off and on via the _Colorize Packet List_ opt
 
 [https://www.lifewire.com/wireshark-tutorial-4143298](https://www.lifewire.com/wireshark-tutorial-4143298)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
