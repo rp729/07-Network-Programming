@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # DNS – PTR Records
 
 The PTR records are used to define a name associated with an IP address. PTR records are the inverse of an A or AAAA record. PTR records are unique in that they begin at the `.arpa` root and are delegated to the owners of the IP addresses. The Regional Internet Registries \(RIRs\) manage the IP address delegation to organization and service providers. The Regional Internet Registries include APNIC, ARIN, RIPE NCC, LACNIC, and AFRINIC.
@@ -21,3 +23,4 @@ This example of a PTR record for an IPv6 address shows the _nibble_ format of th
 * **'in-addr.arpa.' ends with a . \(meaning it's the fully qualified domain name\)**
 * **The IPv6 address is not in a traditional format**  [**http://rdns6.com/hostRecord**](http://rdns6.com/hostRecord%29%29%29%29%20\)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
