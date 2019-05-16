@@ -38,4 +38,4 @@
 
 ### If you do not bind to a port as a TCP client/UDP sender, you will get a random high number port automatically assigned to your process. This is called an “ephemeral port”.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/numbering-systems.md" > Continue to Next Topic </a>
