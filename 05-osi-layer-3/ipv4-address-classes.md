@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # IPv4 Address Classes
 
 **Class A** - first bit is 0 \(First octet 1-127\)
@@ -12,3 +14,4 @@
 
 ![](../.gitbook/assets/ip_address_range.png)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
