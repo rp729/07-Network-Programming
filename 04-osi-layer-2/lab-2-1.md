@@ -234,5 +234,7 @@ packet = ip_header + tcp_header + user_data
 s.sendto(packet, (dest_ip , 0 ))    # put this in a loop if you want to flood the target
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+---
+
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/lab-2.md" > Continue to Lab 2-2 </a>
 
