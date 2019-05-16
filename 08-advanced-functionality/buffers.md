@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+
 # Buffers
 
 Working with binary packed data is typically reserved for highly performance sensitive situations or passing data into and out of extension modules. In such situations, you can optimize by avoiding the overhead of allocating a new buffer for each packed structure. The pack\_into\(\) and unpack\_from\(\) methods support writing to pre-allocated buffers directly.
@@ -53,3 +55,4 @@ After   : 0100000061620000cdcc2c40
 Unpacked: (1, 'ab', 2.700000047683716)
 ```
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
