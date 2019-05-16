@@ -1,3 +1,5 @@
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+
 # Pydocs
 
 ## [https://docs.python.org/2/library/index.html](https://docs.python.org/2/library/index.html%29%29\)
@@ -10,3 +12,4 @@ The search function on Pydocs will let you search for a specific function to see
 
 * e.g. accept\(\) can be found by searching socket.accept\(\)
 
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
