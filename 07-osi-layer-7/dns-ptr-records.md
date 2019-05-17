@@ -23,4 +23,4 @@ This example of a PTR record for an IPv6 address shows the _nibble_ format of th
 * **'in-addr.arpa.' ends with a . \(meaning it's the fully qualified domain name\)**
 * **The IPv6 address is not in a traditional format**  [**http://rdns6.com/hostRecord**](http://rdns6.com/hostRecord%29%29%29%29%20\)
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-cname.md" > Continue to Next Topic </a>
