@@ -39,4 +39,4 @@ Current socket timeout: 100.0
 
 In this code snippet, we have first created a socket object by passing the socket family and socket type as the first and secondarguments of the socket constructor. Then, you can get the socket timeout value by calling`gettimeout()`and alter the value by calling the`settimeout()`method. The timeout value passed to the`settimeout()`method can be in seconds \(non-negative float\) or`None`. This method is used for manipulating the blocking-socket operations. Setting a timeout of`None`disables timeouts on socket operations.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/socket-blocking.md" > Continue to Next Topic </a>
