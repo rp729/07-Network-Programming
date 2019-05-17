@@ -77,4 +77,6 @@ You can call the`getsockopt()`and`setsockopt()`methods on a socket object to ret
 
 [https://linux.die.net/man/2/getsockopt](https://linux.die.net/man/2/getsockopt)
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/network-byte-order.md" > Continue to Next Topic </a>
