@@ -50,4 +50,6 @@ A DNS zone must contain several types of resource records for DNS to function pr
 
 **RDATA** - Data of the record
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/soa-records.md" > Continue to Next Topic </a>
