@@ -87,4 +87,4 @@ JSON = JavaScript Object Notation. It's a series of key-value pairs. The key-val
 
 `<type 'dict'>`
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/struct-module.md" > Continue to Next Topic </a>
