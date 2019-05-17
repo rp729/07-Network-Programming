@@ -12,4 +12,4 @@
 
 ![](../.gitbook/assets/dns_3.png)
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dig.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dig-output.md" > Continue to Next Topic </a>
