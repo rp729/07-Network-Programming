@@ -38,4 +38,6 @@ Typically, the leftmost label of a DNS domain name identifies a specific resourc
 
 ![](../.gitbook/assets/dns_1.png)
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-servers.md" > Continue to Next Topic </a>
