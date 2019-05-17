@@ -41,4 +41,6 @@ In addition to the DNS record fields, it contains more information:
 * **3w**: This is the expiry period. If a slave name server has not been able to contact the master for this amount of time, it no longer returns responses as an authoritative source for this zone.
 * **1h**: This is the amount of time that the name server will cache a name error if it cannot find the requested name in this file
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-a-and-aaaa-records.md" > Continue to Next Topic </a>
