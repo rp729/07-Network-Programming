@@ -14,4 +14,4 @@ host     IN      A       172.16.48.1 (IPv4_address)
 host     IN      AAAA    2001:db8::ff00:42:8329 (IPv6_address)
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-ptr-records.md" > Continue to Next Topic </a>
