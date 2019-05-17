@@ -42,4 +42,6 @@ Zone files reside in name servers and generally define the resources available u
 
 However, don't confuse Zones with Domains, a zone will start as a storage for a single DNS domain name. If you add other domains below the domain where the zone was created, these domains can either be part of the same zone or belong to another zone. If you add a subdomain, the subdomain can either be included and managed as part of the original zone record, or delegated to another zone created for the subdomain.
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-resource-records.md" > Continue to Next Topic </a>
