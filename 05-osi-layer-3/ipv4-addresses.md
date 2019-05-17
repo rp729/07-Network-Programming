@@ -24,4 +24,4 @@ IPv6
 
 ![](../.gitbook/assets/ipv6.PNG)
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/subnet-mask.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/ipv4-address-classes.md" > Continue to Next Topic </a>
