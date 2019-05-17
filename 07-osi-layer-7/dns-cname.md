@@ -13,4 +13,4 @@ www         IN  CNAME   server1
 
 According to RFC 2181, there must be only one canonical name per alias.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-cname.md" > Continue to Next Topic </a>
