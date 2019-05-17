@@ -65,4 +65,6 @@ Unpacked Value : (1, 'ab', 2.700000047683716)
 
 **WikiPedia: Endianness** - Explanation of byte order and endianness in encoding. \([https://en.wikipedia.org/wiki/Endianness](https://en.wikipedia.org/wiki/Endianness%29%29\)
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+---
+
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/reusing-socket-addresses.md" > Continue to Next Topic </a>
