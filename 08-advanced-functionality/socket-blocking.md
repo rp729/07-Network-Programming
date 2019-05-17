@@ -45,4 +45,4 @@ Trivial Server launched on socket: ('127.0.0.1', 51410)
 
 In this example, we enable blocking on a socket by setting the value`1`in the`setblocking()`method. Similarly, you can unset the value`0`in this method to make it non-blocking.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/select/README.md" > Continue to Next Topic </a>
