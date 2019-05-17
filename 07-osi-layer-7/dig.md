@@ -124,5 +124,5 @@ Where:  domain	  is in the Domain Name System
 
 ```
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dig.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dig-output.md" > Continue to Next Topic </a>
 
