@@ -54,4 +54,6 @@ Supported values for\_address\_family\_are currently[`AF_INET`](https://docs.pyt
 
 Availability: Unix \(maybe not all platforms\).
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+---
+
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/socket-timeout.md" > Continue to Next Topic </a>
