@@ -30,4 +30,4 @@ If you are working with data from another application, perhaps coming from a bin
 
 And finally, if the available types don’t give you what you need, you may want to subclass one of the native types and customize it. You can also start from scratch by using the abstract base classes defined in collections.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/buffers.md" > Continue to Next Topic </a>
