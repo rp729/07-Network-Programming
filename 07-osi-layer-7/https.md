@@ -20,4 +20,4 @@ When a trusted SSL Digital Certificate is used during a [HTTPS](https://www.inst
 * Visitors can verify you are a registered business and that you own the domain
 * Customers are more likely to trust and complete purchases from sites that use HTTPS
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/smtp.md" > Continue to Next Topic </a>
