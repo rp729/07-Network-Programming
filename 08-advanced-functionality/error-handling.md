@@ -45,4 +45,4 @@ _exception_`socket.timeout`
 
 This exception is raised when a timeout occurs on a socket which has had timeouts enabled via a prior call to`settimeout()`. The accompanying value is a string whose value is currently always “timed out”.
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/json-module.md" > Continue to Next Topic </a>
