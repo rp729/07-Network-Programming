@@ -36,4 +36,4 @@ In many cases, you can simply provide a handle\(\) method.
 
 ### Reference: [https://docs.python.org/2/library/socketserver.html](https://docs.python.org/2/library/socketserver.html)
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/socketserver/example.md" > Continue to Next Topic </a>
