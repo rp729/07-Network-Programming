@@ -14,4 +14,4 @@ This is the mechanism that should ensure that two different TCP sessions are not
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/reusing-socket-addresses.md" > Continue to Next Topic </a>
+<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/setsockopt-getsockopt.md" > Continue to Next Topic </a>
