@@ -82,4 +82,6 @@ Unpacked Values: (1, 'ab', 2.700000047683716)
 
 [https://docs.python.org/2/library/binascii.html](https://docs.python.org/2/library/binascii.html%29%29%29\)
 
+---
+
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/encode-decode.md" > Continue to Next Topic </a>
