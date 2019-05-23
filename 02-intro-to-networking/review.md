@@ -11,4 +11,5 @@
 * Developers will use Ping
 * Developers will use ifconfig/ipconfig
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/summary.md" > Continue to Next Topic </a>
