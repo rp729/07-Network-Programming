@@ -44,4 +44,5 @@ If you bitwise AND an IP and a subnet mask, you will get the network IP.
 
 ![](../.gitbook/assets/subnetc.png)
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/cidr.md" > Continue to Next Topic </a>
