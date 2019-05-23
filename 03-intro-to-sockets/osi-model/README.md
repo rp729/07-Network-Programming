@@ -19,4 +19,5 @@ The OSI model divides the complex task of computer-to-computer communications in
 * Data link
 * Physical
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/osi-model/osi-layers.md" > Continue to Next Topic </a>
