@@ -31,4 +31,5 @@
 
 `accept_socket, remote = sock.accept`
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/tcp-client-server/sendall.md" > Continue to Next Topic </a>
