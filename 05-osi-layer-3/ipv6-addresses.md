@@ -26,4 +26,5 @@ If the contiguous 0's only encompass a single hextet, do NOT replace it with a :
 
 The Layer 2 \(Ethernet\) multicast address for IPv6 is 33:33:00:00:00:01
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/ipv6-address-types.md" > Continue to Next Topic </a>
