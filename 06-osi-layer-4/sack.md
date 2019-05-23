@@ -10,4 +10,5 @@ It uses a "left edge" and "right edge" to pinpoint the missing data.
 
 The ACKno will be the same as a non-SACK connection. The appended header will also include the SACK option for TCP indicating the other data it received. The sender may then re-transmit the missing data.
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/06-osi-layer-4/tcp-handshake.md" > Continue to Next Topic </a>
