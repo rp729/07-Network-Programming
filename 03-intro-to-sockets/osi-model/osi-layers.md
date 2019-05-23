@@ -32,4 +32,5 @@ This layer is the simplest in function of any piece of the OSI model. At Layer 6
 
 This layer is the user interface responsible for displaying received information to the user. It supports application and end-user processes. The application layer is an abstraction layer that specifies the shared protocols and interface methods used by hosts in a communications network. Network process to application.
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/bsd-socket-api/README.md" > Continue to Next Topic </a>
