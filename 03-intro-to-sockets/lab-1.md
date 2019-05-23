@@ -158,4 +158,5 @@ Send an HTML greeting back to the browser:
 
 Congratulations! You have now made an extremely simple web server.
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/lab-1-2.md" > Continue to Lab 1-2 </a>
