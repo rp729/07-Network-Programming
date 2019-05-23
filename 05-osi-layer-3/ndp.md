@@ -20,4 +20,5 @@ Read the RFC! It tells you how to fill out values in previous headers!
 
 **Redirect** - If you see traffic destined somewhere, and you know a better route to a given host you can send this to have the sender redirect their traffic
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/icmp.md" > Continue to Next Topic </a>
