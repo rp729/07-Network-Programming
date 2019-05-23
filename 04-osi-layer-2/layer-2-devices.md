@@ -12,4 +12,5 @@
 
 * **Single Broadcast Domain**
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/mac-addresses.md" > Continue to Next Topic </a>
