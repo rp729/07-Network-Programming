@@ -22,5 +22,5 @@
 * Able to create code using the POSIX API/BSD Sockets
 * Set socket options
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/data-encapsulation.md" > Continue to Next Topic </a>
-
