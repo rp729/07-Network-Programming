@@ -23,5 +23,6 @@
 * Use Ping
 * Use ifconfig/ipconfig
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/networks-and-ports.md" > Continue to Next Topic </a>
 
