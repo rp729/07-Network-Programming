@@ -12,4 +12,5 @@ There are 19 contiguous 1's, so the CIDR notation is 192.168.1.2/19.
 
 CIDR notation is a compact representation of an IP address and its associated routing prefix.
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/routing-protocols.md" > Continue to Next Topic </a>
