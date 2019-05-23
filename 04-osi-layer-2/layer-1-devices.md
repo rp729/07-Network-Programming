@@ -11,4 +11,5 @@ Dedicated Layer 1 devices are mostly extinct in today's environments. As technol
 *  **Single Collision Domain**
 *  **Single Broadcast Domain**
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/layer-2-devices.md" > Continue to Next Topic </a>
