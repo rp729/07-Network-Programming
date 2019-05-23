@@ -12,4 +12,5 @@ The search function on Pydocs will let you search for a specific function to see
 
 * e.g. accept\(\) can be found by searching socket.accept\(\)
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/rfcs-pydocs-man-pages/man-pages.md" > Continue to Next Topic </a>
