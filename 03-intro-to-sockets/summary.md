@@ -24,6 +24,7 @@
 * sendall\(\)
 * Data Reassembly
 
+---
 #### Lab 1
 
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/lab-1.md" > Continue to Lab 1-1 </a>
