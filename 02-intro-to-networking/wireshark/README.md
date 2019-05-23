@@ -36,4 +36,5 @@ The live capture process will now begin, with packet details displayed in the Wi
 
    Click on the red stop button, located next to the shark fin on the Wireshark toolbar
 
+---
 <a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/wireshark/wireshark-installation-and-setup..md" > Continue to Next Topic </a>
