@@ -215,4 +215,4 @@ Start a new thread and return its identifier. The thread executes the function _
 ---
 **End of Networkprogramming**
 
-<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/00-Table-of-Contents.md"> Return to Course introduction </a>
+<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/00-Table-of-Contents.md"> Continue to C Programming </a>
