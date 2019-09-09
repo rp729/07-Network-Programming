@@ -1,11 +1,11 @@
-|<a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" rel="Return to Course Introduction"> Return to IDF Course introduction </a>|     **or**      |<a href="https://github.com/CyberTrainingUSAF/11-Cyber-A-La-Carte" > Return to Cyber A-La-Carte </a>|
+|<a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" > Return to IDF Course introduction </a>|     **or**      |<a href="https://github.com/CyberTrainingUSAF/11-Cyber-A-La-Carte" > Return to Cyber A-La-Carte </a>|
 |---|  :---:  |---|
 
 ---
 
 ## Networking - Table of contents
 
-<a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" rel="Return to Course Introduction"> Return to Course introduction </a>
+---
 
 **When using the Table of Contents to navigate the course; please remember to use the back arrow to return to the table upon completion of each open section.  You will need to go out to 07-Network-Programming to reopen the table of contents if you do not use the back arrow.**
 
