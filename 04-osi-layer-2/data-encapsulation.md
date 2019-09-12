@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Data Encapsulation and The TCP/IP Model
+---
+
+## Data Encapsulation and The TCP/IP Model
 
 ![](../.gitbook/assets/encapsulation.PNG)
 
@@ -14,4 +17,6 @@
 * **Layer 1\)** **Network Access Layer:**  Ethernet, Wi-Fi, "Hardware", etc...
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/intro-to-ethernet.md" > Continue to Next Topic </a>
+
+|[Next Topic](/04-osi-layer-2/intro-to-ethernet.md)|
+|---|
