@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contacts](/00-Table-of-Contents.md)|
+|---|
 
-# Wireshark
+---
+
+## Wireshark
 
 #### Reference:  [https://www.wireshark.org/docs/wsug\_html\_chunked/](https://www.wireshark.org/docs/wsug_html_chunked/)
 
@@ -37,4 +40,6 @@ The live capture process will now begin, with packet details displayed in the Wi
    Click on the red stop button, located next to the shark fin on the Wireshark toolbar
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/wireshark/wireshark-installation-and-setup..md" > Continue to Next Topic </a>
+
+|[Next Topic](/02-intro-to-networking/wireshark/wireshark-installation-and-setup..md)|
+|---|
