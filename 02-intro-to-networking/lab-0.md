@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contacts](/00-Table-of-Contents.md)|
+|---|
 
-# Lab 0
+---
+
+## Lab 0
 
 I expect you to be able to use Wireshark and Netcat for troubleshooting and debugging. Make sure you understand how to find Ethernet addresses and IP addresses. Startup Wireshark, have it listening to your Virtual Machine traffic, and verify connectivity between virtual machines before beginning the Labs.
 
@@ -28,5 +31,8 @@ Try to use Netcat:
 * Reverse Shell
 * Banner Grab
 
+
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/README.md" > Continue to Next Topic </a>
+
+|[Next Topic](/03-intro-to-sockets/README.md)|
+|---|
