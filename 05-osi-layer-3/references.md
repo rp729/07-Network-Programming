@@ -1,6 +1,8 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# References
+---
+## References
 
 **RFC:**
 
@@ -26,6 +28,8 @@ ICMP -[http://www.faqs.org/rfcs/rfc792.html](http://www.faqs.org/rfcs/rfc792.htm
 
 [http://www.iana.org/assignments/ipv6-multicast-addresses/ipv6-multicast-addresses.xhtml](http://www.iana.org/assignments/ipv6-multicast-addresses/ipv6-multicast-addresses.xhtml)
 
+
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/intro-to-internet-protocol.md" > Continue to Next Topic </a>
+|[Next Topic](/05-osi-layer-3/intro-to-internet-protocol.md)|
+|---|
