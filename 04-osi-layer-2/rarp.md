@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Reverse Address Resolution Protocol
+---
+
+## Reverse Address Resolution Protocol
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
@@ -9,4 +12,6 @@
 ![](../.gitbook/assets/rarp.PNG)
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/review.md" > Continue to Next Topic </a>
+
+|[Next Topic](/04-osi-layer-2/review.md)|
+|---|
