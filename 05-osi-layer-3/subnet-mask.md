@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Subnet Mask
+---
+
+## Subnet Mask
 
 Subnet masks were introduced to identify the **NETWORK** and **HOST** bits of an IP.
 
@@ -45,4 +48,6 @@ If you bitwise AND an IP and a subnet mask, you will get the network IP.
 ![](../.gitbook/assets/subnetc.png)
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/cidr.md" > Continue to Next Topic </a>
+
+|[Next Topic](/05-osi-layer-3/cidr.md)|
+|---|
