@@ -1,6 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contacts](/00-Table-of-Contents.md)|
+|---|
 
-# Numbering Systems
+---
 
 ## **Numbering Systems**
 
@@ -145,4 +146,6 @@ Once you've converted all the 4-digit parts, simply ram them together to get you
 ## ........ = 0xF00D
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/02-intro-to-networking/endianness.md" > Continue to Next Topic </a>
+
+|[Next Topic](/02-intro-to-networking/endianness.md)|
+|---|
