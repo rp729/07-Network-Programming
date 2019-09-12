@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# ARP Header
+---
+
+## ARP Header
 
 ![](../.gitbook/assets/arp-6-638.jpg)
 
@@ -18,5 +21,8 @@
 
 **Target Hardware Address, Target Protocol Address** - The target's addresses, The hardware address is filled in upon receipt of the ARP Request.
 
+
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/rarp.md" > Continue to Next Topic </a>
+
+|[Next Topic](/04-osi-layer-2/rarp.md)|
+|---|
