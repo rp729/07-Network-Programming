@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contacts](/00-Table-of-Contents.md)|
+|---|
 
-# UDP Client/Server
+---
+
+## UDP Client/Server
 
 ![](../../.gitbook/assets/udp1.PNG)
 
@@ -27,4 +30,6 @@
 ![](../../.gitbook/assets/udp33.PNG)
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/udp-client-server/order-of-operations.md" > Continue to Next Topic </a>
+
+|[Next Topic](/03-intro-to-sockets/udp-client-server/README.md)|
+|---|
