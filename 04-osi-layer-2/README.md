@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# OSI Layer 2
+---
+
+## OSI Layer 2
 
 ### **Overview**
 
@@ -23,4 +26,6 @@
 * Set socket options
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/04-osi-layer-2/data-encapsulation.md" > Continue to Next Topic </a>
+
+|[Next Topic](/04-osi-layer-2/data-encapsulation.md)|
+|---|
