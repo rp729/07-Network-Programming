@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contacts](/00-Table-of-Contents.md)|
+|---|
 
-# BSD Socket API
+---
+
+## BSD Socket API
 
 * **Internet Protocol Suite**
 
@@ -31,4 +34,6 @@ Berkeley sockets evolved with little modification from a [de facto standard](htt
 Part of the trouble with understanding network programming is that a “socket” can mean a number of subtly different things, depending on context. So first, let’s make a distinction between a “client” socket - an endpoint of a conversation, and a “server” socket, which is more like a switchboard operator. The client application \(your browser, for example\) uses “client” sockets exclusively; the web server it’s talking to uses both “server” sockets and “client” sockets.
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/03-intro-to-sockets/bsd-socket-api/socket-types.md" > Continue to Next Topic </a>
+
+|[Next Topic](/03-intro-to-sockets/bsd-socket-api/socket-types.md)|
+|---|
