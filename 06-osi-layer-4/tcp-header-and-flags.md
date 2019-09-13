@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# TCP Header and Flags
+---
+
+## TCP Header and Flags
 
 ![TCP Header](../.gitbook/assets/mjb-tcp-header-800x564.png)
 
@@ -58,4 +61,5 @@ Neither has an API to actually set the value.
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/06-osi-layer-4/syn-and-ack.md" > Continue to Next Topic </a>
+|[Next Topic](/06-osi-layer-4/syn-and-ack.md)|
+|---|
