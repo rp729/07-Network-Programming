@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Lab 4-1
+---
+
+## Lab 4-1
 
 ## Raw Sockets Tutorial in C
 
@@ -413,7 +416,11 @@ int main (void)
     return 0;
 }
 ```
+---
+
+**Complete Performance Lab:** 4-2
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/06-osi-layer-4/lab-4.md" > Continue to Next Topic </a>
+|[Lab 4-2](/06-osi-layer-4/lab-4.md)|
+|---|
