@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # Intro to TCP
 
@@ -20,4 +23,5 @@ TCP provides reliable transfer via:
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/06-osi-layer-4/layer-4-devices.md" > Continue to Next Topic </a>
+|[Next Topic](/06-osi-layer-4/layer-4-devices.md)|
+|---|
