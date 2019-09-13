@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# ICMP Header
+---
+
+## ICMP Header
 
 ![](../.gitbook/assets/icmp_packet.png)
 
@@ -8,4 +11,5 @@
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/05-osi-layer-3/review.md" > Continue to Next Topic </a>
+|[Next Topic](/05-osi-layer-3/review.md)|
+|---|
