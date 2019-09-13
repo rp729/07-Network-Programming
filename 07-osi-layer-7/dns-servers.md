@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# DNS Servers
+---
+
+## DNS Servers
 
 The system is very simple at a high-level overview, but is very complex as you look at the details. Overall though, it is a very reliable infrastructure that has been essential to the adoption of the internet as we know it today.
 
@@ -44,4 +47,5 @@ However, don't confuse Zones with Domains, a zone will start as a storage for a 
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dns-resource-records.md" > Continue to Next Topic </a>
+|[Next Topic](/07-osi-layer-7/dns-resource-records.md)|
+|---|
