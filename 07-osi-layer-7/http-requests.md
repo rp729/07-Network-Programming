@@ -1,8 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# HTTP Requests
+---
 
-### **HTTP Requests**
+## HTTP Requests
 
 * The only MANDATORY parts of an HTTP Request are the METHOD, the URL, HTTP version, and the host \(and any data you need to send if POSTING\).
 * We will only discuss the methods GET and POST because they are almost exclusively what you will encounter, however others do exist.
@@ -128,4 +129,7 @@ value2
 ```
 
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/http-responses.md" > Continue to Next Topic </a>
+
+|[Next Topic](/07-osi-layer-7/http-responses.md)|
+|---|
+
