@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# DNS Resource Records
+---
+
+## DNS Resource Records
 
 Within a zone file, records are kept. In its simplest form, a record is basically a single mapping between a resource and a name. These can map a domain name to an IP address, define the name servers for the domain, define the mail servers for the domain, etc.
 
@@ -52,4 +55,5 @@ A DNS zone must contain several types of resource records for DNS to function pr
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/soa-records.md" > Continue to Next Topic </a>
+|[Next Topic](/07-osi-layer-7/soa-records.md)|
+|---|
