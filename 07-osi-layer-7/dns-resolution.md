@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# DNS Resolution
+---
+
+## DNS Resolution
 
 * Resolving addresses are performed with DNS Request messages.
 * DNS requests may be iterative or recursive. At almost every step, the cache of the current system is checked before attempting another query to reduce the load on higher servers.
@@ -14,4 +17,5 @@
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dig.md" > Continue to Next Topic </a>
+|[Next Topic](/07-osi-layer-7/dig.md)|
+|---|
