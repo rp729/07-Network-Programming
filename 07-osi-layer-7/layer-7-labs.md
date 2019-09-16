@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # Lab 5-2
 
@@ -37,8 +40,8 @@ The group is a value obtained by combining the following:
 * Packing the multicast IPv6 addr using socket.inet\_pton\(\)
 * Packing a 32 bit unsigned integer with the value 0, using struct.pack\(\)
 
-## 
-
 ---
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/README.md" > Continue to Next Topic </a>
+
+|[Next Topic](/08-advanced-functionality/README.md)|
+|---|
 
