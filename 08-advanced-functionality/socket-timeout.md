@@ -44,4 +44,5 @@ In this code snippet, we have first created a socket object by passing the socke
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/socket-blocking.md" > Continue to Next Topic </a>
+|[Next Topic](/08-advanced-functionality/socket-blocking.md)|
+|---|
