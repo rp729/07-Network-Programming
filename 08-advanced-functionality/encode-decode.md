@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # encode\(\)/decode\(\)
 
@@ -42,6 +45,8 @@ The method **encode\(\)** returns an encoded version of the string.
 
 **References:** [https://docs.python.org/2/howto/unicode.html](https://docs.python.org/2/howto/unicode.html)
 
+
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/in-memory-data-structures.md" > Continue to Next Topic </a>
+|[Next Topic](/08-advanced-functionality/in-memory-data-structures.md)|
+|---|
