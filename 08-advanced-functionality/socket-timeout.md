@@ -1,6 +1,9 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
 
-# Socket Timeout
+---
+
+## Socket Timeout
 
 Sometimes, you need tomanipulate the default values of certain properties of a socket library,for example, the socket timeout.
 
