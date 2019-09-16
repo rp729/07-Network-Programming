@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # SMTP
 
@@ -24,4 +27,5 @@ The end to end model is used to communicate between different organizations wher
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/07-osi-layer-7/dhcp.md" > Continue to Next Topic </a>
+|[Next Topic](/07-osi-layer-7/dhcp.md)|
+|---|
