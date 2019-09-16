@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Continue to Next Topic </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # Example
 
@@ -331,7 +334,7 @@ Server loop running in process: 14610
 Sending : "Hello, world"
 Received: "14611: Hello, world"
 ```
-
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/threading-and-concurrency.md" > Continue to Next Topic </a>
+|[Next Topic](/08-advanced-functionality/threading-and-concurrency.md)|
+|---|
