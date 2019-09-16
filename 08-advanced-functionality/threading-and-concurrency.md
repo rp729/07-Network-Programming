@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" rel="Return to TOC"> Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # Threading and Concurrency
 
@@ -215,4 +218,9 @@ Start a new thread and return its identifier. The thread executes the function _
 ---
 **End of Networkprogramming**
 
-<a href="https://github.com/CyberTrainingUSAF/05-C-Programming/blob/master/00-Table-of-Contents.md"> Continue to C Programming </a>
+---
+
+|<a href="https://github.com/CyberTrainingUSAF/01-Course-Introduction-and-setup/blob/master/README.md" > Return to IDF Course introduction </a>|     **or**      |<a href="https://github.com/CyberTrainingUSAF/11-Cyber-A-La-Carte" > Return to Cyber A-La-Carte </a>|
+|---|  :---:  |---|
+
+---
