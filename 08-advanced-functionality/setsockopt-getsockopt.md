@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # setsockopt\(\)/getsockopt\(\)
 
@@ -79,4 +82,5 @@ You can call the`getsockopt()`and`setsockopt()`methods on a socket object to ret
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/network-byte-order.md" > Continue to Next Topic </a>
+|[Next Topic](/08-advanced-functionality/network-byte-order.md)|
+|---|
