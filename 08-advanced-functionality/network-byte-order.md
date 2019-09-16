@@ -1,4 +1,7 @@
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/00-Table-of-Contents.md" > Return to TOC </a>
+|[Table of Contents](/00-Table-of-Contents.md)|
+|---|
+
+---
 
 # Network Byte Order
 
@@ -56,4 +59,6 @@ Availability: Unix \(maybe not all platforms\).
 
 ---
 
-<a href="https://github.com/CyberTrainingUSAF/08-Network-Programming/blob/master/08-advanced-functionality/socket-timeout.md" > Continue to Next Topic </a>
+|[Next Topic](/08-advanced-functionality/socket-timeout.md)|
+|---|
+
