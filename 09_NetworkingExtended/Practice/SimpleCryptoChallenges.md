@@ -10,6 +10,7 @@ Decode this: VGhpcyBpcyB0b28gZWFzeQ==
 ## Challenge 2.1 - base64
 
 Decode this: VWtkc2EwbEliSFprVTBjeFl6lZaMWxUUW5OaU1qbDNVSGM5UFFvPQo=
+
 Hint: several rounds of Base64 were used. 
 
 ## Challenge 3 – XOR
