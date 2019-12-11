@@ -18,10 +18,12 @@ Hint: several rounds of Base64 were used.
 ### The first challenge is here:
 
 Decipher this: kquht}
+
 Key is a single digit
 
 ###  Here's a longer example that is in a hexadecimal format:
 
 Decipher this: 70155d5c45415d5011585446424c
+
 Key is two digits of ASCII
 
