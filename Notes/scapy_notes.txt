@@ -11,3 +11,13 @@ myicmp.show()
 Send:
 send(mypkt/myicmp/"scapy program")
 
+Netdiscover tool:
+	netdiscover -i eth0 -r 10.0.2.0/24
+	Utilized for footprinting
+
+HELP TOOLS:
+	ls() - Displays full list of functions for scapy
+	lsc() - Additional functions
+
+
+

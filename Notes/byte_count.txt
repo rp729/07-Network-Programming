@@ -1,0 +1,13 @@
+total 1196
+-rw-r--r-- 1 root    root          0 Dec 13 16:07 byte_count.txt
+-rw-r--r-- 1 osboxes osboxes     117 Dec 13 15:07 icmp.py
+-rw-r--r-- 1 osboxes osboxes     140 Dec 13 15:07 netscan1.py
+-rw-r--r-- 1 osboxes osboxes     219 Dec 13 15:07 netscan2.py
+-rw-r--r-- 1 osboxes osboxes     412 Dec 13 15:07 netscan3.py
+-rw-r--r-- 1 osboxes osboxes     632 Dec 13 15:17 netscan4.py
+-rw-r--r-- 1 osboxes osboxes 1181235 Dec 13 14:44 network-scanner.pptx
+-rw-r--r-- 1 root    root        188 Dec 13 15:52 problem1_run_command.py
+-rw-r--r-- 1 root    root        429 Dec 13 16:06 problem2_byte_count.py
+-rw-r--r-- 1 root    root        166 Dec 13 15:52 problem3_pwd.py
+-rw-r--r-- 1 root    root         13 Dec 13 16:05 problem4_ping_script.py
+-rw-r--r-- 1 osboxes osboxes     346 Dec 13 14:44 scapy_notes.txt
