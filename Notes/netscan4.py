@@ -4,12 +4,15 @@ import scapy.all as scapy
 
 def scan(ip):
     arp_request = scapy.ARP(pdst=ip)
-    arp_request.show()
     broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
-    broadcast.show()
     arp_request_broadcast = broadcast/arp_request
-    #scapy.ls(scapy.Ether())
-    arp_request_broadcast.show()
-    print(arp_request_broadcast.summary())
+    answered_list = scapy.srp(arp_request_broadcast,timeout=1)[0]
+    #print(answered_list.summary())
+    
+    print('IP\t\t\tMAC ADDRESS\n-----------------------------------------------------')
+    for element in answered_list:
+        print(element[1].psrc + "\t\t"+element[1].hwsrc)
+        
+        print("-----------------------------------------------------")
 
-scan("10.0.3.0") # python3 issue (python 2 = 10.0.3.0/24)
+scan("10.0.3.0/24") # python3 issue (python 2 = 10.0.3.0/24)
