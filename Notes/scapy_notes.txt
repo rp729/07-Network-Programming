@@ -1,0 +1,13 @@
+mypkt = IP()
+mypkt.show()
+	*Shows packet
+
+mypkt.dst = "10.0.3.2" (gateway ip: rounte -n)
+
+ICMP:
+myicmp = ICMP()
+myicmp.show()
+
+Send:
+send(mypkt/myicmp/"scapy program")
+
