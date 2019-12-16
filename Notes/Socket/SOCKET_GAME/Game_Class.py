@@ -1,3 +1,6 @@
+'''
+https://www.journaldev.com/15911/python-super
+'''
 import socket
 
 class NetConnect:
