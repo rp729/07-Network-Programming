@@ -1,0 +1,6 @@
+import os
+
+num = int(input("Enter an integer: "))
+num_hash = '#'*num
+
+os.system(f'echo "{num_hash}"')
