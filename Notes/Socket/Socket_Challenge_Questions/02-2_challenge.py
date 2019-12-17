@@ -27,20 +27,19 @@ class NetConnect:
         else:
             return
     def net_client(self):
+        name = socket.gethostname()
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect((self.hostname,int(self.port)))
         name = s.recv(80).decode()
-        serviceList = ["daytime", "ftp", "gopher", "http", "https", "imap", "kerberos-adm", "mysql-im", "pop3", "qotd",
-                       "ssh", "snmp", "smtp"]
         print("Avaliable services:")
-        for i in serviceList:
-            print(i)
         while True:
-            self.set_message(input(f"Enter service: "))
-            s.send(self.get_message())
-            data = s.recv(1056).decode()
-            print(data)
-            if data == 'exit':
+            print()
+            new_msg = input("Enter message: ")
+            s.send(new_msg.encode())
+            print("Waiting on server..")
+            message = s.recv(1056).decode()
+            print(f'Server : {message}')
+            if new_msg == 'exit':
                 break
         s.close()
     def net_server(self):
@@ -53,17 +52,16 @@ class NetConnect:
         name = socket.gethostname()
         socket_.send(name.encode())
         while True:
-            service_name = socket_.recv(1056).decode()
-            protocol = 'tcp'
-            if service_name == 'exit':
+            print()
+            print("Waiting on client")
+            message = socket_.recv(80).decode()
+            if message == 'exit':
                 socket_.send('exit'.encode())
                 s.close()
             else:
-                message = socket_.recv(80).decode()
-                print(f"{address} : {}")
-                print(f"Sending results to client...")
-                name_serve = socket.getservbyname(service_name,protocol)
-                socket_.send(str(name_serve).encode())
+                print(f"Client : {message}")
+                new_msg = input("Enter message: ")
+                socket_.send(new_msg.encode())
 
 
 
