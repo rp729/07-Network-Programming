@@ -1,10 +1,9 @@
 '''
 https://www.journaldev.com/15911/python-super
+half_duplex chat
 '''
-
-#Functions required for program to function
 import socket
-import threading
+import subprocess
 
 class NetConnect:
     def __init__(self,hostname,port):
@@ -29,33 +28,29 @@ class NetConnect:
         else:
             return
 
-    #Function to send message. Used by client and server
     def send_message(self,sock):
-        while True:
-            new_message = input()
-            sock.send(new_message.encode())
-            print("Type message below:")
+        print()
+        new_message = input("Enter message: ")
+        sock.send(new_message.encode())
+        print("Waiting on response...")
 
-    #Function to receive messages. Used by client and server
     def receive_message(self,sock):
-        while True:
-            message = sock.recv(1024).decode()
-            print(f"User response ==>:{message}")
+        print()
+        message = sock.recv(1024).decode()
+        print(f"=>:{message}")
 
-    #Client function
     def net_client(self):
         name = socket.gethostname()
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         s.connect((self.hostname,int(self.port)))
-        #Recieve server name
         name = s.recv(80).decode()
-        print("Begin typing message to start conversation.")
-        t1 = threading.Thread(target=self.send_message,args=[s,])
-        t2 = threading.Thread(target=self.receive_message,args=[s,])
-        t1.start()
-        t2.start()
-
-    #Server function
+        print("Avaliable services:")
+        while True:
+            self.send_message(s)
+            rec = self.receive_message(s)
+            if rec == "exit":
+                break
+        s.close()
     def net_server(self):
         print('Patiently waiting on client.')
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -63,17 +58,17 @@ class NetConnect:
         s.listen(1)
         socket_,address = s.accept()
         print(f'Connection established from {address}')
-        #Send name to cient
         name = socket.gethostname()
         socket_.send(name.encode())
-        print("Begin typing message to start conversation.")
-        t1 = threading.Thread(target=self.receive_message,args=[socket_,])
-        t2 = threading.Thread(target=self.send_message,args=[socket_,])
-        t1.start()
-        t2.start()
+        while True:
+            rec = self.receive_message(socket_)
+            if rec == 'exit':
+                break
+            self.send_message(socket_)
+        socket_.close()
 
 
-#Main function
+
 def main():
     user = input("1) Client \n2) Server \nResponse:")
     user = input_validation(user)
@@ -84,14 +79,12 @@ def main():
         pkt = packet_build()
         pkt.net_server()
 
-#Build the socket connection endpoints
 def packet_build():
     hostname = input("Enter hostname: ")
     port = input("Enter port: ")
     nc = NetConnect(hostname,port)
     return nc
 
-#Simple input validation
 def input_validation(num):
     while str.isnumeric(num) == False:
         num = input("ERROR! Enter a number: ")
