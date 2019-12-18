@@ -8,6 +8,7 @@ def main():
 def web_scrape():
     url = input("Enter name of website (ex: google.com) :")
     url = f'https://{url}'
+    url = 'http://data.pr4e.org/romeo.txt'
     option = input("Choose from the following options: \n1) Print\n2) Scrape\nResponse :")
     option = input_validation(option)
     reqs = requests.get(url)
@@ -23,7 +24,7 @@ def web_scrape():
             tag_list.append(tag)
         soup = BeautifulSoup(reqs.text,'html.parser')
         for heading in soup.find_all(tag_list):
-            print(f'{heading.name} {heading.text.strip()}')
+            print(f'{heading.name}: {heading.text.strip()}')
 
 def input_validation(num):
     while str.isnumeric(num) == False:
