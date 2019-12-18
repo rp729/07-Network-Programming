@@ -1,5 +1,6 @@
 '''
 https://www.journaldev.com/15911/python-super
+UDP: https://wiki.python.org/moin/UdpCommunication
 '''
 import socket
 
@@ -73,7 +74,7 @@ class NetServer(NetConnect):
         user1_pts = 0
         user2_pts = 0
         print("Waiting on players.")
-        while user1_pts < 3 or user2_pts < 3:
+        while user1_pts < 3 and user2_pts < 3:
             print('First player to 3 points wins!')
             print(f'{self.user1} : {user1_pts} points')
             print(f'{self.user2} : {user2_pts} points')
