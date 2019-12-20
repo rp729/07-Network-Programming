@@ -1,7 +1,7 @@
 import os
 import subprocess
 os.sys.path.append('/home/osboxes/07-Network-Programming/venv/lib/python3.7/site-packages')
-from scapy.all import  *
+from scapy.all import *
 
 def main():
     scapy_ping()
