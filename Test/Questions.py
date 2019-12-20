@@ -23,5 +23,6 @@ You do not need to save these files to your folder since your program will read 
 ===================================================================================================================
 
 
-3) Write a client server python program to send input from client to server, replace all the vowels with '#' and return the string to client and print it
+3) Write a client server python program to send input from client to server, replace all the vowels with '#' and return
+the string to client and print it
 '''
