@@ -1,8 +1,6 @@
 import socket
 from pathlib import Path
 import sys
-from subprocess import call
-import time
 
 
 class NetConnect:
@@ -35,23 +33,27 @@ class NetConnect:
         data, addr = sock.recvfrom(1024)
         return data, addr
 
-    def client(self):
+    def message_generator(self,message):
+        orig_stdout = sys.stdout
+        file = open('text.txt','w')
+        sys.stdout = file
+        if '.py' in message or '.c' in message:
+            exec(Path(f'toolkit/{message}').read_text())
+        else:
+            print(message)
+        file.close()
+        sys.stdout = orig_stdout
+        file = open("text.txt")
+        read = file.read()
+        return read
+
+
+    def client(self,message = "Connection Established"):
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        message = "Connection Established".encode()
         name = self.hostname
         port = int(self.port)
-        self.send_message(sock,message,name,port)
+        self.send_message(sock,message.encode(),name,port)
 
-    def client_server(self,target=True):
-        name = '127.0.0.1'
-        port = int(self.port)
-        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        sock.bind((name, int(f'{port}1')))
-        while target == True:
-            data, addr = sock.recvfrom(1024)
-            print(data.decode())
-            time.sleep(0.2)
-            target = False
 
     def server(self):
         name = self.hostname
@@ -60,26 +62,23 @@ class NetConnect:
         sock.bind((name,port))
         while True:
             data, addr = sock.recvfrom(1024)
-            if '.py' in data.decode() or '.c' in data.decode():
-                file = open('text.txt', 'w')
-                orig_stdout = sys.stdout
-                sys.stdout = file
-                call(["python3", f'toolkit/{data.decode()}'])
-                sys.stdout = orig_stdout
-                file.close()
-                file = open('text.txt')
-                print(file.read())
-                file_read = file.read().encode()
-                name = addr[0]
-                port = int(f'{self.get_port()}1')
-                sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                self.send_message(sock, file_read, name, port)
-                name = addr[0]
-                port = int(f'{self.get_port()}1')
-                sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                self.send_message(sock, 'Ack'.encode(), name, port)
-                print("STILL GOOD!")
-            else:
+            while data != None:
                 print(data.decode())
-                self.send_message(sock,data,addr[0],int(f'{port}1'))
+                message = data.decode()
+                message = self.message_generator(message)
+                self.send_message(sock, message.encode(), name, 6667)
+                data = None
+
+    def client_server(self):
+        name = self.hostname
+        port = int(self.port)
+        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        sock.bind((name,port))
+        while True:
+            data, addr = sock.recvfrom(1024)
+            while data != None:
+                print(data.decode())
+                self.message_generator(data.decode())
+                data = None
+
 

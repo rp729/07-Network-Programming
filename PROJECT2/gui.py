@@ -7,6 +7,8 @@ import socket
 import sys
 import threading
 import time
+import client_server
+from subprocess import call
 
 class GUI:
     def __init__(self,master):
@@ -72,23 +74,25 @@ class GUI:
         port = self.get_port()
         connect = NetConnect(host, port)
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        connect.client()
+        t1 = threading.Thread(target=client_server)
+        t1.start()
+        '''#connect.client()
         #connect.client_server()
-        #t1 = threading.Thread(target=connect.client)
+        t1 = threading.Thread(target=connect.client)
         t2 = threading.Thread(target=connect.client_server)
-        #t1.daemon = True
+        t1.daemon = True
         t2.daemon = True
-        #t1.start()
-        t2.start()
+        t1.start()
+        t2.start()'''
 
         orig_stdout = sys.stdout
-        file = open("test.txt","w")
+        file = open("../UDP_Connection/test.txt", "w")
         sys.stdout = file
         connect.send_message(s, "CONNECTED".encode(), host, int(port))
         time.sleep(0.1)
         file.close()
         sys.stdout = orig_stdout
-        file = open('test.txt')
+        file = open('../UDP_Connection/test.txt')
         file_read = file.read()
         self.__text1.insert(tk.END, file_read)
 
@@ -96,7 +100,7 @@ class GUI:
     def export(self):
         name = f'{datetime.datetime.now()}.txt'
         file = open(name,'w')
-        text = open('text.txt')
+        text = open('../UDP_Connection/text.txt')
         file.write(text.read())
         file.close()
 
@@ -105,14 +109,13 @@ class GUI:
         port = self.get_port()
         connect = NetConnect(host, port)
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        connect.client()
-        ''' # connect.client_server()
-        # t1 = threading.Thread(target=connect.client)
+        #connect.client()
+        t1 = threading.Thread(target=connect.client)
         t2 = threading.Thread(target=connect.client_server)
-        # t1.daemon = True
+        t1.daemon = True
         t2.daemon = True
-        # t1.start()
-        t2.start()'''
+        t1.start()
+        t2.start()
 
         '''message = self.__cb1.get().encode()
         name = self.get_ip()
@@ -123,13 +126,13 @@ class GUI:
 
         message = self.__cb1.get()
         orig_stdout = sys.stdout
-        file = open("text.txt", "w")
+        file = open("../UDP_Connection/text.txt", "w")
         sys.stdout = file
         connect.send_message(s, message.encode(), host, int(port))
         time.sleep(0.1)
         file.close()
         sys.stdout = orig_stdout
-        file = open('text.txt')
+        file = open('../UDP_Connection/text.txt')
         file_read = file.read()
         self.__text1.insert(tk.END, file_read)
 
